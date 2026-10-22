@@ -1,12 +1,15 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion, useReducedMotion, type Variants } from "motion/react";
 import { Link } from "@/i18n/navigation";
-import { ArrowUpRight, ArrowDown, ClipboardCheck } from "lucide-react";
+import { ArrowUpRight, ArrowDown, ClipboardCheck, Award } from "lucide-react";
+import { profile } from "@/config/profile";
+import type { Locale } from "@/i18n/routing";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale() as Locale;
   const reduce = useReducedMotion();
 
   const container: Variants = {
@@ -106,6 +109,21 @@ export function Hero() {
               <ArrowDown size={14} aria-hidden="true" />
             </Link>
           </motion.div>
+
+          {profile.award && (
+            <motion.a
+              variants={item}
+              href={profile.award.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-9 inline-flex max-w-full items-center gap-3 rounded-full border border-line bg-panel/60 px-4 py-2.5 text-[12px] leading-snug text-muted transition-colors hover:border-mint hover:text-cream"
+            >
+              <Award size={16} className="shrink-0 text-mint" aria-hidden="true" />
+              <span className="font-semibold text-cream">
+                {profile.award.label[locale]}
+              </span>
+            </motion.a>
+          )}
         </motion.div>
 
         {/* Orbital visual */}

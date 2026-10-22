@@ -96,6 +96,9 @@
       }
     }
   },
+  "clients": {
+    "label": "Ils m'ont fait confiance"
+  },
   "strip": {
     "item1": "Monitoring clinique",
     "item2": "Qualité & conformité BPC/GCP",

@@ -96,6 +96,9 @@
       }
     }
   },
+  "clients": {
+    "label": "They trusted me"
+  },
   "strip": {
     "item1": "Clinical monitoring",
     "item2": "Quality & GCP compliance",

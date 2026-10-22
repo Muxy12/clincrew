@@ -33,6 +33,12 @@ export interface ProfileConfig {
   readonly city: { fr: string; en: string } | null;
   /** Typical reply time shown in the contact copy (e.g. "24–48 h"). */
   readonly responseTime: string | null;
+  /** Award / distinction shown in the hero and on the About page. */
+  readonly award: {
+    readonly url: string;
+    readonly label: { fr: string; en: string };
+    readonly detail: { fr: string; en: string };
+  } | null;
 
   // --- Optional media. Provide a path in /public when available. ---
   readonly portrait: string | null;
@@ -88,6 +94,19 @@ export const profile: ProfileConfig = {
   city: { fr: "Paris · France", en: "Paris · France" },
   // ⚠️ Typical reply time shown in the contact copy; null → "[24–48 h]".
   responseTime: "24–48 h",
+  // Finalist (not winner) — PharmaTimes "International Clinical Research
+  // Associate of the Year 2024", CRA category. Verified on the results page.
+  award: {
+    url: "https://intcr.pharmatimes.com/international-clinical-researcher-of-the-year-2024-results/",
+    label: {
+      fr: "Finaliste — International Clinical Researcher of the Year 2024",
+      en: "Finalist — International Clinical Researcher of the Year 2024",
+    },
+    detail: {
+      fr: "Catégorie Clinical Research Associate · PharmaTimes",
+      en: "Clinical Research Associate category · PharmaTimes",
+    },
+  },
 
   // ⚠️ Add a portrait at e.g. /public/images/mohamed-debbah.jpg then set the path.
   portrait: null,

@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Hero } from "@/components/sections/Hero";
+import { TrustedBy } from "@/components/sections/TrustedBy";
 import { Strip } from "@/components/sections/Strip";
 import { Quiz } from "@/components/sections/Quiz";
 import { Services } from "@/components/sections/Services";
@@ -23,6 +24,7 @@ export default async function HomePage({
   return (
     <>
       <Hero />
+      <TrustedBy />
       <Strip />
       <Quiz />
       <Services />

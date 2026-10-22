@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import { ArrowUpRight, Linkedin } from "lucide-react";
+import { ArrowUpRight, Linkedin, Award } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
@@ -75,6 +75,32 @@ function AboutContent({ locale }: { locale: Locale }) {
           {t("journeyTitle")}
         </h1>
       </Reveal>
+
+      {profile.award && (
+        <Reveal>
+          <a
+            href={profile.award.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 flex items-start gap-4 rounded-lg border border-mint/30 bg-mint/[0.05] p-5 transition-colors hover:border-mint/60"
+          >
+            <Award size={22} className="mt-0.5 shrink-0 text-mint" aria-hidden="true" />
+            <div>
+              <p className="font-heading text-[17px] tracking-tighter2 text-cream">
+                {profile.award.label[locale]}
+              </p>
+              <p className="mt-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted">
+                {profile.award.detail[locale]}
+              </p>
+            </div>
+            <ArrowUpRight
+              size={16}
+              className="ml-auto shrink-0 text-mint"
+              aria-hidden="true"
+            />
+          </a>
+        </Reveal>
+      )}
 
       <div className="mt-10 grid gap-12 md:grid-cols-[1fr_300px] md:gap-16">
         <Reveal>
