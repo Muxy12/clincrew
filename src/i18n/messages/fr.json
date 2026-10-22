@@ -1,0 +1,475 @@
+{
+  "nav": {
+    "expertise": "Expertise",
+    "approach": "Approche",
+    "about": "À propos",
+    "prestations": "Prestations",
+    "sectors": "Secteurs",
+    "quiz": "Quiz",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Discutons de votre projet",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "hero": {
+    "eyebrow": "Senior CRA · Recherche clinique",
+    "headlineLine1": "Senior Clinical",
+    "headlineLine2": "Research Associate",
+    "headlineEmphasis": "Freelance",
+    "lead": "Monitoring et accompagnement opérationnel de vos essais cliniques, avec la rigueur BPC/GCP et la réactivité d'un consultant indépendant.",
+    "intro": "Je suis Mohamed Debbah, Senior CRA indépendant. J'interviens auprès des CRO, laboratoires pharmaceutiques et sociétés de biotechnologie pour sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
+    "ctaPrimary": "Discutons de votre projet",
+    "ctaSecondary": "Découvrir mes prestations",
+    "ctaQuiz": "Faire le quiz",
+    "scroll": "Défiler",
+    "orbLabel": "Précision · Confiance · Impact",
+    "tag1Label": "01 / Monitoring",
+    "tag1Text": "Suivi des centres investigateurs",
+    "tag2Label": "02 / Qualité",
+    "tag2Text": "Conformité & documentation"
+  },
+  "quiz": {
+    "eyebrow": "Qualification",
+    "title": "Suis-je le bon interlocuteur pour votre projet ?",
+    "intro": "Répondez à 6 questions pour savoir en une minute si mon profil correspond à votre besoin.",
+    "progress": "Question {current} sur {total}",
+    "back": "Précédent",
+    "restart": "Recommencer le quiz",
+    "resultHeading": "Résultat",
+    "summaryHeading": "Vos réponses",
+    "questions": {
+      "q1": {
+        "q": "Quel est votre type de structure ?",
+        "cro": "CRO",
+        "pharma": "Laboratoire pharmaceutique",
+        "biotech": "Biotech",
+        "academic": "Promoteur académique",
+        "other": "Autre"
+      },
+      "q2": {
+        "q": "De quel type de mission avez-vous besoin ?",
+        "monitoring": "Monitoring (visites de sélection, initiation, suivi, clôture)",
+        "sitefollowup": "Suivi des centres / documentation",
+        "adhoc": "Support opérationnel ponctuel",
+        "other": "Autre (data management, pharmacovigilance, affaires réglementaires…)"
+      },
+      "q3": {
+        "q": "Dans quelle phase se situe votre étude ?",
+        "other": "Autre phase",
+        "unsure": "Je ne sais pas encore"
+      },
+      "q4": {
+        "q": "Quelle est l'aire thérapeutique ?",
+        "other": "Autre aire",
+        "unsure": "Je ne sais pas encore"
+      },
+      "q5": {
+        "q": "Où se déroule la mission ?",
+        "remote": "À distance / mixte",
+        "other": "Autre zone"
+      },
+      "q6": {
+        "q": "Quel est votre calendrier ?",
+        "start1m": "Démarrage sous 1 mois",
+        "start3m": "Sous 3 mois",
+        "later": "Plus tard / en réflexion"
+      }
+    },
+    "results": {
+      "good": {
+        "title": "Bon match",
+        "body": "Votre besoin correspond à mon expertise. Parlons-en : décrivez-moi votre étude et je vous réponds sous {responseTime}.",
+        "cta": "Prendre contact"
+      },
+      "discuss": {
+        "title": "À discuter",
+        "body": "Votre projet est proche de mon périmètre, avec quelques points à préciser. Un échange rapide permettra de voir si je suis la bonne ressource.",
+        "cta": "Discutons-en"
+      },
+      "nomatch": {
+        "title": "Probablement pas le bon profil",
+        "body": "Votre besoin semble sortir de mon périmètre, et je préfère vous le dire franchement. Si vous le souhaitez, écrivez-moi : je pourrai peut-être vous orienter.",
+        "cta": "Me poser la question"
+      }
+    }
+  },
+  "strip": {
+    "item1": "Monitoring clinique",
+    "item2": "Qualité & conformité BPC/GCP",
+    "item3": "Gestion des centres",
+    "item4": "Coordination opérationnelle"
+  },
+  "services": {
+    "eyebrow": "Expertise",
+    "title": "Mes domaines d'expertise en Clinical Research.",
+    "intro": "Les compétences que je mobilise sur vos études, du monitoring à la coordination des centres.",
+    "cardLabel": "Expertise",
+    "items": {
+      "monitoring": {
+        "title": "Monitoring clinique",
+        "description": "Vérification des données sources, suivi de la sécurité des patients, rapports de visite précis et délivrés dans les délais."
+      },
+      "quality": {
+        "title": "Qualité et conformité BPC/GCP",
+        "description": "Respect du protocole, de la réglementation et des procédures du promoteur, détection et suivi des écarts."
+      },
+      "coordination": {
+        "title": "Coordination opérationnelle",
+        "description": "Interface entre centres, chefs de projet et équipes data pour garder l'étude dans les temps."
+      },
+      "documentation": {
+        "title": "Suivi documentaire",
+        "description": "Contrôle du Trial Master File et du dossier investigateur, cohérence et complétude de la documentation de l'étude."
+      },
+      "siteManagement": {
+        "title": "Gestion des centres investigateurs",
+        "description": "Relation de proximité, formation des équipes, suivi du recrutement et résolution rapide des points bloquants."
+      },
+      "startup": {
+        "title": "Appui à la mise en place",
+        "description": "Soutien aux activités de démarrage d'étude : préparation des visites de mise en place et vérification de la documentation requise."
+      }
+    }
+  },
+  "sectors": {
+    "eyebrow": "Secteurs d'intervention",
+    "title": "Les acteurs que j'accompagne.",
+    "intro": "J'interviens aux côtés de :",
+    "actors": {
+      "cro": {
+        "title": "CRO",
+        "description": "qui renforcent leurs équipes sur un projet ou un pic d'activité."
+      },
+      "pharma": {
+        "title": "Laboratoires pharmaceutiques",
+        "description": "qui souhaitent des ressources expérimentées sans alourdir leur structure."
+      },
+      "biotech": {
+        "title": "Sociétés de biotechnologie",
+        "description": "qui ont besoin d'une expertise terrain pour leurs premiers essais."
+      },
+      "sponsors": {
+        "title": "Promoteurs",
+        "description": "d'essais cliniques académiques ou industriels."
+      }
+    },
+    "areasLabel": "Aires thérapeutiques",
+    "zonesLabel": "Zones d'intervention",
+    "areasPlaceholder": "[Oncologie, cardiologie, maladies rares]",
+    "zonesPlaceholder": "[France · Belgique (FR) · Suisse (FR) · Luxembourg]"
+  },
+  "prestations": {
+    "eyebrow": "Prestations",
+    "title": "Mes services de Senior CRA Freelance.",
+    "intro": "Des interventions concrètes, mobilisables selon le cycle de vie de votre étude.",
+    "cta": "Toutes mes prestations",
+    "contactCta": "Discutons de votre projet",
+    "groupVisits": "Visites de centre",
+    "groupSupport": "Suivi & support",
+    "items": {
+      "selection": {
+        "title": "Visite de sélection",
+        "description": "Évaluation de la capacité du centre à mener l'étude (équipe, patientèle, moyens)."
+      },
+      "initiation": {
+        "title": "Visite d'initiation",
+        "description": "Formation de l'équipe au protocole et aux procédures, vérification de la conformité du démarrage."
+      },
+      "monitoring": {
+        "title": "Visites de monitoring",
+        "description": "Contrôle des données, de la sécurité des patients et du respect du protocole, avec un suivi clair des actions."
+      },
+      "closeout": {
+        "title": "Visite de clôture",
+        "description": "Finalisation de la documentation, réconciliation du matériel et archivage."
+      },
+      "siteFollowup": {
+        "title": "Suivi des centres investigateurs",
+        "description": "Contacts réguliers, suivi du recrutement, gestion des questions et des écarts."
+      },
+      "docControl": {
+        "title": "Contrôle de la documentation clinique",
+        "description": "Revue du dossier investigateur et des documents essentiels de l'étude."
+      },
+      "opsSupport": {
+        "title": "Support aux opérations cliniques",
+        "description": "Appui ponctuel aux équipes projet selon vos besoins."
+      }
+    }
+  },
+  "approach": {
+    "eyebrow": "Méthode de travail",
+    "title": "Une approche structurée. Un engagement constant.",
+    "intro": "Une collaboration claire, du cadrage initial au suivi des actions.",
+    "steps": {
+      "s1": {
+        "num": "01",
+        "label": "Comprendre",
+        "title": "Comprendre vos besoins",
+        "description": "Échange initial pour cerner votre étude, votre organisation et les objectifs de la mission."
+      },
+      "s2": {
+        "num": "02",
+        "label": "Cadrer",
+        "title": "Définir la mission",
+        "description": "Clarification du périmètre, des livrables attendus et des modalités d'intervention."
+      },
+      "s3": {
+        "num": "03",
+        "label": "Agir",
+        "title": "Exécution opérationnelle",
+        "description": "Un suivi méthodique des activités confiées, en lien étroit avec vos équipes."
+      },
+      "s4": {
+        "num": "04",
+        "label": "Suivre",
+        "title": "Communication & suivi",
+        "description": "Des remontées claires, régulières et une attention portée aux prochaines étapes."
+      }
+    }
+  },
+  "value": {
+    "eyebrow": "Valeur ajoutée",
+    "title": "Ce que vous y gagnez.",
+    "intro": "Un mode de collaboration souple, pensé pour s'intégrer à vos équipes et à vos projets.",
+    "closing": "Pour les CRO et les sponsors confrontés à des besoins ponctuels, c'est la façon la plus simple d'ajuster vos ressources cliniques à votre activité réelle.",
+    "items": {
+      "flexibility": {
+        "title": "Flexibilité",
+        "description": "Une ressource mobilisable pour une mission ponctuelle, un renfort temporaire ou un besoin spécifique, sans engagement long."
+      },
+      "responsiveness": {
+        "title": "Réactivité",
+        "description": "Un démarrage rapide, un interlocuteur unique et des échanges directs."
+      },
+      "expertise": {
+        "title": "Expertise opérationnelle",
+        "description": "Un profil senior, autonome dès le premier jour, qui n'a pas besoin d'être encadré."
+      },
+      "personalized": {
+        "title": "Accompagnement personnalisé",
+        "description": "Je m'adapte à vos procédures, à vos outils et à la culture de votre équipe."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "journeyTitle": "Mon parcours en recherche clinique",
+    "journeyP1": "Je travaille en recherche clinique depuis {years} ans. J'ai débuté comme {startRole}, puis j'ai évolué vers les rôles de Senior puis Lead Clinical Research Associate, en suivant des études de {focus} auprès de {clients}.",
+    "journeyP2": "Cette expérience m'a appris ce qui compte sur le terrain : une relation de confiance avec les investigateurs, des données fiables et des risques anticipés avant qu'ils ne deviennent des écarts. Aujourd'hui, je mets ce savoir-faire au service de vos projets, en toute indépendance.",
+    "journeyCta": "Découvrir mon parcours",
+    "contactCta": "Discutons de votre projet",
+    "linkedinCta": "Profil LinkedIn",
+    "portraitAlt": "Portrait professionnel de Mohamed Debbah",
+    "portraitPlaceholder": "Portrait à venir",
+    "details": {
+      "therapeuticAreas": "Domaines thérapeutiques",
+      "geographicCoverage": "Zone d'intervention",
+      "languages": "Langues",
+      "experience": "Parcours",
+      "certifications": "Certifications"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Discutons de votre",
+    "titleEmphasis": "projet clinique.",
+    "copy": "Une étude à démarrer, un renfort à trouver, un besoin ponctuel de monitoring ? Décrivez-moi votre projet : je vous réponds sous {responseTime} pour échanger sur vos besoins.",
+    "emailLabel": "Par e-mail",
+    "coordTitle": "Coordonnées",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Prénom et nom",
+      "email": "E-mail professionnel",
+      "emailPlaceholder": "vous@organisation.com",
+      "company": "Société",
+      "companyPlaceholder": "Nom de votre structure (optionnel)",
+      "requestType": "Type de besoin",
+      "requestTypePlaceholder": "Sélectionnez une option",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez brièvement votre besoin, votre étude ou votre contexte.",
+      "consent": "J'accepte que mes informations soient utilisées pour répondre à ma demande, conformément à la politique de confidentialité.",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours…",
+      "requestTypes": {
+        "cro": "CRO",
+        "pharma": "Laboratoire pharmaceutique",
+        "biotech": "Société de biotechnologie",
+        "other": "Autre"
+      },
+      "validation": {
+        "name_min": "Veuillez indiquer votre nom.",
+        "name_max": "Ce nom est trop long.",
+        "email_required": "Veuillez indiquer votre e-mail.",
+        "email_invalid": "Veuillez saisir une adresse e-mail valide.",
+        "email_max": "Cette adresse e-mail est trop longue.",
+        "company_max": "Ce nom de société est trop long.",
+        "request_type_required": "Veuillez sélectionner un type de demande.",
+        "message_min": "Votre message doit comporter au moins 10 caractères.",
+        "message_max": "Votre message est trop long.",
+        "consent_required": "Votre consentement est nécessaire pour traiter la demande."
+      },
+      "states": {
+        "successTitle": "Message envoyé",
+        "successBody": "Merci pour votre message. Je vous répondrai dans les meilleurs délais.",
+        "errorTitle": "Envoi impossible",
+        "errorBody": "Une erreur est survenue. Merci de réessayer, ou de me contacter directement par e-mail.",
+        "notConfiguredTitle": "Formulaire non encore activé",
+        "notConfiguredBody": "L'envoi d'e-mails n'est pas encore configuré sur ce site. Votre message n'a pas été transmis. Merci de revenir ultérieurement ou d'utiliser un autre moyen de contact.",
+        "rateLimitedTitle": "Trop de tentatives",
+        "rateLimitedBody": "Vous avez envoyé plusieurs messages récemment. Merci de patienter avant de réessayer."
+      },
+      "privacyNote": "Vos données sont utilisées uniquement pour traiter votre demande. Consultez la politique de confidentialité."
+    }
+  },
+  "blog": {
+    "eyebrow": "Journal",
+    "title": "Regards sur la recherche clinique.",
+    "intro": "Analyses et retours d'expérience sur le monitoring, la qualité et l'organisation des essais cliniques.",
+    "readingTime": "{minutes} min de lecture",
+    "publishedOn": "Publié le",
+    "backToList": "Tous les articles",
+    "shareLabel": "Partager",
+    "latest": "Derniers articles",
+    "empty": "Les premiers articles arrivent bientôt.",
+    "ctaTitle": "Un projet clinique à accompagner ?",
+    "ctaText": "Échangeons sur vos besoins et les modalités d'une collaboration.",
+    "ctaButton": "Discutons de votre projet"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes.",
+    "intro": "L'essentiel sur le recours à un CRA freelance.",
+    "items": {
+      "what": {
+        "q": "Qu'est-ce qu'un CRA Freelance ?",
+        "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant qui assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié — visites de centres, vérification des données, suivi de la conformité — mais intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
+      },
+      "why": {
+        "q": "Pourquoi faire appel à un CRA Freelance ?",
+        "a": "Faire appel à un CRA freelance permet d'ajuster rapidement ses ressources à l'activité réelle : renfort sur un pic de charge, remplacement temporaire, besoin ponctuel de monitoring ou expertise terrain pour un premier essai. L'indépendance apporte flexibilité, réactivité et un interlocuteur unique, sans alourdir durablement la structure."
+      },
+      "cost": {
+        "q": "Combien coûte un CRA Freelance ?",
+        "a": "Un CRA freelance facture généralement au tarif journalier (TJM). Celui-ci dépend de plusieurs éléments : séniorité et spécialisation, nature et durée de la mission, aires thérapeutiques, zones géographiques et volume de visites. Le modèle freelance évite les coûts fixes d'un recrutement et se calibre sur le besoin réel. N'hésitez pas à me contacter pour un échange adapté à votre projet."
+      }
+    }
+  },
+  "footer": {
+    "role": "Attaché de Recherche Clinique senior · Freelance",
+    "tagline": "Conçu avec précision.",
+    "navTitle": "Navigation",
+    "legalTitle": "Informations",
+    "contactTitle": "Contact",
+    "legalNotice": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Haut de page"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "lastUpdated": "Dernière mise à jour",
+    "toComplete": "À compléter avant publication",
+    "intro": "Les informations ci-dessous doivent être complétées avec les coordonnées réelles de l'activité avant la mise en ligne du site.",
+    "sections": {
+      "editor": {
+        "title": "Éditeur du site",
+        "body": "Ce site est édité par la société MeedWise (SASU), représentée par Mohamed Debbah, Senior Clinical Research Associate.\n\nForme juridique : SASU. Siège social : 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact : mohamed.debbah@clincrew.net · +33 7 68 01 52 91."
+      },
+      "registration": {
+        "title": "Immatriculation",
+        "body": "SIRET : 109 701 466 00012 (SIREN : 109 701 466). Société immatriculée au Registre du Commerce et des Sociétés (RCS) de Paris. [Capital social : à compléter.]"
+      },
+      "director": {
+        "title": "Directeur de la publication",
+        "body": "Mohamed Debbah."
+      },
+      "hosting": {
+        "title": "Hébergement",
+        "body": "[À compléter : nom, adresse et coordonnées de l'hébergeur du site. Par exemple, si le site est déployé sur Vercel : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.]"
+      },
+      "ip": {
+        "title": "Propriété intellectuelle",
+        "body": "L'ensemble des contenus présents sur ce site (textes, visuels, éléments graphiques) est protégé. Toute reproduction sans autorisation préalable est interdite."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Pour toute question relative au site, vous pouvez utiliser le formulaire de contact une fois celui-ci configuré, ou l'adresse e-mail professionnelle indiquée ci-dessus."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "toComplete": "À compléter avant publication",
+    "intro": "Cette politique décrit la manière dont les données transmises via ce site sont traitées. Elle doit être revue et complétée avec les informations réelles du responsable de traitement avant publication.",
+    "sections": {
+      "controller": {
+        "title": "Responsable du traitement",
+        "body": "Le responsable du traitement des données collectées via ce site est la société MeedWise (SASU), représentée par Mohamed Debbah.\n\nSiège social : 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact : mohamed.debbah@clincrew.net."
+      },
+      "data": {
+        "title": "Données collectées",
+        "body": "Via le formulaire de contact, les données suivantes peuvent être collectées : nom, adresse e-mail professionnelle, société (optionnel), type de demande et contenu du message. Aucune donnée sensible n'est demandée. Si vous utilisez le quiz de qualification, vos réponses sont jointes à votre demande et conservées avec celle-ci."
+      },
+      "purpose": {
+        "title": "Finalité",
+        "body": "Les données sont collectées dans le seul but de répondre aux demandes de contact et d'étudier d'éventuelles collaborations professionnelles. Elles ne sont ni revendues ni utilisées à des fins publicitaires."
+      },
+      "legalBasis": {
+        "title": "Base légale",
+        "body": "Le traitement repose sur le consentement de la personne, recueilli lors de l'envoi du formulaire, et sur l'intérêt légitime à répondre aux sollicitations professionnelles."
+      },
+      "retention": {
+        "title": "Durée de conservation",
+        "body": "Les messages sont conservés le temps nécessaire au traitement de la demande et à l'éventuelle relation professionnelle qui en découle.\n\nLes messages sont conservés au maximum pendant 5 ans."
+      },
+      "rights": {
+        "title": "Vos droits",
+        "body": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition sur vos données. Pour exercer ces droits, contactez le responsable de traitement aux coordonnées indiquées ci-dessus."
+      },
+      "cookies": {
+        "title": "Cookies et mesure d'audience",
+        "body": "Ce site n'installe pas de cookies de suivi ni d'outils de mesure d'audience ou de marketing par défaut. Si de tels outils étaient ajoutés ultérieurement, cette politique serait mise à jour et le consentement requis serait recueilli le cas échéant."
+      }
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "Mohamed Debbah — Senior CRA Freelance · Attaché de Recherche Clinique",
+      "description": "Mohamed Debbah, Senior CRA freelance (Attaché de Recherche Clinique). Monitoring et accompagnement opérationnel des essais cliniques : qualité GCP et coordination des centres, avec rigueur et flexibilité.",
+      "keywords": "Senior CRA freelance, Attaché de Recherche Clinique freelance, ARC senior indépendant, consultant recherche clinique, monitoring clinique freelance, prestataire recherche clinique"
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "description": "Mentions légales du site de Mohamed Debbah, Senior CRA freelance (Attaché de Recherche Clinique)."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Politique de confidentialité et traitement des données du site de Mohamed Debbah, Senior CRA freelance."
+    },
+    "blog": {
+      "title": "Blog — Recherche clinique",
+      "description": "Analyses et retours d'expérience sur le monitoring, la qualité et l'organisation des essais cliniques, par Mohamed Debbah, Senior CRA freelance."
+    },
+    "about": {
+      "title": "À propos — Mon parcours",
+      "description": "Le parcours de Mohamed Debbah, Senior Clinical Research Associate freelance : monitoring, qualité des données et accompagnement opérationnel des essais cliniques."
+    },
+    "services": {
+      "title": "Prestations — Senior CRA Freelance",
+      "description": "Les prestations de Mohamed Debbah, Senior CRA freelance : visites de sélection, d'initiation, de monitoring et de clôture, suivi des centres investigateurs et support aux opérations cliniques."
+    },
+    "ogAlt": "Mohamed Debbah — Senior CRA Freelance (Attaché de Recherche Clinique)"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English",
+    "switchToFr": "Passer en français",
+    "switchToEn": "Switch to English"
+  }
+}

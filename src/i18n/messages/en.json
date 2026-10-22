@@ -1,0 +1,475 @@
+{
+  "nav": {
+    "expertise": "Expertise",
+    "approach": "Approach",
+    "about": "About",
+    "prestations": "Services",
+    "sectors": "Sectors",
+    "quiz": "Quiz",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Let's discuss your project",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "eyebrow": "Senior CRA · Clinical research",
+    "headlineLine1": "Senior Clinical",
+    "headlineLine2": "Research Associate",
+    "headlineEmphasis": "Freelance",
+    "lead": "Monitoring and operational support for your clinical trials, with GCP rigor and the responsiveness of an independent consultant.",
+    "intro": "I am Mohamed Debbah, an independent Senior CRA. I work with CROs, pharmaceutical companies and biotech firms to secure the quality of your data and the smooth running of your studies, from site selection to close-out.",
+    "ctaPrimary": "Let's discuss your project",
+    "ctaSecondary": "Explore my services",
+    "ctaQuiz": "Take the quiz",
+    "scroll": "Scroll",
+    "orbLabel": "Precision · Trust · Impact",
+    "tag1Label": "01 / Monitoring",
+    "tag1Text": "Investigator site follow-up",
+    "tag2Label": "02 / Quality",
+    "tag2Text": "Compliance & documentation"
+  },
+  "quiz": {
+    "eyebrow": "Qualification",
+    "title": "Am I the right partner for your project?",
+    "intro": "Answer 6 questions to find out in one minute whether my profile fits your needs.",
+    "progress": "Question {current} of {total}",
+    "back": "Back",
+    "restart": "Restart the quiz",
+    "resultHeading": "Result",
+    "summaryHeading": "Your answers",
+    "questions": {
+      "q1": {
+        "q": "What type of organization are you?",
+        "cro": "CRO",
+        "pharma": "Pharmaceutical company",
+        "biotech": "Biotech",
+        "academic": "Academic sponsor",
+        "other": "Other"
+      },
+      "q2": {
+        "q": "What type of assignment do you need?",
+        "monitoring": "Monitoring (selection, initiation, routine and close-out visits)",
+        "sitefollowup": "Site follow-up / documentation",
+        "adhoc": "Ad hoc operational support",
+        "other": "Other (data management, pharmacovigilance, regulatory affairs…)"
+      },
+      "q3": {
+        "q": "What phase is your study in?",
+        "other": "Other phase",
+        "unsure": "Not sure yet"
+      },
+      "q4": {
+        "q": "What is the therapeutic area?",
+        "other": "Other area",
+        "unsure": "Not sure yet"
+      },
+      "q5": {
+        "q": "Where does the assignment take place?",
+        "remote": "Remote / hybrid",
+        "other": "Other location"
+      },
+      "q6": {
+        "q": "What is your timeline?",
+        "start1m": "Start within 1 month",
+        "start3m": "Within 3 months",
+        "later": "Later / still exploring"
+      }
+    },
+    "results": {
+      "good": {
+        "title": "Good match",
+        "body": "Your needs match my expertise. Let's talk: describe your study and I'll reply within {responseTime}.",
+        "cta": "Get in touch"
+      },
+      "discuss": {
+        "title": "Worth discussing",
+        "body": "Your project is close to my scope, with a few points to clarify. A short call will show whether I'm the right resource.",
+        "cta": "Let's discuss"
+      },
+      "nomatch": {
+        "title": "Probably not the right profile",
+        "body": "Your need seems to fall outside my scope, and I'd rather tell you honestly. If you like, write to me: I may be able to point you in the right direction.",
+        "cta": "Ask me"
+      }
+    }
+  },
+  "strip": {
+    "item1": "Clinical monitoring",
+    "item2": "Quality & GCP compliance",
+    "item3": "Site management",
+    "item4": "Operational coordination"
+  },
+  "services": {
+    "eyebrow": "Expertise",
+    "title": "My areas of expertise in Clinical Research.",
+    "intro": "The capabilities I bring to your studies, from monitoring to site coordination.",
+    "cardLabel": "Expertise",
+    "items": {
+      "monitoring": {
+        "title": "Clinical monitoring",
+        "description": "Source data verification, patient safety follow-up, and accurate visit reports delivered on time."
+      },
+      "quality": {
+        "title": "Quality & GCP compliance",
+        "description": "Adherence to the protocol, regulations and sponsor procedures, with detection and follow-up of deviations."
+      },
+      "coordination": {
+        "title": "Operational coordination",
+        "description": "The interface between sites, project managers and data teams to keep the study on schedule."
+      },
+      "documentation": {
+        "title": "Documentation follow-up",
+        "description": "Oversight of the Trial Master File and investigator site file — consistent, complete study documentation."
+      },
+      "siteManagement": {
+        "title": "Investigator site management",
+        "description": "A close relationship, team training, enrolment follow-up and quick resolution of bottlenecks."
+      },
+      "startup": {
+        "title": "Study start-up support",
+        "description": "Support for study start-up activities: preparation of site initiation visits and verification of the required documentation."
+      }
+    }
+  },
+  "sectors": {
+    "eyebrow": "Sectors",
+    "title": "The organisations I work with.",
+    "intro": "I work alongside:",
+    "actors": {
+      "cro": {
+        "title": "CROs",
+        "description": "strengthening their teams on a project or during a peak in activity."
+      },
+      "pharma": {
+        "title": "Pharmaceutical companies",
+        "description": "that want experienced resources without adding to their structure."
+      },
+      "biotech": {
+        "title": "Biotechnology companies",
+        "description": "that need field expertise for their first trials."
+      },
+      "sponsors": {
+        "title": "Clinical trial sponsors",
+        "description": "academic or industry-led."
+      }
+    },
+    "areasLabel": "Therapeutic areas",
+    "zonesLabel": "Geographic coverage",
+    "areasPlaceholder": "[Oncology, cardiology, rare diseases]",
+    "zonesPlaceholder": "[France · Belgium (FR) · Switzerland (FR) · Luxembourg]"
+  },
+  "prestations": {
+    "eyebrow": "Deliverables",
+    "title": "My Senior Freelance CRA services.",
+    "intro": "Concrete interventions, mobilised across your study's life cycle.",
+    "cta": "All my services",
+    "contactCta": "Let's discuss your project",
+    "groupVisits": "Site visits",
+    "groupSupport": "Follow-up & support",
+    "items": {
+      "selection": {
+        "title": "Selection visit",
+        "description": "Assessing the site's ability to run the study (team, patient population, resources)."
+      },
+      "initiation": {
+        "title": "Initiation visit",
+        "description": "Training the team on the protocol and procedures, checking start-up compliance."
+      },
+      "monitoring": {
+        "title": "Monitoring visits",
+        "description": "Checking data, patient safety and protocol compliance, with clear follow-up of actions."
+      },
+      "closeout": {
+        "title": "Close-out visit",
+        "description": "Finalising documentation, reconciling materials and archiving."
+      },
+      "siteFollowup": {
+        "title": "Investigator site follow-up",
+        "description": "Regular contact, enrolment tracking, handling questions and deviations."
+      },
+      "docControl": {
+        "title": "Clinical documentation control",
+        "description": "Review of the investigator site file and the study's essential documents."
+      },
+      "opsSupport": {
+        "title": "Clinical operations support",
+        "description": "Ad hoc support to project teams according to your needs."
+      }
+    }
+  },
+  "approach": {
+    "eyebrow": "How I work",
+    "title": "A structured approach. A consistent commitment.",
+    "intro": "A clear collaboration, from initial scoping to follow-up of actions.",
+    "steps": {
+      "s1": {
+        "num": "01",
+        "label": "Understand",
+        "title": "Understanding your needs",
+        "description": "An initial discussion to understand your study, your organisation and the objectives of the assignment."
+      },
+      "s2": {
+        "num": "02",
+        "label": "Define",
+        "title": "Defining the assignment",
+        "description": "Clarifying the scope, the expected deliverables and the terms of the engagement."
+      },
+      "s3": {
+        "num": "03",
+        "label": "Execute",
+        "title": "Operational execution",
+        "description": "Methodical follow-up of the activities entrusted, in close contact with your teams."
+      },
+      "s4": {
+        "num": "04",
+        "label": "Follow up",
+        "title": "Communication & follow-up",
+        "description": "Clear, regular reporting and a focus on the next steps."
+      }
+    }
+  },
+  "value": {
+    "eyebrow": "Added value",
+    "title": "What you gain.",
+    "intro": "A flexible way of collaborating, designed to fit into your teams and your projects.",
+    "closing": "For CROs and sponsors facing one-off needs, it is the simplest way to align your clinical resources with your real workload.",
+    "items": {
+      "flexibility": {
+        "title": "Flexibility",
+        "description": "A resource you can mobilise for a one-off assignment, temporary reinforcement or a specific need, with no long commitment."
+      },
+      "responsiveness": {
+        "title": "Responsiveness",
+        "description": "A quick start, a single point of contact and direct communication."
+      },
+      "expertise": {
+        "title": "Operational expertise",
+        "description": "A senior profile, autonomous from day one, who does not need to be supervised."
+      },
+      "personalized": {
+        "title": "Personalized support",
+        "description": "I adapt to your procedures, your tools and your team's culture."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "journeyTitle": "My journey in clinical research",
+    "journeyP1": "I have been working in clinical research for {years} years. I started as a {startRole}, then grew into the roles of Senior and then Lead Clinical Research Associate, monitoring {focus} studies for {clients}.",
+    "journeyP2": "This experience taught me what matters in the field: a relationship of trust with investigators, reliable data, and risks anticipated before they become deviations. Today, I put this know-how at the service of your projects, in full independence.",
+    "journeyCta": "Discover my journey",
+    "contactCta": "Let's discuss your project",
+    "linkedinCta": "LinkedIn profile",
+    "portraitAlt": "Professional portrait of Mohamed Debbah",
+    "portraitPlaceholder": "Portrait coming soon",
+    "details": {
+      "therapeuticAreas": "Therapeutic areas",
+      "geographicCoverage": "Geographic coverage",
+      "languages": "Languages",
+      "experience": "Experience",
+      "certifications": "Certifications"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's discuss your",
+    "titleEmphasis": "clinical project.",
+    "copy": "A study to start, reinforcement to find, a one-off monitoring need? Tell me about your project: I reply within {responseTime} to discuss your needs.",
+    "emailLabel": "By email",
+    "coordTitle": "Contact details",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "First and last name",
+      "email": "Professional email",
+      "emailPlaceholder": "you@organisation.com",
+      "company": "Company",
+      "companyPlaceholder": "Your organisation (optional)",
+      "requestType": "Type of need",
+      "requestTypePlaceholder": "Select an option",
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe your need, your study or your context.",
+      "consent": "I agree that my information may be used to respond to my request, in accordance with the privacy policy.",
+      "submit": "Send my request",
+      "submitting": "Sending…",
+      "requestTypes": {
+        "cro": "CRO",
+        "pharma": "Pharmaceutical company",
+        "biotech": "Biotechnology company",
+        "other": "Other"
+      },
+      "validation": {
+        "name_min": "Please enter your name.",
+        "name_max": "This name is too long.",
+        "email_required": "Please enter your email.",
+        "email_invalid": "Please enter a valid email address.",
+        "email_max": "This email address is too long.",
+        "company_max": "This company name is too long.",
+        "request_type_required": "Please select a type of request.",
+        "message_min": "Your message must be at least 10 characters.",
+        "message_max": "Your message is too long.",
+        "consent_required": "Your consent is required to process the request."
+      },
+      "states": {
+        "successTitle": "Message sent",
+        "successBody": "Thank you for your message. I will get back to you as soon as possible.",
+        "errorTitle": "Could not send",
+        "errorBody": "Something went wrong. Please try again, or contact me directly by email.",
+        "notConfiguredTitle": "Form not yet active",
+        "notConfiguredBody": "Email delivery is not yet configured on this site. Your message was not sent. Please check back later or use another way to get in touch.",
+        "rateLimitedTitle": "Too many attempts",
+        "rateLimitedBody": "You have sent several messages recently. Please wait before trying again."
+      },
+      "privacyNote": "Your data is used only to process your request. See the privacy policy."
+    }
+  },
+  "blog": {
+    "eyebrow": "Journal",
+    "title": "Perspectives on clinical research.",
+    "intro": "Analysis and field insights on monitoring, quality and the organisation of clinical trials.",
+    "readingTime": "{minutes} min read",
+    "publishedOn": "Published on",
+    "backToList": "All articles",
+    "shareLabel": "Share",
+    "latest": "Latest articles",
+    "empty": "The first articles are coming soon.",
+    "ctaTitle": "Looking for clinical research support?",
+    "ctaText": "Let's discuss your needs and how we could work together.",
+    "ctaButton": "Let's discuss your project"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions.",
+    "intro": "The essentials on working with a freelance CRA.",
+    "items": {
+      "what": {
+        "q": "What is a freelance CRA?",
+        "a": "A freelance CRA (Clinical Research Associate) is an independent professional who handles the monitoring and operational follow-up of clinical trials. They perform the same duties as an employed CRA — site visits, data verification, compliance follow-up — but work on a service basis, for a defined assignment or period, with no relationship of subordination."
+      },
+      "why": {
+        "q": "Why work with a freelance CRA?",
+        "a": "Working with a freelance CRA lets you quickly align resources with real activity: reinforcement during a peak, temporary cover, a one-off monitoring need, or field expertise for a first trial. Independence brings flexibility, responsiveness and a single point of contact, without permanently adding to your structure."
+      },
+      "cost": {
+        "q": "How much does a freelance CRA cost?",
+        "a": "A freelance CRA usually charges a daily rate. It depends on several factors: seniority and specialisation, the nature and duration of the assignment, therapeutic areas, geographic zones and the volume of visits. The freelance model avoids the fixed costs of hiring and scales to the real need. Feel free to contact me for a discussion tailored to your project."
+      }
+    }
+  },
+  "footer": {
+    "role": "Senior Clinical Research Associate · Freelance",
+    "tagline": "Built with precision.",
+    "navTitle": "Navigation",
+    "legalTitle": "Information",
+    "contactTitle": "Contact",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "lastUpdated": "Last updated",
+    "toComplete": "To complete before publication",
+    "intro": "The information below must be completed with the real details of the business before the site goes live.",
+    "sections": {
+      "editor": {
+        "title": "Site publisher",
+        "body": "This site is published by MeedWise (a French SASU), represented by Mohamed Debbah, Senior Clinical Research Associate.\n\nLegal form: SASU. Registered office: 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact: mohamed.debbah@clincrew.net · +33 7 68 01 52 91."
+      },
+      "registration": {
+        "title": "Business registration",
+        "body": "SIRET: 109 701 466 00012 (SIREN: 109 701 466). Registered with the Paris Trade and Companies Register (RCS Paris). [Share capital: to be completed.]"
+      },
+      "director": {
+        "title": "Publication director",
+        "body": "Mohamed Debbah."
+      },
+      "hosting": {
+        "title": "Hosting",
+        "body": "[To complete: name, address and contact details of the site's hosting provider. For example, if the site is deployed on Vercel: Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.]"
+      },
+      "ip": {
+        "title": "Intellectual property",
+        "body": "All content on this site (text, visuals, graphic elements) is protected. Any reproduction without prior authorisation is prohibited."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "For any question about the site, you can use the contact form once it is configured, or the professional email address indicated above."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "lastUpdated": "Last updated",
+    "toComplete": "To complete before publication",
+    "intro": "This policy describes how data submitted through this site is processed. It must be reviewed and completed with the real details of the data controller before publication.",
+    "sections": {
+      "controller": {
+        "title": "Data controller",
+        "body": "The controller of the data collected through this site is MeedWise (a French SASU), represented by Mohamed Debbah.\n\nRegistered office: 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact: mohamed.debbah@clincrew.net."
+      },
+      "data": {
+        "title": "Data collected",
+        "body": "Through the contact form, the following data may be collected: name, professional email address, company (optional), type of request and message content. No sensitive data is requested. If you use the qualification quiz, your answers are attached to your request and kept with it."
+      },
+      "purpose": {
+        "title": "Purpose",
+        "body": "Data is collected for the sole purpose of responding to contact requests and exploring potential professional collaborations. It is neither sold nor used for advertising."
+      },
+      "legalBasis": {
+        "title": "Legal basis",
+        "body": "Processing is based on the consent of the individual, obtained when the form is submitted, and on the legitimate interest in responding to professional enquiries."
+      },
+      "retention": {
+        "title": "Retention period",
+        "body": "Messages are kept for as long as necessary to process the request and any professional relationship that follows.\n\nMessages are kept for a maximum of 5 years."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "Under the GDPR, you have the right to access, rectify, erase, restrict and object to the processing of your data. To exercise these rights, contact the data controller using the details indicated above."
+      },
+      "cookies": {
+        "title": "Cookies and analytics",
+        "body": "This site does not install tracking cookies, analytics or marketing tools by default. If such tools were added later, this policy would be updated and the required consent would be obtained where applicable."
+      }
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "Mohamed Debbah — Senior Clinical Research Associate (Freelance CRA)",
+      "description": "Mohamed Debbah, senior freelance CRA. Monitoring and operational support for clinical trials: GCP quality and site coordination, with precision and flexibility.",
+      "keywords": "senior freelance Clinical Research Associate, senior CRA, independent CRA, clinical research consultant, freelance clinical monitoring, clinical operations consultant"
+    },
+    "legal": {
+      "title": "Legal notice",
+      "description": "Legal notice for the website of Mohamed Debbah, senior freelance Clinical Research Associate."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "Privacy policy and data handling for the website of Mohamed Debbah, senior freelance CRA."
+    },
+    "blog": {
+      "title": "Blog — Clinical research",
+      "description": "Analysis and field insights on monitoring, quality and the organisation of clinical trials, by Mohamed Debbah, senior freelance CRA."
+    },
+    "about": {
+      "title": "About — My journey",
+      "description": "The journey of Mohamed Debbah, freelance Senior Clinical Research Associate: monitoring, data quality and operational support for clinical trials."
+    },
+    "services": {
+      "title": "Services — Senior Freelance CRA",
+      "description": "The services of Mohamed Debbah, freelance Senior CRA: selection, initiation, monitoring and close-out visits, investigator site follow-up and clinical operations support."
+    },
+    "ogAlt": "Mohamed Debbah — Senior Clinical Research Associate"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English",
+    "switchToFr": "Passer en français",
+    "switchToEn": "Switch to English"
+  }
+}
