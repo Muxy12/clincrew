@@ -47,11 +47,16 @@ const config: Config = {
           "80%": { transform: "translateY(14px)", opacity: "0" },
           "100%": { opacity: "0" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         float: "float 10s ease-in-out infinite alternate",
         levitate: "levitate 7s ease-in-out infinite alternate",
         "scroll-dot": "scroll-dot 1.8s ease-in-out infinite",
+        marquee: "marquee 20s linear infinite",
       },
     },
   },

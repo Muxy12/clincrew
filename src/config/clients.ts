@@ -16,10 +16,10 @@ export interface ClientRef {
 }
 
 export const clients: ReadonlyArray<ClientRef> = [
-  { name: "Fortrea" },
-  { name: "ICON plc" },
-  { name: "Amgen" },
-  { name: "MSD" },
-  { name: "AP-HP" },
-  { name: "GFEV" },
+  { name: "Fortrea", logo: "/logos/fortrea.png" },
+  { name: "ICON plc", logo: "/logos/icon.png" },
+  { name: "Amgen", logo: "/logos/amgen.png" },
+  { name: "MSD", logo: "/logos/msd.png" },
+  { name: "AP-HP", logo: "/logos/aphp.png" },
+  { name: "GFEV", logo: "/logos/gfev.png" },
 ];
