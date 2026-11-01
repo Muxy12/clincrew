@@ -24,9 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: path === "" ? ("monthly" as const) : ("monthly" as const),
       priority: path === "" ? 1 : path.startsWith("/blog/") ? 0.7 : 0.5,
       alternates: {
-        languages: Object.fromEntries(
-          routing.locales.map((l) => [l, `${siteConfig.url}/${l}${path}`]),
-        ),
+        languages: {
+          ...Object.fromEntries(
+            routing.locales.map((l) => [l, `${siteConfig.url}/${l}${path}`]),
+          ),
+          "x-default": `${siteConfig.url}/${routing.defaultLocale}${path}`,
+        },
       },
     })),
   );

@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowUpRight, Clock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getPost, getAllSlugs, formatDate } from "@/lib/blog";
+import { blogPostingNode } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 import { profile } from "@/config/profile";
 
@@ -61,18 +62,14 @@ export default async function BlogArticlePage({
 
   const t = await getTranslations({ locale, namespace: "blog" });
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.date,
-    dateModified: post.date,
-    inLanguage: locale,
-    author: { "@type": "Person", name: siteConfig.name },
-    publisher: { "@type": "Person", name: siteConfig.name },
-    mainEntityOfPage: `${siteConfig.url}/${locale}/blog/${slug}`,
-  };
+  const jsonLd = blogPostingNode({
+    locale: locale as Locale,
+    slug,
+    title: post.title,
+    excerpt: post.excerpt,
+    date: post.date,
+    updated: post.updated,
+  });
 
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
@@ -91,6 +88,14 @@ export default async function BlogArticlePage({
             <Clock size={13} aria-hidden="true" />
             {t("readingTime", { minutes: post.readingMinutes })}
           </span>
+          {post.updated && post.updated !== post.date && (
+            <span className="text-muted">
+              {t("updatedOn")}{" "}
+              <time dateTime={post.updated}>
+                {formatDate(post.updated, locale as Locale)}
+              </time>
+            </span>
+          )}
         </div>
         <h1 className="mt-5 font-heading text-[clamp(30px,4.6vw,52px)] leading-[1.14] tracking-tightest">
           {post.title}

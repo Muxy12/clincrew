@@ -26,4 +26,4 @@ Looking to strengthen your site follow-up? [Let's discuss your needs](/en#contac
 
 ---
 
-*Starter article — review and personalise before publication.*
+*Source: ICH E6(R2) Good Clinical Practice — data verification and risk-based monitoring. Last updated: November 2026.*

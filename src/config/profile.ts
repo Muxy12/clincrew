@@ -63,6 +63,8 @@ export interface ProfileConfig {
   readonly therapeuticAreas: ReadonlyArray<{ fr: string; en: string }>;
   readonly geographicCoverage: ReadonlyArray<{ fr: string; en: string }>;
   readonly languages: ReadonlyArray<{ fr: string; en: string }>;
+  /** BCP-47 codes for schema.org knowsLanguage (matches `languages`). */
+  readonly languageCodes: ReadonlyArray<string>;
   readonly experience: ReadonlyArray<{
     period: string;
     role: { fr: string; en: string };
@@ -150,6 +152,7 @@ export const profile: ProfileConfig = {
     { fr: "Anglais", en: "English" },
     { fr: "Arabe", en: "Arabic" },
   ],
+  languageCodes: ["fr", "en", "ar"],
   experience: [],
   certifications: [],
 };

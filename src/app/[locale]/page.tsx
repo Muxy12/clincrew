@@ -10,6 +10,7 @@ import { Prestations } from "@/components/sections/Prestations";
 import { Approach } from "@/components/sections/Approach";
 import { ValueProp } from "@/components/sections/ValueProp";
 import { About } from "@/components/sections/About";
+import { Comparison } from "@/components/sections/Comparison";
 import { Faq } from "@/components/sections/Faq";
 import { Contact } from "@/components/sections/Contact";
 
@@ -33,6 +34,7 @@ export default async function HomePage({
       <Sectors />
       <ValueProp />
       <About />
+      <Comparison />
       <Faq />
       <Contact />
     </>

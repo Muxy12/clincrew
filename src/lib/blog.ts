@@ -17,6 +17,7 @@ export interface BlogListItem {
 
 export interface BlogArticle extends BlogListItem {
   html: string;
+  updated?: string;
 }
 
 function readBody(slug: string, locale: Locale): string | null {
@@ -68,6 +69,7 @@ export function getPost(slug: string, locale: Locale): BlogArticle | null {
     tags: meta.tags ? [...meta.tags[locale]] : [],
     readingMinutes: readingMinutes(body),
     html,
+    updated: meta.updated,
   };
 }
 

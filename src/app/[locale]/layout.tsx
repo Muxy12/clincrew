@@ -9,7 +9,7 @@ import {
 import { Manrope, DM_Sans, IBM_Plex_Mono } from "next/font/google";
 import { routing, type Locale } from "@/i18n/routing";
 import { siteConfig } from "@/config/site";
-import { profile } from "@/config/profile";
+import { siteGraph } from "@/lib/schema";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "../globals.css";
@@ -101,18 +101,8 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   const nav = await getTranslations({ locale, namespace: "nav" });
 
-  // schema.org Person — verified facts only, no fabricated qualifications.
-  const personJsonLd: Record<string, unknown> = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: profile.name,
-    jobTitle: siteConfig.jobTitle[locale as Locale],
-    url: `${siteConfig.url}/${locale}`,
-  };
-  const sameAs: string[] = [];
-  if (profile.linkedin.configured) sameAs.push(profile.linkedin.value);
-  if (sameAs.length) personJsonLd.sameAs = sameAs;
-  if (profile.email.configured) personJsonLd.email = profile.email.value;
+  // Site-wide structured data: Person (Mohamed) + ProfessionalService (MeedWise).
+  const graph = siteGraph(locale as Locale);
 
   return (
     <html
@@ -133,7 +123,7 @@ export default async function LocaleLayout({
         </NextIntlClientProvider>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
         />
       </body>
     </html>

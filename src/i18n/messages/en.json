@@ -334,6 +334,7 @@
     "intro": "Analysis and field insights on monitoring, quality and the organisation of clinical trials.",
     "readingTime": "{minutes} min read",
     "publishedOn": "Published on",
+    "updatedOn": "Updated on",
     "backToList": "All articles",
     "shareLabel": "Share",
     "latest": "Latest articles",
@@ -341,6 +342,41 @@
     "ctaTitle": "Looking for clinical research support?",
     "ctaText": "Let's discuss your needs and how we could work together.",
     "ctaButton": "Let's discuss your project"
+  },
+  "comparison": {
+    "eyebrow": "Freelance vs employed",
+    "title": "Freelance or employed CRA?",
+    "intro": "Two complementary models. Freelance wins when the need is one-off, a reinforcement, or has to flex quickly.",
+    "colCriterion": "Criterion",
+    "colFreelance": "Freelance CRA",
+    "colEmployed": "Employed CRA",
+    "rows": {
+      "commitment": {
+        "c": "Commitment",
+        "f": "Defined assignment or duration, no long commitment",
+        "e": "Lasting contract (permanent / fixed-term)"
+      },
+      "flexibility": {
+        "c": "Flexibility",
+        "f": "Mobilised quickly, matched to the real need",
+        "e": "Fixed capacity to fill"
+      },
+      "rampup": {
+        "c": "Ramp-up",
+        "f": "Operational and autonomous from day one",
+        "e": "Hiring, onboarding and supervision"
+      },
+      "cost": {
+        "c": "Cost",
+        "f": "Billed per assignment (day rate), no fixed costs",
+        "e": "Salary, payroll taxes and fixed costs"
+      },
+      "bestfor": {
+        "c": "Best for",
+        "f": "Activity peaks, temporary reinforcement, one-off needs",
+        "e": "Structural, permanent needs"
+      }
+    }
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -443,7 +479,7 @@
   "metadata": {
     "home": {
       "title": "Mohamed Debbah — Senior Clinical Research Associate (Freelance CRA)",
-      "description": "Mohamed Debbah, senior freelance CRA. Monitoring and operational support for clinical trials: GCP quality and site coordination, with precision and flexibility.",
+      "description": "Mohamed Debbah, senior freelance CRA: monitoring, GCP quality and coordination of clinical trials, with precision and flexibility.",
       "keywords": "senior freelance Clinical Research Associate, senior CRA, independent CRA, clinical research consultant, freelance clinical monitoring, clinical operations consultant"
     },
     "legal": {

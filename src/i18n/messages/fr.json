@@ -334,6 +334,7 @@
     "intro": "Analyses et retours d'expérience sur le monitoring, la qualité et l'organisation des essais cliniques.",
     "readingTime": "{minutes} min de lecture",
     "publishedOn": "Publié le",
+    "updatedOn": "Mis à jour le",
     "backToList": "Tous les articles",
     "shareLabel": "Partager",
     "latest": "Derniers articles",
@@ -341,6 +342,41 @@
     "ctaTitle": "Un projet clinique à accompagner ?",
     "ctaText": "Échangeons sur vos besoins et les modalités d'une collaboration.",
     "ctaButton": "Discutons de votre projet"
+  },
+  "comparison": {
+    "eyebrow": "Freelance vs salarié",
+    "title": "CRA freelance ou CRA salarié ?",
+    "intro": "Deux modèles complémentaires. Le freelance s'impose quand le besoin est ponctuel, en renfort, ou doit s'ajuster rapidement.",
+    "colCriterion": "Critère",
+    "colFreelance": "CRA freelance",
+    "colEmployed": "CRA salarié",
+    "rows": {
+      "commitment": {
+        "c": "Engagement",
+        "f": "Mission ou durée définie, sans engagement long",
+        "e": "Contrat durable (CDI / CDD)"
+      },
+      "flexibility": {
+        "c": "Flexibilité",
+        "f": "Mobilisable rapidement, ajusté au besoin réel",
+        "e": "Capacité fixe à pourvoir"
+      },
+      "rampup": {
+        "c": "Démarrage",
+        "f": "Opérationnel et autonome dès le premier jour",
+        "e": "Recrutement, intégration et encadrement"
+      },
+      "cost": {
+        "c": "Coûts",
+        "f": "Facturation à la prestation (TJM), sans coûts fixes",
+        "e": "Salaire, charges et coûts fixes"
+      },
+      "bestfor": {
+        "c": "Idéal pour",
+        "f": "Pic d'activité, renfort temporaire, besoin ponctuel",
+        "e": "Besoin structurel et permanent"
+      }
+    }
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -443,7 +479,7 @@
   "metadata": {
     "home": {
       "title": "Mohamed Debbah — Senior CRA Freelance · Attaché de Recherche Clinique",
-      "description": "Mohamed Debbah, Senior CRA freelance (Attaché de Recherche Clinique). Monitoring et accompagnement opérationnel des essais cliniques : qualité GCP et coordination des centres, avec rigueur et flexibilité.",
+      "description": "Mohamed Debbah, Senior CRA freelance (Attaché de Recherche Clinique) : monitoring, qualité GCP et coordination des essais cliniques, avec rigueur et flexibilité.",
       "keywords": "Senior CRA freelance, Attaché de Recherche Clinique freelance, ARC senior indépendant, consultant recherche clinique, monitoring clinique freelance, prestataire recherche clinique"
     },
     "legal": {

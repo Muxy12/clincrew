@@ -56,6 +56,9 @@ export function Hero() {
           <motion.h1
             id="hero-heading"
             variants={headlineItem}
+            // Visual line breaks via <br> don't insert spaces into the
+            // accessible name, so set it explicitly for screen readers.
+            aria-label={`${t("headlineLine1")} ${t("headlineLine2")} ${t("headlineEmphasis")}`}
             className="my-7 font-heading text-[clamp(38px,5.6vw,84px)] leading-[1.05] tracking-tightest"
           >
             {t("headlineLine1")}

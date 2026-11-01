@@ -24,4 +24,4 @@ Un besoin ponctuel ou une mission à construire ? [Parlons de votre projet](/fr#
 
 ---
 
-*Article de départ, à relire et personnaliser avant publication.*
+*Source : ICH E6 Good Clinical Practice. Dernière mise à jour : novembre 2026.*

@@ -26,4 +26,4 @@ Vous souhaitez renforcer le suivi de vos centres ? [Échangeons sur vos besoins]
 
 ---
 
-*Article de départ, à relire et personnaliser avant publication.*
+*Source : ICH E6(R2) Good Clinical Practice — vérification des données et monitoring basé sur les risques. Dernière mise à jour : novembre 2026.*

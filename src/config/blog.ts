@@ -20,6 +20,8 @@ export interface BlogPostMeta {
   readonly slug: string;
   /** ISO date (YYYY-MM-DD). Used for ordering and structured data. */
   readonly date: string;
+  /** Optional last-updated date (YYYY-MM-DD); drives dateModified + display. */
+  readonly updated?: string;
   readonly tags?: { readonly fr: readonly string[]; readonly en: readonly string[] };
   readonly translations: {
     readonly fr: { readonly title: string; readonly excerpt: string };
@@ -31,6 +33,7 @@ export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
     slug: "role-cra-independant",
     date: "2026-09-18",
+    updated: "2026-11-01",
     tags: {
       fr: ["Recherche clinique", "Collaboration"],
       en: ["Clinical research", "Collaboration"],
@@ -53,6 +56,7 @@ export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
     slug: "qualite-donnees-monitoring",
     date: "2026-10-06",
+    updated: "2026-11-01",
     tags: {
       fr: ["Monitoring", "Qualité"],
       en: ["Monitoring", "Quality"],
@@ -67,6 +71,49 @@ export const blogPosts: ReadonlyArray<BlogPostMeta> = [
         title: "Data quality: what on-site monitoring really changes",
         excerpt:
           "Site monitoring is more than ticking boxes. A look at what attentive monitoring brings to the reliability of a study.",
+      },
+    },
+  },
+  {
+    slug: "visites-monitoring-essai-clinique",
+    date: "2026-10-20",
+    updated: "2026-11-01",
+    tags: {
+      fr: ["Monitoring", "BPC"],
+      en: ["Monitoring", "GCP"],
+    },
+    translations: {
+      fr: {
+        title:
+          "Les visites de monitoring d'un essai clinique : à quoi servent-elles ?",
+        excerpt:
+          "Sélection, initiation, suivi, clôture : le rôle de chaque visite de monitoring et ce que le monitoring basé sur les risques (ICH E6) a changé.",
+      },
+      en: {
+        title: "Clinical trial monitoring visits: what are they for?",
+        excerpt:
+          "Selection, initiation, routine, close-out: the role of each monitoring visit and what risk-based monitoring (ICH E6) changed.",
+      },
+    },
+  },
+  {
+    slug: "cadrer-mission-cra-freelance",
+    date: "2026-10-28",
+    updated: "2026-11-01",
+    tags: {
+      fr: ["CRA freelance", "Collaboration"],
+      en: ["Freelance CRA", "Collaboration"],
+    },
+    translations: {
+      fr: {
+        title: "CRA freelance : comment bien cadrer une mission",
+        excerpt:
+          "Périmètre, livrables, accès et responsabilités BPC : les points à clarifier pour qu'une mission de CRA freelance démarre sans friction.",
+      },
+      en: {
+        title: "Freelance CRA: how to scope an assignment well",
+        excerpt:
+          "Scope, deliverables, access and GCP responsibilities: what to clarify so a freelance CRA assignment starts without friction.",
       },
     },
   },

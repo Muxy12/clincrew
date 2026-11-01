@@ -24,4 +24,4 @@ A one-off need or an assignment to shape together? [Let's discuss your project](
 
 ---
 
-*Starter article — review and personalise before publication.*
+*Source: ICH E6 Good Clinical Practice. Last updated: November 2026.*

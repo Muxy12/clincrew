@@ -19,6 +19,18 @@ export const siteConfig = {
     fr: "Senior Clinical Research Associate (Attaché de Recherche Clinique) freelance",
     en: "Senior Clinical Research Associate",
   },
+  // Legal entity behind the site — used for the ProfessionalService node.
+  business: {
+    name: "MeedWise",
+    legalForm: "SASU",
+    address: {
+      streetAddress: "59 rue de Ponthieu, Bureau 326",
+      postalCode: "75008",
+      addressLocality: "Paris",
+      addressCountry: "FR",
+    },
+    areaServed: ["France", "Belgium", "Switzerland", "Luxembourg"],
+  },
   // Open Graph image dimensions (matches the dynamic OG route).
   ogImage: {
     width: 1200,
