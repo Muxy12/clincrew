@@ -164,13 +164,13 @@ export function Hero() {
             </span>
           </div>
 
-          <div className="float-tag left-[-2%] top-[22%]">
+          <div className="float-tag left-[-2%] top-[22%] hidden md:block">
             <span className="mb-1.5 block font-mono text-[10px] uppercase tracking-[0.14em] text-mint">
               {t("tag1Label")}
             </span>
             {t("tag1Text")}
           </div>
-          <div className="float-tag bottom-[20%] right-[-2%]">
+          <div className="float-tag bottom-[20%] right-[-2%] hidden md:block">
             <span className="mb-1.5 block font-mono text-[10px] uppercase tracking-[0.14em] text-mint">
               {t("tag2Label")}
             </span>
