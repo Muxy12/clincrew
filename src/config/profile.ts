@@ -101,8 +101,8 @@ export const profile: ProfileConfig = {
   award: {
     url: "https://intcr.pharmatimes.com/international-clinical-researcher-of-the-year-2024-results/",
     label: {
-      fr: "Finaliste — International Clinical Researcher of the Year 2024",
-      en: "Finalist — International Clinical Researcher of the Year 2024",
+      fr: "Finaliste · International Clinical Researcher of the Year 2024",
+      en: "Finalist · International Clinical Researcher of the Year 2024",
     },
     detail: {
       fr: "Catégorie Clinical Research Associate · PharmaTimes",

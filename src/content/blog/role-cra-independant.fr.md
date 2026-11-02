@@ -1,4 +1,4 @@
-La recherche clinique repose sur un équilibre exigeant : avancer vite, sans jamais transiger sur la qualité ni la conformité. Dans cet équilibre, l'Attaché de Recherche Clinique (ARC/CRA) occupe une place centrale — et le recours à un professionnel indépendant répond à des besoins concrets des équipes opérationnelles.
+La recherche clinique repose sur un équilibre exigeant : avancer vite, sans jamais transiger sur la qualité ni la conformité. Dans cet équilibre, l'Attaché de Recherche Clinique (ARC/CRA) occupe une place centrale. Le recours à un professionnel indépendant répond à des besoins concrets des équipes opérationnelles.
 
 ## Un renfort ciblé, quand il le faut
 
@@ -12,7 +12,7 @@ Cette proximité ne remplace pas l'organisation du promoteur ou de la CRO : elle
 
 ## La rigueur reste la règle
 
-Indépendance ne signifie pas improvisation. Le travail s'inscrit dans le respect du protocole, des bonnes pratiques cliniques (BPC/GCP) et des procédures de l'étude. Ce qui change, c'est la souplesse d'intervention — pas le niveau d'exigence.
+Indépendance ne signifie pas improvisation. Le travail s'inscrit dans le respect du protocole, des bonnes pratiques cliniques (BPC/GCP) et des procédures de l'étude. Ce qui change, c'est la souplesse d'intervention, pas le niveau d'exigence.
 
 ## En résumé
 

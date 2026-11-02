@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { ArrowUp, Mail, Linkedin } from "lucide-react";
+import { ArrowUp, Mail, Phone, Linkedin } from "lucide-react";
 import { Monogram } from "@/components/ui/Monogram";
 import { profile } from "@/config/profile";
 
@@ -80,12 +80,25 @@ export function Footer() {
             </li>
           </ul>
 
-          {(profile.email.configured || profile.linkedin.configured) && (
+          {(profile.phone.configured ||
+            profile.email.configured ||
+            profile.linkedin.configured) && (
             <>
               <h2 className="mt-8 font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
                 {t("contactTitle")}
               </h2>
               <ul className="mt-5 space-y-3 text-[14px] text-muted">
+                {profile.phone.configured && (
+                  <li>
+                    <a
+                      href={`tel:${profile.phone.value.replace(/\s+/g, "")}`}
+                      className="inline-flex items-center gap-2 transition-colors hover:text-cream"
+                    >
+                      <Phone size={15} aria-hidden="true" />
+                      {profile.phone.value}
+                    </a>
+                  </li>
+                )}
                 {profile.email.configured && (
                   <li>
                     <a
@@ -119,7 +132,7 @@ export function Footer() {
       <div className="border-t border-line">
         <div className="wrap flex flex-wrap items-center justify-between gap-4 py-6 text-[12px] text-[#8ea6a7]">
           <span>
-            © {year} {profile.name} — {t("rights")}
+            © {year} {profile.name} · {t("rights")}
           </span>
           <a
             href="#top"

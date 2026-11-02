@@ -46,7 +46,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
                 type="button"
                 onClick={() => switchTo(loc)}
                 aria-current={isActive ? "true" : undefined}
-                aria-label={`${loc.toUpperCase()} — ${
+                aria-label={`${loc.toUpperCase()}, ${
                   loc === "fr" ? t("switchToFr") : t("switchToEn")
                 }`}
                 className={

@@ -10,7 +10,7 @@ Clinical operations support is flexible backup, available when your team needs i
 
 ## Why flexibility is an asset
 
-A study's needs are not linear. Freelance backup adjusts to reality: it arrives quickly, focuses on what is blocking, and steps back when the load eases — without the commitment of a permanent hire. It is capacity when you need it, where you need it.
+A study's needs are not linear. Freelance backup adjusts to reality: it arrives quickly, focuses on what is blocking, and steps back when the load eases, without the commitment of a permanent hire. It is capacity when you need it, where you need it.
 
 ## How I work
 

@@ -10,7 +10,7 @@ Le support aux opérations cliniques, c'est un renfort flexible, mobilisable qua
 
 ## Pourquoi la souplesse est un atout
 
-Les besoins d'une étude ne sont pas linéaires. Un renfort freelance s'ajuste au réel : il arrive vite, se concentre sur ce qui bloque, et se retire quand la charge redescend — sans l'engagement d'un recrutement permanent. C'est de la capacité quand il en faut, là où il en faut.
+Les besoins d'une étude ne sont pas linéaires. Un renfort freelance s'ajuste au réel : il arrive vite, se concentre sur ce qui bloque, et se retire quand la charge redescend, sans l'engagement d'un recrutement permanent. C'est de la capacité quand il en faut, là où il en faut.
 
 ## Comment j'interviens
 

@@ -1,4 +1,4 @@
-Le monitoring est l'une des activités centrales d'un essai clinique. Il se structure autour de visites aux centres investigateurs, chacune avec un objectif précis. Comprendre leur rôle aide à mieux cadrer une mission — et à savoir ce qu'on peut en attendre.
+Le monitoring est l'une des activités centrales d'un essai clinique. Il se structure autour de visites aux centres investigateurs, chacune avec un objectif précis. Comprendre leur rôle aide à mieux cadrer une mission, et à savoir ce qu'on peut en attendre.
 
 ## Les quatre grands types de visites
 
@@ -24,10 +24,10 @@ Pour un CRA, cela veut dire moins de vérification mécanique et plus de jugemen
 
 ## En résumé
 
-Chaque visite répond à une étape du cycle de vie de l'étude — de la sélection à la clôture. Un monitoring bien mené ne « coche pas des cases » : il anticipe les risques là où ils comptent vraiment.
+Chaque visite répond à une étape du cycle de vie de l'étude, de la sélection à la clôture. Un monitoring bien mené ne « coche pas des cases » : il anticipe les risques là où ils comptent vraiment.
 
 Un besoin de monitoring sur vos centres ? [Échangeons sur votre projet](/fr#contact).
 
 ---
 
-*Source : ICH E6(R2) Good Clinical Practice (addendum, 2016) — approche de la qualité et du monitoring basés sur les risques. Dernière mise à jour : novembre 2026.*
+*Source : ICH E6(R2) Good Clinical Practice (addendum, 2016), approche de la qualité et du monitoring basés sur les risques. Dernière mise à jour : novembre 2026.*

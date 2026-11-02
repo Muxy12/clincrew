@@ -1,4 +1,4 @@
-Le contrôle de la documentation clinique garde votre étude prête à être inspectée à tout moment. En recherche clinique, une règle simple fait foi : ce qui n'est pas documenté n'a pas eu lieu. Le classeur investigateur (ISF) côté centre et le Trial Master File (TMF) côté promoteur sont la mémoire de l'étude — ils doivent rester complets, à jour et traçables, conformément aux Bonnes Pratiques Cliniques (ICH E6).
+Le contrôle de la documentation clinique garde votre étude prête à être inspectée à tout moment. En recherche clinique, une règle simple fait foi : ce qui n'est pas documenté n'a pas eu lieu. Le classeur investigateur (ISF) côté centre et le Trial Master File (TMF) côté promoteur sont la mémoire de l'étude. Ils doivent rester complets, à jour et traçables, conformément aux Bonnes Pratiques Cliniques (ICH E6).
 
 ## Ce que le contrôle porte sur
 

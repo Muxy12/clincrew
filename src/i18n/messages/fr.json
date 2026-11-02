@@ -387,7 +387,7 @@
     "items": {
       "what": {
         "q": "Qu'est-ce qu'un CRA freelance ?",
-        "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant qui assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié — visites de centres, vérification des données, suivi de la conformité — mais intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
+        "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant qui assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié (visites de centres, vérification des données, suivi de la conformité) mais intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
       },
       "why": {
         "q": "Pourquoi faire appel à un CRA freelance ?",
@@ -476,7 +476,7 @@
   },
   "metadata": {
     "home": {
-      "title": "Mohamed Debbah — Senior CRA Freelance · Attaché de Recherche Clinique",
+      "title": "Mohamed Debbah · Senior CRA Freelance · Attaché de Recherche Clinique",
       "description": "Mohamed Debbah, Senior CRA freelance (Attaché de Recherche Clinique) : monitoring, qualité GCP et coordination des essais cliniques, avec rigueur et flexibilité.",
       "keywords": "Senior CRA freelance, Attaché de Recherche Clinique freelance, ARC senior indépendant, consultant recherche clinique, monitoring clinique freelance, prestataire recherche clinique"
     },
@@ -489,18 +489,18 @@
       "description": "Politique de confidentialité et traitement des données du site de Mohamed Debbah, Senior CRA freelance."
     },
     "blog": {
-      "title": "Blog — Recherche clinique",
+      "title": "Blog · Recherche clinique",
       "description": "Analyses et retours d'expérience sur le monitoring, la qualité et l'organisation des essais cliniques, par Mohamed Debbah, Senior CRA freelance."
     },
     "about": {
-      "title": "À propos — Mon parcours",
+      "title": "À propos · Mon parcours",
       "description": "Le parcours de Mohamed Debbah, Senior Clinical Research Associate freelance : monitoring, qualité des données et accompagnement opérationnel des essais cliniques."
     },
     "services": {
-      "title": "Prestations — Senior CRA Freelance",
+      "title": "Prestations · Senior CRA Freelance",
       "description": "Les prestations de Mohamed Debbah, Senior CRA freelance : visites de sélection, d'initiation, de monitoring et de clôture, suivi des centres investigateurs et support aux opérations cliniques."
     },
-    "ogAlt": "Mohamed Debbah — Senior CRA Freelance (Attaché de Recherche Clinique)"
+    "ogAlt": "Mohamed Debbah · Senior CRA Freelance (Attaché de Recherche Clinique)"
   },
   "languageSwitcher": {
     "label": "Langue",

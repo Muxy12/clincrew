@@ -146,7 +146,7 @@ export function Quiz() {
       const opt = q.options.find((o) => o.key === answers[i]);
       return `• ${t(`questions.${q.id}.q`)} ${opt ? optionLabel(i, opt) : ""}`;
     });
-    const message = `[Quiz — ${t(`results.${tier}.title`)} (${total}/12)]\n${summaryLines.join("\n")}\n\n`;
+    const message = `[Quiz · ${t(`results.${tier}.title`)} (${total}/12)]\n${summaryLines.join("\n")}\n\n`;
     const requestType = REQUEST_TYPE_BY_Q1[answers[0]] ?? "other";
 
     window.dispatchEvent(

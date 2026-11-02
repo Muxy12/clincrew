@@ -1,4 +1,4 @@
-Monitoring is one of the core activities of a clinical trial. It is organised around visits to investigator sites, each with a specific purpose. Understanding their role helps scope an assignment — and know what to expect from it.
+Monitoring is one of the core activities of a clinical trial. It is organised around visits to investigator sites, each with a specific purpose. Understanding their role helps scope an assignment, and know what to expect from it.
 
 ## The four main types of visit
 
@@ -24,10 +24,10 @@ For a CRA, that means less mechanical checking and more judgement: knowing where
 
 ## In short
 
-Each visit addresses a stage of the study's life cycle — from selection to close-out. Well-run monitoring doesn't "tick boxes": it anticipates risks where they truly matter.
+Each visit addresses a stage of the study's life cycle, from selection to close-out. Well-run monitoring doesn't "tick boxes": it anticipates risks where they truly matter.
 
 Need monitoring support across your sites? [Let's discuss your project](/en#contact).
 
 ---
 
-*Source: ICH E6(R2) Good Clinical Practice (addendum, 2016) — risk-based approach to quality and monitoring. Last updated: November 2026.*
+*Source: ICH E6(R2) Good Clinical Practice (addendum, 2016), risk-based approach to quality and monitoring. Last updated: November 2026.*

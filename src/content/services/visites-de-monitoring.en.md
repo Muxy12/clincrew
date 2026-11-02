@@ -10,7 +10,7 @@ Monitoring visits (interim monitoring visits, IMV) set the rhythm of a site once
 
 ## Risk-based monitoring
 
-ICH E6 (R2) moved the cursor: rather than checking everything everywhere, the effort concentrates where the risk to patients and data is highest. Smart monitoring follows a risk-based plan, documents each deviation and — above all — closes corrective actions. Following actions through is what makes the difference, not simply showing up.
+ICH E6 (R2) moved the cursor: rather than checking everything everywhere, the effort concentrates where the risk to patients and data is highest. Smart monitoring follows a risk-based plan, documents each deviation and, above all, closes corrective actions. Following actions through is what makes the difference, not simply showing up.
 
 ## How I work
 

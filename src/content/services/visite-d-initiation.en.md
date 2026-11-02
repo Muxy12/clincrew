@@ -10,7 +10,7 @@ The site initiation visit (SIV) marks the shift into action: the site is validat
 
 ## Why it prevents costly deviations
 
-Most major deviations trace back to a rushed initiation: a misunderstood criterion, a loose consent procedure, uncontrolled product storage. A careful initiation aligns the team before the first enrolment — the moment when mistakes are most expensive.
+Most major deviations trace back to a rushed initiation: a misunderstood criterion, a loose consent procedure, uncontrolled product storage. A careful initiation aligns the team before the first enrolment, the moment when mistakes are most expensive.
 
 ## How I work
 

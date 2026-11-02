@@ -1,4 +1,4 @@
-Faire appel à un CRA freelance est simple — à condition de cadrer la mission dès le départ. Un périmètre clair évite les malentendus et permet au consultant d'être opérationnel rapidement. Voici les points à clarifier avant de démarrer.
+Faire appel à un CRA freelance est simple, à condition de cadrer la mission dès le départ. Un périmètre clair évite les malentendus et permet au consultant d'être opérationnel rapidement. Voici les points à clarifier avant de démarrer.
 
 ## 1. Le périmètre et les livrables
 
@@ -10,7 +10,7 @@ Le CRA agit pour le compte du promoteur ou de la CRO, dans le respect du protoco
 
 ## 3. Les accès et les outils
 
-Une mission démarre vite quand les accès sont prêts : systèmes (eTMF, CTMS, EDC), comptes, VPN, habilitations, et la documentation de l'étude. Anticipez ces aspects — ils sont souvent la première source de retard.
+Une mission démarre vite quand les accès sont prêts : systèmes (eTMF, CTMS, EDC), comptes, VPN, habilitations, et la documentation de l'étude. Anticipez ces aspects. Ils sont souvent la première source de retard.
 
 ## 4. Les modalités pratiques
 
@@ -27,4 +27,4 @@ Un projet à cadrer ensemble ? [Décrivez-moi votre besoin](/fr#contact).
 
 ---
 
-*Référence : ICH E6 Good Clinical Practice — responsabilités du promoteur et délégation des tâches liées à l'essai. Dernière mise à jour : novembre 2026.*
+*Référence : ICH E6 Good Clinical Practice, responsabilités du promoteur et délégation des tâches liées à l'essai. Dernière mise à jour : novembre 2026.*

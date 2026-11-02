@@ -10,7 +10,7 @@ La visite d'initiation (Site Initiation Visit, SIV) marque le passage à l'actio
 
 ## Pourquoi elle évite des écarts coûteux
 
-La plupart des écarts majeurs trouvent leur origine dans une initiation bâclée : un critère mal compris, une procédure de consentement approximative, une conservation du produit non maîtrisée. Une initiation soignée aligne l'équipe avant la première inclusion — le moment où les erreurs coûtent le plus cher.
+La plupart des écarts majeurs trouvent leur origine dans une initiation bâclée : un critère mal compris, une procédure de consentement approximative, une conservation du produit non maîtrisée. Une initiation soignée aligne l'équipe avant la première inclusion, le moment où les erreurs coûtent le plus cher.
 
 ## Comment j'interviens
 

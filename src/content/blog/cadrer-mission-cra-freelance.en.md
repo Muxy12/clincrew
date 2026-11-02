@@ -1,4 +1,4 @@
-Working with a freelance CRA is simple — provided the assignment is scoped from the start. A clear scope prevents misunderstandings and lets the consultant be operational quickly. Here is what to clarify before kicking off.
+Working with a freelance CRA is simple, provided the assignment is scoped from the start. A clear scope prevents misunderstandings and lets the consultant be operational quickly. Here is what to clarify before kicking off.
 
 ## 1. Scope and deliverables
 
@@ -10,7 +10,7 @@ The CRA acts on behalf of the sponsor or CRO, in line with the protocol and Good
 
 ## 3. Access and tools
 
-An assignment starts fast when access is ready: systems (eTMF, CTMS, EDC), accounts, VPN, permissions, and the study documentation. Anticipate these — they are often the first source of delay.
+An assignment starts fast when access is ready: systems (eTMF, CTMS, EDC), accounts, VPN, permissions, and the study documentation. Anticipate these: they are often the first source of delay.
 
 ## 4. Practical arrangements
 
@@ -27,4 +27,4 @@ A project to scope together? [Tell me about your need](/en#contact).
 
 ---
 
-*Reference: ICH E6 Good Clinical Practice — sponsor responsibilities and delegation of trial-related tasks. Last updated: November 2026.*
+*Reference: ICH E6 Good Clinical Practice, sponsor responsibilities and delegation of trial-related tasks. Last updated: November 2026.*

@@ -16,9 +16,9 @@ export function GET() {
   const b = siteConfig.business;
 
   const lines = [
-    `# ${profile.name} — Senior Clinical Research Associate (CRA), freelance`,
+    `# ${profile.name} · Senior Clinical Research Associate (CRA), freelance`,
     "",
-    `> Independent Senior/Lead Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for CROs, pharmaceutical companies, biotechs and academic sponsors — monitoring, GCP quality and operational coordination, from site selection to close-out. Website available in French and English.`,
+    `> Independent Senior/Lead Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for CROs, pharmaceutical companies, biotechs and academic sponsors: monitoring, GCP quality and operational coordination, from site selection to close-out. Website available in French and English.`,
     "",
     "## About",
     `- Senior and Lead CRA, ${profile.yearsExperience ?? "several"} years of experience.`,
@@ -47,7 +47,7 @@ export function GET() {
     profile.email.configured ? `- Email: ${profile.email.value}` : null,
     profile.phone.configured ? `- Phone: ${profile.phone.value}` : null,
     profile.linkedin.configured ? `- LinkedIn: ${profile.linkedin.value}` : null,
-    `- Based in ${b.address.addressLocality}, France — ${b.name} (${b.legalForm}), ${b.address.streetAddress}, ${b.address.postalCode} ${b.address.addressLocality}.`,
+    `- Based in ${b.address.addressLocality}, France. ${b.name} (${b.legalForm}), ${b.address.streetAddress}, ${b.address.postalCode} ${b.address.addressLocality}.`,
     "",
   ];
 

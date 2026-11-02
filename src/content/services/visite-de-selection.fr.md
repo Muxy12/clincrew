@@ -1,4 +1,4 @@
-La visite de sélection (Site Selection Visit, SSV) est la première étape avant l'ouverture d'un centre investigateur. Son objectif : vérifier qu'un centre pressenti dispose réellement des moyens — humains, matériels et organisationnels — pour mener votre étude dans le respect du protocole et des Bonnes Pratiques Cliniques (ICH E6).
+La visite de sélection (Site Selection Visit, SSV) est la première étape avant l'ouverture d'un centre investigateur. Son objectif : vérifier qu'un centre pressenti dispose réellement des moyens (humains, matériels et organisationnels) pour mener votre étude dans le respect du protocole et des Bonnes Pratiques Cliniques (ICH E6).
 
 ## Ce que la visite évalue
 
@@ -10,7 +10,7 @@ La visite de sélection (Site Selection Visit, SSV) est la première étape avan
 
 ## Pourquoi elle conditionne la suite
 
-Un centre mal choisi coûte cher : recrutement qui ne démarre pas, écarts à répétition, parfois fermeture anticipée. Une sélection lucide évite d'ouvrir un site qui ne tiendra pas ses promesses — c'est souvent la décision la plus rentable de toute la mise en place.
+Un centre mal choisi coûte cher : recrutement qui ne démarre pas, écarts à répétition, parfois fermeture anticipée. Une sélection lucide évite d'ouvrir un site qui ne tiendra pas ses promesses. C'est souvent la décision la plus rentable de toute la mise en place.
 
 ## Comment j'interviens
 

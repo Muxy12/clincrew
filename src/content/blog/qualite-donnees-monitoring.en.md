@@ -1,4 +1,4 @@
-On-site monitoring is sometimes seen as a formality: check, tick, sign. In reality, attentive site follow-up contributes directly to data reliability — and therefore to the scientific value of a study.
+On-site monitoring is sometimes seen as a formality: check, tick, sign. In reality, attentive site follow-up contributes directly to data reliability, and therefore to the scientific value of a study.
 
 ## Verify, but above all understand
 
@@ -26,4 +26,4 @@ Looking to strengthen your site follow-up? [Let's discuss your needs](/en#contac
 
 ---
 
-*Source: ICH E6(R2) Good Clinical Practice — data verification and risk-based monitoring. Last updated: November 2026.*
+*Source: ICH E6(R2) Good Clinical Practice, data verification and risk-based monitoring. Last updated: November 2026.*

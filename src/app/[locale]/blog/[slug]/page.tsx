@@ -138,7 +138,7 @@ export default async function BlogArticlePage({
 
       {profile.linkedin.configured && (
         <p className="mt-10 text-center font-mono text-[11px] uppercase tracking-[0.14em] text-muted">
-          {siteConfig.name} —{" "}
+          {siteConfig.name} ·{" "}
           <a
             href={profile.linkedin.value}
             target="_blank"

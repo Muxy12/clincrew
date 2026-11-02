@@ -125,7 +125,7 @@
       },
       "documentation": {
         "title": "Documentation follow-up",
-        "description": "Oversight of the Trial Master File and investigator site file — consistent, complete study documentation."
+        "description": "Oversight of the Trial Master File and investigator site file, for consistent and complete study documentation."
       },
       "siteManagement": {
         "title": "Investigator site management",
@@ -387,7 +387,7 @@
     "items": {
       "what": {
         "q": "What is a freelance CRA?",
-        "a": "A freelance CRA (Clinical Research Associate) is an independent professional who handles the monitoring and operational follow-up of clinical trials. They perform the same duties as an employed CRA — site visits, data verification, compliance follow-up — but work on a service basis, for a defined assignment or period, with no relationship of subordination."
+        "a": "A freelance CRA (Clinical Research Associate) is an independent professional who handles the monitoring and operational follow-up of clinical trials. They perform the same duties as an employed CRA (site visits, data verification, compliance follow-up) but work on a service basis, for a defined assignment or period, with no relationship of subordination."
       },
       "why": {
         "q": "Why work with a freelance CRA?",
@@ -476,7 +476,7 @@
   },
   "metadata": {
     "home": {
-      "title": "Mohamed Debbah — Senior Clinical Research Associate (Freelance CRA)",
+      "title": "Mohamed Debbah · Senior Clinical Research Associate (Freelance CRA)",
       "description": "Mohamed Debbah, senior freelance CRA: monitoring, GCP quality and coordination of clinical trials, with precision and flexibility.",
       "keywords": "senior freelance Clinical Research Associate, senior CRA, independent CRA, clinical research consultant, freelance clinical monitoring, clinical operations consultant"
     },
@@ -489,18 +489,18 @@
       "description": "Privacy policy and data handling for the website of Mohamed Debbah, senior freelance CRA."
     },
     "blog": {
-      "title": "Blog — Clinical research",
+      "title": "Blog · Clinical research",
       "description": "Analysis and field insights on monitoring, quality and the organisation of clinical trials, by Mohamed Debbah, senior freelance CRA."
     },
     "about": {
-      "title": "About — My journey",
+      "title": "About · My journey",
       "description": "The journey of Mohamed Debbah, freelance Senior Clinical Research Associate: monitoring, data quality and operational support for clinical trials."
     },
     "services": {
-      "title": "Services — Senior Freelance CRA",
+      "title": "Services · Senior Freelance CRA",
       "description": "The services of Mohamed Debbah, freelance Senior CRA: selection, initiation, monitoring and close-out visits, investigator site follow-up and clinical operations support."
     },
-    "ogAlt": "Mohamed Debbah — Senior Clinical Research Associate"
+    "ogAlt": "Mohamed Debbah · Senior Clinical Research Associate"
   },
   "languageSwitcher": {
     "label": "Language",
@@ -515,7 +515,7 @@
     "detailCta": "Learn more",
     "backToServices": "All services",
     "ctaTitle": "A study to move forward?",
-    "ctaText": "Let's talk through your need — I reply within 24–48 h to scope the assignment.",
+    "ctaText": "Let's talk through your need. I reply within 24–48 h to scope the assignment.",
     "ctaButton": "Let's talk about your project"
   }
 }

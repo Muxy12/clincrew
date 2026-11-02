@@ -1,4 +1,4 @@
-Clinical research rests on a demanding balance: moving quickly without ever compromising on quality or compliance. Within that balance, the Clinical Research Associate (CRA) plays a central role — and working with an independent professional answers concrete needs of operational teams.
+Clinical research rests on a demanding balance: moving quickly without ever compromising on quality or compliance. Within that balance, the Clinical Research Associate (CRA) plays a central role. Working with an independent professional answers concrete needs of operational teams.
 
 ## Targeted support, when it is needed
 
@@ -12,7 +12,7 @@ This proximity does not replace the sponsor's or CRO's organisation: it fits int
 
 ## Rigor remains the rule
 
-Independence does not mean improvisation. The work stays within the protocol, good clinical practice (GCP) and the study's procedures. What changes is the flexibility of the engagement — not the level of rigor.
+Independence does not mean improvisation. The work stays within the protocol, good clinical practice (GCP) and the study's procedures. What changes is the flexibility of the engagement, not the level of rigor.
 
 ## In short
 

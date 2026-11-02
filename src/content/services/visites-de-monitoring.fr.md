@@ -10,7 +10,7 @@ Les visites de monitoring (Interim Monitoring Visits, IMV) rythment la vie d'un 
 
 ## Le monitoring basé sur les risques
 
-L'ICH E6 (R2) a déplacé le curseur : plutôt que tout vérifier partout, on concentre l'effort là où le risque pour le patient et pour les données est le plus élevé. Un monitoring intelligent suit un plan basé sur les risques, documente chaque écart et surtout boucle les actions correctives — c'est le suivi des actions qui fait la différence, pas le simple passage.
+L'ICH E6 (R2) a déplacé le curseur : plutôt que tout vérifier partout, on concentre l'effort là où le risque pour le patient et pour les données est le plus élevé. Un monitoring intelligent suit un plan basé sur les risques, documente chaque écart et surtout boucle les actions correctives. C'est le suivi des actions qui fait la différence, pas le simple passage.
 
 ## Comment j'interviens
 

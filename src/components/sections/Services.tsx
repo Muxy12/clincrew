@@ -30,7 +30,7 @@ export function Services() {
               className="service-card flex min-h-[340px] flex-col p-9"
             >
               <span className="font-mono text-[12px] tracking-[0.12em] text-mint">
-                {String(i + 1).padStart(2, "0")} — {t("cardLabel").toUpperCase()}
+                {String(i + 1).padStart(2, "0")} / {t("cardLabel").toUpperCase()}
               </span>
               <Icon
                 size={34}

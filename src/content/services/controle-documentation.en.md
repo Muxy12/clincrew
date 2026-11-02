@@ -1,4 +1,4 @@
-Clinical documentation control keeps your study ready to be inspected at any time. In clinical research, one rule holds: what is not documented did not happen. The investigator site file (ISF) at the site and the Trial Master File (TMF) at the sponsor are the study's memory — they must stay complete, current and traceable, in line with Good Clinical Practice (ICH E6).
+Clinical documentation control keeps your study ready to be inspected at any time. In clinical research, one rule holds: what is not documented did not happen. The investigator site file (ISF) at the site and the Trial Master File (TMF) at the sponsor are the study's memory. They must stay complete, current and traceable, in line with Good Clinical Practice (ICH E6).
 
 ## What the control covers
 

@@ -1,4 +1,4 @@
-Le monitoring sur site est parfois perçu comme une formalité : vérifier, cocher, signer. En réalité, un suivi attentif des centres contribue directement à la fiabilité des données — et donc à la valeur scientifique d'une étude.
+Le monitoring sur site est parfois perçu comme une formalité : vérifier, cocher, signer. En réalité, un suivi attentif des centres contribue directement à la fiabilité des données, et donc à la valeur scientifique d'une étude.
 
 ## Vérifier, mais surtout comprendre
 
@@ -26,4 +26,4 @@ Vous souhaitez renforcer le suivi de vos centres ? [Échangeons sur vos besoins]
 
 ---
 
-*Source : ICH E6(R2) Good Clinical Practice — vérification des données et monitoring basé sur les risques. Dernière mise à jour : novembre 2026.*
+*Source : ICH E6(R2) Good Clinical Practice, vérification des données et monitoring basé sur les risques. Dernière mise à jour : novembre 2026.*
