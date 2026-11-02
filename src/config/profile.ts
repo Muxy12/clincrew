@@ -110,8 +110,8 @@ export const profile: ProfileConfig = {
     },
   },
 
-  // ⚠️ Add a portrait at e.g. /public/images/mohamed-debbah.jpg then set the path.
-  portrait: null,
+  // Portrait served from /public/images/mohamed-debbah.jpg.
+  portrait: "/images/mohamed-debbah.jpg",
 
   // ⚠️ Fill these with real values to complete the "Mon parcours" copy.
   yearsExperience: "7",

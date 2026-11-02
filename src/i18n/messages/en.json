@@ -25,7 +25,7 @@
     "ctaSecondary": "Explore my services",
     "ctaQuiz": "Take the quiz",
     "scroll": "Scroll",
-    "orbLabel": "Precision · Trust · Impact",
+    "orbLabel": "Monitoring · Quality · Compliance",
     "tag1Label": "01 / Monitoring",
     "tag1Text": "Investigator site follow-up",
     "tag2Label": "02 / Quality",
@@ -148,7 +148,7 @@
       },
       "pharma": {
         "title": "Pharmaceutical companies",
-        "description": "that want experienced resources without adding to their structure."
+        "description": "that want experienced resources without opening a permanent role."
       },
       "biotech": {
         "title": "Biotechnology companies",
@@ -205,7 +205,7 @@
   },
   "approach": {
     "eyebrow": "How I work",
-    "title": "A structured approach. A consistent commitment.",
+    "title": "Four steps, no blind spots.",
     "intro": "A clear collaboration, from initial scoping to follow-up of actions.",
     "steps": {
       "s1": {
@@ -363,7 +363,7 @@
       },
       "rampup": {
         "c": "Ramp-up",
-        "f": "Operational and autonomous from day one",
+        "f": "Operational from day one, with no onboarding ramp",
         "e": "Hiring, onboarding and supervision"
       },
       "cost": {

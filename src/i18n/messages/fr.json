@@ -25,7 +25,7 @@
     "ctaSecondary": "Découvrir mes prestations",
     "ctaQuiz": "Faire le quiz",
     "scroll": "Défiler",
-    "orbLabel": "Précision · Confiance · Impact",
+    "orbLabel": "Monitoring · Qualité · Conformité",
     "tag1Label": "01 / Monitoring",
     "tag1Text": "Suivi des centres investigateurs",
     "tag2Label": "02 / Qualité",
@@ -107,7 +107,7 @@
   },
   "services": {
     "eyebrow": "Expertise",
-    "title": "Mes domaines d'expertise en Clinical Research.",
+    "title": "Mes domaines d'expertise en recherche clinique.",
     "intro": "Les compétences que je mobilise sur vos études, du monitoring à la coordination des centres.",
     "cardLabel": "Expertise",
     "items": {
@@ -148,7 +148,7 @@
       },
       "pharma": {
         "title": "Laboratoires pharmaceutiques",
-        "description": "qui souhaitent des ressources expérimentées sans alourdir leur structure."
+        "description": "qui souhaitent des ressources expérimentées sans ouvrir de poste permanent."
       },
       "biotech": {
         "title": "Sociétés de biotechnologie",
@@ -205,7 +205,7 @@
   },
   "approach": {
     "eyebrow": "Méthode de travail",
-    "title": "Une approche structurée. Un engagement constant.",
+    "title": "Quatre étapes, aucun angle mort.",
     "intro": "Une collaboration claire, du cadrage initial au suivi des actions.",
     "steps": {
       "s1": {
@@ -363,7 +363,7 @@
       },
       "rampup": {
         "c": "Démarrage",
-        "f": "Opérationnel et autonome dès le premier jour",
+        "f": "Opérationnel dès le premier jour, sans phase d'intégration",
         "e": "Recrutement, intégration et encadrement"
       },
       "cost": {
@@ -384,15 +384,15 @@
     "intro": "L'essentiel sur le recours à un CRA freelance.",
     "items": {
       "what": {
-        "q": "Qu'est-ce qu'un CRA Freelance ?",
+        "q": "Qu'est-ce qu'un CRA freelance ?",
         "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant qui assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié — visites de centres, vérification des données, suivi de la conformité — mais intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
       },
       "why": {
-        "q": "Pourquoi faire appel à un CRA Freelance ?",
+        "q": "Pourquoi faire appel à un CRA freelance ?",
         "a": "Faire appel à un CRA freelance permet d'ajuster rapidement ses ressources à l'activité réelle : renfort sur un pic de charge, remplacement temporaire, besoin ponctuel de monitoring ou expertise terrain pour un premier essai. L'indépendance apporte flexibilité, réactivité et un interlocuteur unique, sans alourdir durablement la structure."
       },
       "cost": {
-        "q": "Combien coûte un CRA Freelance ?",
+        "q": "Combien coûte un CRA freelance ?",
         "a": "Un CRA freelance facture généralement au tarif journalier (TJM). Celui-ci dépend de plusieurs éléments : séniorité et spécialisation, nature et durée de la mission, aires thérapeutiques, zones géographiques et volume de visites. Le modèle freelance évite les coûts fixes d'un recrutement et se calibre sur le besoin réel. N'hésitez pas à me contacter pour un échange adapté à votre projet."
       }
     }
