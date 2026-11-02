@@ -65,6 +65,49 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
+  // --- Cloudflare Turnstile (anti-spam) ----------------------------------
+  // Verified only when a secret key is configured; otherwise skipped so the
+  // form keeps working in dev / before Turnstile is set up.
+  const turnstileSecret = process.env.TURNSTILE_SECRET_KEY;
+  if (turnstileSecret) {
+    const token = data.turnstileToken;
+    if (!token) {
+      return NextResponse.json(
+        { ok: false, error: "turnstile" },
+        { status: 400 },
+      );
+    }
+    try {
+      const verify = await fetch(
+        "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            secret: turnstileSecret,
+            response: token,
+            remoteip: ip,
+          }),
+        },
+      );
+      const outcome = (await verify.json().catch(() => ({ success: false }))) as {
+        success: boolean;
+      };
+      if (!outcome.success) {
+        return NextResponse.json(
+          { ok: false, error: "turnstile" },
+          { status: 400 },
+        );
+      }
+    } catch (err) {
+      console.error("Turnstile verification failed:", err);
+      return NextResponse.json(
+        { ok: false, error: "turnstile" },
+        { status: 400 },
+      );
+    }
+  }
+
   // --- Email provider configuration -------------------------------------
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.CONTACT_FROM_EMAIL;

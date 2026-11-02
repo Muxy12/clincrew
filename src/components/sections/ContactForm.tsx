@@ -10,6 +10,11 @@ import {
   requestTypes,
   type ContactFormValues,
 } from "@/lib/contact-schema";
+import { Turnstile } from "@/components/Turnstile";
+
+// Public Turnstile site key. When unset, the widget is skipped and the server
+// (which only verifies when its secret is set) does not require a token.
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 type Status =
   | "idle"
@@ -17,12 +22,14 @@ type Status =
   | "success"
   | "error"
   | "not_configured"
-  | "rate_limited";
+  | "rate_limited"
+  | "turnstile";
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
   const locale = useLocale();
   const [status, setStatus] = useState<Status>("idle");
+  const [turnstileToken, setTurnstileToken] = useState("");
 
   const {
     register,
@@ -72,7 +79,7 @@ export function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...values, locale }),
+        body: JSON.stringify({ ...values, locale, turnstileToken }),
       });
       const data: { ok: boolean; error?: string } = await res
         .json()
@@ -85,9 +92,17 @@ export function ContactForm() {
       }
       if (data.error === "not_configured") setStatus("not_configured");
       else if (data.error === "rate_limited") setStatus("rate_limited");
+      else if (data.error === "turnstile") setStatus("turnstile");
       else setStatus("error");
     } catch {
       setStatus("error");
+    } finally {
+      // Turnstile tokens are single-use: reset the widget so a retry gets a
+      // fresh token.
+      if (TURNSTILE_SITE_KEY) {
+        setTurnstileToken("");
+        window.turnstile?.reset();
+      }
     }
   };
 
@@ -105,7 +120,8 @@ export function ContactForm() {
     <div className="mx-auto max-w-[640px] text-left">
       {(status === "error" ||
         status === "not_configured" ||
-        status === "rate_limited") && (
+        status === "rate_limited" ||
+        status === "turnstile") && (
         <div className="mb-6">
           <StatusPanel
             kind={
@@ -113,7 +129,9 @@ export function ContactForm() {
                 ? "not_configured"
                 : status === "rate_limited"
                   ? "rate_limited"
-                  : "error"
+                  : status === "turnstile"
+                    ? "turnstile"
+                    : "error"
             }
             inline
           />
@@ -232,9 +250,23 @@ export function ContactForm() {
           )}
         </div>
 
+        {TURNSTILE_SITE_KEY && (
+          <div>
+            <Turnstile
+              siteKey={TURNSTILE_SITE_KEY}
+              onToken={setTurnstileToken}
+              theme="dark"
+            />
+          </div>
+        )}
+
         <button
           type="submit"
-          disabled={isSubmitting || status === "submitting"}
+          disabled={
+            isSubmitting ||
+            status === "submitting" ||
+            (!!TURNSTILE_SITE_KEY && !turnstileToken)
+          }
           className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-mint px-7 py-4 text-[14px] font-extrabold text-bg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_35px_rgba(182,244,215,0.2)] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
         >
           {isSubmitting || status === "submitting" ? (
@@ -323,7 +355,7 @@ function StatusPanel({
   kind,
   inline = false,
 }: {
-  kind: "success" | "error" | "not_configured" | "rate_limited";
+  kind: "success" | "error" | "not_configured" | "rate_limited" | "turnstile";
   inline?: boolean;
 }) {
   const t = useTranslations("contact.form.states");
@@ -337,6 +369,10 @@ function StatusPanel({
     rate_limited: {
       title: t("rateLimitedTitle"),
       body: t("rateLimitedBody"),
+    },
+    turnstile: {
+      title: t("turnstileTitle"),
+      body: t("turnstileBody"),
     },
   } as const;
   const isSuccess = kind === "success";

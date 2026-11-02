@@ -323,7 +323,9 @@
         "notConfiguredTitle": "Form not yet active",
         "notConfiguredBody": "Email delivery is not yet configured on this site. Your message was not sent. Please check back later or use another way to get in touch.",
         "rateLimitedTitle": "Too many attempts",
-        "rateLimitedBody": "You have sent several messages recently. Please wait before trying again."
+        "rateLimitedBody": "You have sent several messages recently. Please wait before trying again.",
+        "turnstileTitle": "Anti-spam check failed",
+        "turnstileBody": "The security check did not pass. Please complete it again, then resend your message."
       },
       "privacyNote": "Your data is used only to process your request. See the privacy policy."
     }
@@ -411,8 +413,6 @@
   "legal": {
     "title": "Legal notice",
     "lastUpdated": "Last updated",
-    "toComplete": "To complete before publication",
-    "intro": "The information below must be completed with the real details of the business before the site goes live.",
     "sections": {
       "editor": {
         "title": "Site publisher",
@@ -420,7 +420,7 @@
       },
       "registration": {
         "title": "Business registration",
-        "body": "SIRET: 109 701 466 00012 (SIREN: 109 701 466). Registered with the Paris Trade and Companies Register (RCS Paris). [Share capital: to be completed.]"
+        "body": "SIRET: 109 701 466 00012 (SIREN: 109 701 466). Registered with the Paris Trade and Companies Register (RCS Paris). Share capital: €1,000. Intra-community VAT number: to be completed."
       },
       "director": {
         "title": "Publication director",
@@ -428,7 +428,7 @@
       },
       "hosting": {
         "title": "Hosting",
-        "body": "[To complete: name, address and contact details of the site's hosting provider. For example, if the site is deployed on Vercel: Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.]"
+        "body": "This site is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA. Website: vercel.com."
       },
       "ip": {
         "title": "Intellectual property",
@@ -443,12 +443,10 @@
   "privacy": {
     "title": "Privacy policy",
     "lastUpdated": "Last updated",
-    "toComplete": "To complete before publication",
-    "intro": "This policy describes how data submitted through this site is processed. It must be reviewed and completed with the real details of the data controller before publication.",
     "sections": {
       "controller": {
         "title": "Data controller",
-        "body": "The controller of the data collected through this site is MeedWise (a French SASU), represented by Mohamed Debbah.\n\nRegistered office: 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact: mohamed.debbah@clincrew.net."
+        "body": "The controller of the data collected through this site is MeedWise (a French SASU), represented by Mohamed Debbah.\n\nRegistered office: 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact: mohamed.debbah@clincrew.net · +33 7 68 01 52 91."
       },
       "data": {
         "title": "Data collected",

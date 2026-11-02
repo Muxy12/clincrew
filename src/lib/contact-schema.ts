@@ -37,6 +37,10 @@ export const contactSchema = z.object({
   consent: z.literal(true, { message: "consent_required" }),
   // Honeypot: must stay empty. Bots that fill every field are rejected.
   website: z.string().max(0).optional().or(z.literal("")),
+  // Cloudflare Turnstile token. Verified server-side only when a secret key
+  // is configured; otherwise ignored. Optional so the schema stays valid
+  // whether or not Turnstile is enabled.
+  turnstileToken: z.string().max(4096).optional().or(z.literal("")),
 });
 
 export type ContactFormValues = z.infer<typeof contactSchema>;

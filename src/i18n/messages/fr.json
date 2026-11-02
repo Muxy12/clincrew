@@ -323,7 +323,9 @@
         "notConfiguredTitle": "Formulaire non encore activé",
         "notConfiguredBody": "L'envoi d'e-mails n'est pas encore configuré sur ce site. Votre message n'a pas été transmis. Merci de revenir ultérieurement ou d'utiliser un autre moyen de contact.",
         "rateLimitedTitle": "Trop de tentatives",
-        "rateLimitedBody": "Vous avez envoyé plusieurs messages récemment. Merci de patienter avant de réessayer."
+        "rateLimitedBody": "Vous avez envoyé plusieurs messages récemment. Merci de patienter avant de réessayer.",
+        "turnstileTitle": "Vérification anti-spam échouée",
+        "turnstileBody": "La vérification de sécurité n'a pas abouti. Merci de la refaire, puis de renvoyer votre message."
       },
       "privacyNote": "Vos données sont utilisées uniquement pour traiter votre demande. Consultez la politique de confidentialité."
     }
@@ -411,8 +413,6 @@
   "legal": {
     "title": "Mentions légales",
     "lastUpdated": "Dernière mise à jour",
-    "toComplete": "À compléter avant publication",
-    "intro": "Les informations ci-dessous doivent être complétées avec les coordonnées réelles de l'activité avant la mise en ligne du site.",
     "sections": {
       "editor": {
         "title": "Éditeur du site",
@@ -420,7 +420,7 @@
       },
       "registration": {
         "title": "Immatriculation",
-        "body": "SIRET : 109 701 466 00012 (SIREN : 109 701 466). Société immatriculée au Registre du Commerce et des Sociétés (RCS) de Paris. [Capital social : à compléter.]"
+        "body": "SIRET : 109 701 466 00012 (SIREN : 109 701 466). Société immatriculée au Registre du Commerce et des Sociétés (RCS) de Paris. Capital social : 1 000 €. Numéro de TVA intracommunautaire : à compléter."
       },
       "director": {
         "title": "Directeur de la publication",
@@ -428,7 +428,7 @@
       },
       "hosting": {
         "title": "Hébergement",
-        "body": "[À compléter : nom, adresse et coordonnées de l'hébergeur du site. Par exemple, si le site est déployé sur Vercel : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.]"
+        "body": "Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Site web : vercel.com."
       },
       "ip": {
         "title": "Propriété intellectuelle",
@@ -443,12 +443,10 @@
   "privacy": {
     "title": "Politique de confidentialité",
     "lastUpdated": "Dernière mise à jour",
-    "toComplete": "À compléter avant publication",
-    "intro": "Cette politique décrit la manière dont les données transmises via ce site sont traitées. Elle doit être revue et complétée avec les informations réelles du responsable de traitement avant publication.",
     "sections": {
       "controller": {
         "title": "Responsable du traitement",
-        "body": "Le responsable du traitement des données collectées via ce site est la société MeedWise (SASU), représentée par Mohamed Debbah.\n\nSiège social : 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact : mohamed.debbah@clincrew.net."
+        "body": "Le responsable du traitement des données collectées via ce site est la société MeedWise (SASU), représentée par Mohamed Debbah.\n\nSiège social : 59 rue de Ponthieu, Bureau 326, 75008 Paris, France. Contact : mohamed.debbah@clincrew.net · +33 7 68 01 52 91."
       },
       "data": {
         "title": "Données collectées",
