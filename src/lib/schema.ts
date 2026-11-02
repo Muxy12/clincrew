@@ -81,6 +81,32 @@ export function siteGraph(locale: Locale) {
   };
 }
 
+/** Service node for a service detail page, linked to the Organization by @id. */
+export function servicePageNode(params: {
+  locale: Locale;
+  slug: string;
+  name: string;
+  description: string;
+}) {
+  const { locale, slug, name, description } = params;
+  const b = siteConfig.business;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    description,
+    serviceType: name,
+    url: `${siteConfig.url}/${locale}/services/${slug}`,
+    provider: {
+      "@type": "ProfessionalService",
+      "@id": ORG_ID,
+      name: b.name,
+    },
+    areaServed: [...b.areaServed],
+    inLanguage: locale,
+  };
+}
+
 /** BlogPosting node, linked to the site-wide Person/Organization by @id. */
 export function blogPostingNode(params: {
   locale: Locale;

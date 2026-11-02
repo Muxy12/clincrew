@@ -5,10 +5,11 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
+import { servicePages } from "@/config/service-pages";
 
 const GROUPS = [
-  { label: "groupVisits", items: ["selection", "initiation", "monitoring", "closeout"] },
-  { label: "groupSupport", items: ["siteFollowup", "docControl", "opsSupport"] },
+  { key: "visits", label: "groupVisits" },
+  { key: "support", label: "groupSupport" },
 ] as const;
 
 export async function generateMetadata({
@@ -45,56 +46,75 @@ export default async function ServicesPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale as Locale);
-  return <ServicesContent />;
+  return <ServicesHub locale={locale as Locale} />;
 }
 
-function ServicesContent() {
+function ServicesHub({ locale }: { locale: Locale }) {
   const t = useTranslations("prestations");
+  const th = useTranslations("servicePage");
 
   return (
-    <section className="wrap max-w-[920px] scroll-mt-24 pb-24 pt-36 md:pb-32 md:pt-44">
+    <section className="wrap max-w-[960px] scroll-mt-24 pb-24 pt-36 md:pb-32 md:pt-44">
       <Reveal>
         <p className="eyebrow">{t("eyebrow")}</p>
-        <h1 className="mt-5 max-w-[780px] font-heading text-[clamp(32px,5vw,60px)] leading-[1.12] tracking-tightest">
-          {t("title")}
+        <h1 className="mt-5 max-w-[820px] font-heading text-[clamp(32px,5vw,60px)] leading-[1.12] tracking-tightest">
+          {th("hubTitle")}
         </h1>
-        <p className="mt-6 max-w-[560px] text-[16px] leading-[1.8] text-muted">
-          {t("intro")}
+        <p className="mt-6 max-w-[600px] text-[16px] leading-[1.8] text-muted">
+          {th("hubIntro")}
         </p>
       </Reveal>
 
-      {GROUPS.map((group, gi) => (
-        <div key={group.label} className="mt-14">
-          <Reveal>
-            <h2 className="font-mono text-[12px] uppercase tracking-[0.16em] text-mint">
-              {t(group.label)}
-            </h2>
-          </Reveal>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-            {group.items.map((item, i) => (
-              <Reveal
-                as="li"
-                key={item}
-                delay={(i % 2) * 0.06}
-                className="service-card flex flex-col p-7"
-              >
-                <span className="font-mono text-[12px] text-mint">
-                  {String(gi === 0 ? i + 1 : GROUPS[0].items.length + i + 1).padStart(
-                    2,
-                    "0",
-                  )}
-                </span>
-                <h3 className="mt-5 font-heading text-[20px] leading-tight tracking-tighter2">
-                  {t(`items.${item}.title`)}
-                </h3>
-                <p className="mt-3 text-[14px] leading-[1.7] text-muted">
-                  {t(`items.${item}.description`)}
-                </p>
-              </Reveal>
-            ))}
-          </ul>
-        </div>
-      ))}
+      {GROUPS.map((group) => {
+        const items = servicePages.filter((s) => s.group === group.key);
+        return (
+          <div key={group.key} className="mt-14">
+            <Reveal>
+              <h2 className="font-mono text-[12px] uppercase tracking-[0.16em] text-mint">
+                {t(group.label)}
+              </h2>
+            </Reveal>
+            <ul className="mt-8 grid gap-4 sm:grid-cols-2">
+              {items.map((item, i) => {
+                const Icon = item.icon;
+                const tr = item.translations[locale];
+                return (
+                  <Reveal
+                    as="li"
+                    key={item.slug}
+                    delay={(i % 2) * 0.06}
+                  >
+                    <Link
+                      href={`/services/${item.slug}`}
+                      className="service-card group flex h-full flex-col p-7"
+                    >
+                      <Icon
+                        size={22}
+                        aria-hidden="true"
+                        className="text-mint"
+                      />
+                      <h3 className="mt-5 font-heading text-[20px] leading-tight tracking-tighter2">
+                        {tr.title}
+                      </h3>
+                      <p className="mt-3 flex-1 text-[14px] leading-[1.7] text-muted">
+                        {tr.excerpt}
+                      </p>
+                      <span className="mt-5 inline-flex items-center gap-1.5 font-mono text-[12px] uppercase tracking-[0.1em] text-mint">
+                        {th("detailCta")}
+                        <ArrowUpRight
+                          size={14}
+                          aria-hidden="true"
+                          className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                        />
+                      </span>
+                    </Link>
+                  </Reveal>
+                );
+              })}
+            </ul>
+          </div>
+        );
+      })}
 
       <Reveal>
         <aside className="mt-16 rounded-lg border border-line bg-gradient-to-br from-panel to-[#0a1d26] p-8 text-center">

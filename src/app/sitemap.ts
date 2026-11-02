@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 import { routing } from "@/i18n/routing";
 import { blogPosts } from "@/config/blog";
+import { servicePages } from "@/config/service-pages";
 
 const STATIC_PATHS = [
   "",
@@ -15,7 +16,8 @@ const STATIC_PATHS = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const blogPaths = blogPosts.map((p) => `/blog/${p.slug}`);
-  const allPaths = [...STATIC_PATHS, ...blogPaths];
+  const servicePaths = servicePages.map((s) => `/services/${s.slug}`);
+  const allPaths = [...STATIC_PATHS, ...servicePaths, ...blogPaths];
 
   return allPaths.flatMap((path) =>
     routing.locales.map((locale) => ({

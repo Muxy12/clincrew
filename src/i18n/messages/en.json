@@ -510,5 +510,14 @@
     "en": "English",
     "switchToFr": "Passer en français",
     "switchToEn": "Switch to English"
+  },
+  "servicePage": {
+    "hubTitle": "My freelance CRA services, in detail.",
+    "hubIntro": "Every service has its own page: what it covers, why it matters and how I run it. Pick where to start.",
+    "detailCta": "Learn more",
+    "backToServices": "All services",
+    "ctaTitle": "A study to move forward?",
+    "ctaText": "Let's talk through your need — I reply within 24–48 h to scope the assignment.",
+    "ctaButton": "Let's talk about your project"
   }
 }
