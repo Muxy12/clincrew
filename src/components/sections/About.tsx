@@ -1,8 +1,10 @@
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/Reveal";
 import { getJourneyValues } from "@/lib/journey";
+import { profile } from "@/config/profile";
 import type { Locale } from "@/i18n/routing";
 
 export function About() {
@@ -17,14 +19,26 @@ export function About() {
     >
       <div className="wrap grid items-center gap-12 md:grid-cols-2 md:gap-24">
         <Reveal>
-          <div
-            className="abstract relative h-[350px] md:h-[520px]"
-            role="img"
-            aria-label={t("journeyTitle")}
-          >
-            <span className="absolute bottom-6 left-7 z-[2] font-heading text-[85px] font-extrabold leading-none tracking-[-0.12em] text-[#e6fff3] md:text-[120px]">
-              MD.
-            </span>
+          <div className="relative h-[350px] overflow-hidden rounded-sm border border-light-line md:h-[520px]">
+            {profile.portrait ? (
+              <Image
+                src={profile.portrait}
+                alt={t("portraitAlt")}
+                fill
+                sizes="(max-width: 768px) 90vw, 48vw"
+                className="object-cover object-top"
+              />
+            ) : (
+              <div
+                className="abstract absolute inset-0"
+                role="img"
+                aria-label={t("journeyTitle")}
+              >
+                <span className="absolute bottom-6 left-7 z-[2] font-heading text-[85px] font-extrabold leading-none tracking-[-0.12em] text-[#e6fff3] md:text-[120px]">
+                  MD.
+                </span>
+              </div>
+            )}
           </div>
         </Reveal>
 
