@@ -10,6 +10,7 @@ const requestTypeLabels: Record<string, string> = {
   monitoring: "Monitoring",
   closeout: "Close-out / Clôture",
   audit: "Audit & inspection prep / Préparation audit-inspection",
+  other: "Other / Autre",
 };
 
 function clientIp(request: Request): string {

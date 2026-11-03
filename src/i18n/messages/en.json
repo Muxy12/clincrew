@@ -308,7 +308,8 @@
         "setup": "Set-up",
         "monitoring": "Monitoring",
         "closeout": "Close-out",
-        "audit": "Audit / inspection prep"
+        "audit": "Audit / inspection prep",
+        "other": "Other"
       },
       "validation": {
         "name_min": "Please enter your name.",

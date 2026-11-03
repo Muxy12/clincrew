@@ -308,7 +308,8 @@
         "setup": "Mise en place",
         "monitoring": "Monitoring",
         "closeout": "Clôture",
-        "audit": "Préparation audit/inspection"
+        "audit": "Préparation audit/inspection",
+        "other": "Autre"
       },
       "validation": {
         "name_min": "Veuillez indiquer votre nom.",

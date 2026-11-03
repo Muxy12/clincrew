@@ -11,6 +11,7 @@ export const requestTypes = [
   "monitoring",
   "closeout",
   "audit",
+  "other",
 ] as const;
 
 export type RequestType = (typeof requestTypes)[number];
