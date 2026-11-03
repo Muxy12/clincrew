@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowUp, Mail, Phone, Linkedin } from "lucide-react";
-import { Monogram } from "@/components/ui/Monogram";
+import Image from "next/image";
 import { profile } from "@/config/profile";
 
 const NAV_ITEMS = [
@@ -25,12 +25,14 @@ export function Footer() {
     <footer className="border-t border-line bg-bg">
       <div className="wrap grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
         <div>
-          <div className="flex items-center gap-3">
-            <Monogram size={40} />
-            <div className="text-[21px] font-extrabold leading-none tracking-[-0.01em]">
-              <span className="text-[#f1f2e9]">{profile.brand.slice(0, -4)}</span>
-              <span className="text-[#83e6a9]">{profile.brand.slice(-4)}</span>
-            </div>
+          <div className="flex items-center">
+            <Image
+              src="/images/clincrew-logo.png"
+              alt={profile.brand}
+              width={720}
+              height={176}
+              className="h-9 w-auto"
+            />
           </div>
           <p className="mt-5 max-w-xs text-[14px] leading-relaxed text-muted">
             {t("role")}

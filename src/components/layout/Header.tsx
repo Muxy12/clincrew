@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import { Monogram } from "@/components/ui/Monogram";
+import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { profile } from "@/config/profile";
 
@@ -55,12 +55,15 @@ export function Header() {
       }
     >
       <div className="wrap flex h-[76px] items-center justify-between md:h-[86px]">
-        <Link href="/" className="flex items-center gap-3">
-          <Monogram className="grid place-items-center" size={38} />
-          <span className="text-[20px] font-extrabold leading-none tracking-[-0.01em] md:text-[22px]">
-            <span className="text-[#f1f2e9]">{profile.brand.slice(0, -4)}</span>
-            <span className="text-[#83e6a9]">{profile.brand.slice(-4)}</span>
-          </span>
+        <Link href="/" className="flex items-center" aria-label={profile.brand}>
+          <Image
+            src="/images/clincrew-logo.png"
+            alt={profile.brand}
+            width={720}
+            height={176}
+            priority
+            className="h-8 w-auto md:h-9"
+          />
         </Link>
 
         {/* Desktop navigation */}
@@ -118,7 +121,13 @@ export function Header() {
           aria-label="Menu"
         >
           <div className="wrap flex h-[76px] items-center justify-between">
-            <Monogram size={38} />
+            <Image
+              src="/images/clincrew-logo.png"
+              alt={profile.brand}
+              width={720}
+              height={176}
+              className="h-7 w-auto"
+            />
             <button
               type="button"
               onClick={() => setMenuOpen(false)}
