@@ -9,12 +9,9 @@ export function Sectors() {
   const t = useTranslations("sectors");
   const locale = useLocale() as Locale;
 
-  // Therapeutic areas & coverage come from profile config (single source,
-  // shared with the About page). While empty, a clearly-bracketed placeholder
-  // is shown so nothing is fabricated.
-  const areas = profile.therapeuticAreas.length
-    ? profile.therapeuticAreas.map((x) => x[locale]).join(", ")
-    : t("areasPlaceholder");
+  // Geographic coverage comes from profile config (single source). While
+  // empty, a clearly-bracketed placeholder is shown so nothing is fabricated.
+  // Therapeutic areas have their own dedicated section (TherapeuticAreas).
   const zones = profile.geographicCoverage.length
     ? profile.geographicCoverage.map((x) => x[locale]).join(" · ")
     : t("zonesPlaceholder");
@@ -53,23 +50,13 @@ export function Sectors() {
       </ul>
 
       <Reveal>
-        <dl className="mt-10 grid gap-x-10 gap-y-6 border-t border-line pt-8 sm:grid-cols-2">
-          <div>
-            <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-mint">
-              {t("areasLabel")}
-            </dt>
-            <dd className="mt-2 text-[15px] leading-relaxed text-cream">
-              {areas}
-            </dd>
-          </div>
-          <div>
-            <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-mint">
-              {t("zonesLabel")}
-            </dt>
-            <dd className="mt-2 text-[15px] leading-relaxed text-cream">
-              {zones}
-            </dd>
-          </div>
+        <dl className="mt-10 border-t border-line pt-8">
+          <dt className="font-mono text-[11px] uppercase tracking-[0.14em] text-mint">
+            {t("zonesLabel")}
+          </dt>
+          <dd className="mt-2 text-[15px] leading-relaxed text-cream">
+            {zones}
+          </dd>
         </dl>
       </Reveal>
     </section>

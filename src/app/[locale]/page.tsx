@@ -6,6 +6,7 @@ import { Strip } from "@/components/sections/Strip";
 import { Quiz } from "@/components/sections/Quiz";
 import { Services } from "@/components/sections/Services";
 import { Sectors } from "@/components/sections/Sectors";
+import { TherapeuticAreas } from "@/components/sections/TherapeuticAreas";
 import { Prestations } from "@/components/sections/Prestations";
 import { Approach } from "@/components/sections/Approach";
 import { ValueProp } from "@/components/sections/ValueProp";
@@ -32,6 +33,7 @@ export default async function HomePage({
       <Prestations />
       <Approach />
       <Sectors />
+      <TherapeuticAreas />
       <ValueProp />
       <About />
       <Comparison />

@@ -137,6 +137,11 @@
       }
     }
   },
+  "areas": {
+    "eyebrow": "Therapeutic areas",
+    "title": "The therapeutic areas I've worked in.",
+    "intro": "From oncology to rare diseases, the clinical areas where I've monitored trials."
+  },
   "sectors": {
     "eyebrow": "Sectors",
     "title": "The organisations I work with.",

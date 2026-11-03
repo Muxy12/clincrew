@@ -60,7 +60,11 @@ export interface ProfileConfig {
    * Verified details only. Empty arrays are not rendered.
    * Each entry is locale-aware so FR/EN can differ where needed.
    */
-  readonly therapeuticAreas: ReadonlyArray<{ fr: string; en: string }>;
+  readonly therapeuticAreas: ReadonlyArray<{
+    fr: string;
+    en: string;
+    detail?: { fr: string; en: string };
+  }>;
   readonly geographicCoverage: ReadonlyArray<{ fr: string; en: string }>;
   readonly languages: ReadonlyArray<{ fr: string; en: string }>;
   /** BCP-47 codes for schema.org knowsLanguage (matches `languages`). */
@@ -131,8 +135,17 @@ export const profile: ProfileConfig = {
 
   // All of the following are intentionally empty until verified.
   therapeuticAreas: [
-    { fr: "Oncologie", en: "Oncology" },
-    { fr: "Hématologie", en: "Haematology" },
+    {
+      fr: "Oncologie",
+      en: "Oncology",
+      detail: {
+        fr: "poumon, rein, prostate, sein, digestif",
+        en: "lung, kidney, prostate, breast, gastrointestinal",
+      },
+    },
+    { fr: "Hémato-oncologie", en: "Hemato-oncology" },
+    { fr: "Néphrologie", en: "Nephrology" },
+    { fr: "Pneumologie", en: "Pulmonology" },
     { fr: "Vaccins", en: "Vaccines" },
     { fr: "Cardiologie", en: "Cardiology" },
     { fr: "Maladies rares", en: "Rare diseases" },

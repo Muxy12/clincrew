@@ -137,6 +137,11 @@
       }
     }
   },
+  "areas": {
+    "eyebrow": "Aires thérapeutiques",
+    "title": "Les aires thérapeutiques sur lesquelles j'ai travaillé.",
+    "intro": "De l'oncologie aux maladies rares, les domaines cliniques sur lesquels j'ai monitoré des essais."
+  },
   "sectors": {
     "eyebrow": "Secteurs d'intervention",
     "title": "Les acteurs que j'accompagne.",
