@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowUp, Mail, Phone, Linkedin } from "lucide-react";
 import Image from "next/image";
 import { profile } from "@/config/profile";
+import { siteConfig } from "@/config/site";
 
 const NAV_ITEMS = [
   { key: "expertise", href: "/#expertise" },
@@ -20,6 +21,7 @@ export function Footer() {
   const t = useTranslations("footer");
   const nav = useTranslations("nav");
   const year = new Date().getFullYear();
+  const biz = siteConfig.business;
 
   return (
     <footer className="border-t border-line bg-bg">
@@ -40,6 +42,15 @@ export function Footer() {
           <p className="mt-4 font-mono text-[11px] uppercase tracking-[0.16em] text-[#6f8788]">
             {t("tagline")}
           </p>
+          <address className="mt-6 text-[13px] not-italic leading-relaxed text-[#6f8788]">
+            <span className="block font-semibold text-muted">
+              {biz.name} · {biz.legalForm}
+            </span>
+            <span className="block">{biz.address.streetAddress}</span>
+            <span className="block">
+              {biz.address.postalCode} {biz.address.addressLocality}, France
+            </span>
+          </address>
         </div>
 
         <nav aria-label="Footer">
