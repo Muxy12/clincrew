@@ -27,8 +27,9 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Monogram size={40} />
-            <div className="text-[13px] font-bold leading-tight tracking-[0.14em]">
-              {profile.name.toUpperCase()}
+            <div className="text-[21px] font-extrabold leading-none tracking-[-0.01em]">
+              <span className="text-[#f1f2e9]">{profile.brand.slice(0, -4)}</span>
+              <span className="text-[#83e6a9]">{profile.brand.slice(-4)}</span>
             </div>
           </div>
           <p className="mt-5 max-w-xs text-[14px] leading-relaxed text-muted">

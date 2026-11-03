@@ -21,6 +21,8 @@ export interface ProfileLink {
 
 export interface ProfileConfig {
   readonly name: string;
+  /** Brand / trade name shown in the header & footer logo lockup. */
+  readonly brand: string;
   readonly monogram: string;
   /** Localized professional title shown under the name. */
   readonly title: { readonly fr: string; readonly en: string };
@@ -79,6 +81,7 @@ export interface ProfileConfig {
 
 export const profile: ProfileConfig = {
   name: "Mohamed Debbah",
+  brand: "ClinCrew",
   monogram: "MD",
   title: {
     fr: "Attaché de Recherche Clinique senior · Freelance",

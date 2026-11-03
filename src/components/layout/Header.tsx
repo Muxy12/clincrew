@@ -57,11 +57,9 @@ export function Header() {
       <div className="wrap flex h-[76px] items-center justify-between md:h-[86px]">
         <Link href="/" className="flex items-center gap-3">
           <Monogram className="grid place-items-center" size={38} />
-          <span className="text-[12px] font-bold leading-tight tracking-[0.14em] md:text-[13px]">
-            {profile.name.toUpperCase()}
-            <span className="block text-[10px] font-normal tracking-[0.17em] text-[#8fa8a8]">
-              CLINICAL RESEARCH
-            </span>
+          <span className="text-[20px] font-extrabold leading-none tracking-[-0.01em] md:text-[22px]">
+            <span className="text-[#f1f2e9]">{profile.brand.slice(0, -4)}</span>
+            <span className="text-[#83e6a9]">{profile.brand.slice(-4)}</span>
           </span>
         </Link>
 

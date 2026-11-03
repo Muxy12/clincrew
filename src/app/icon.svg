@@ -1,7 +1,11 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="48" height="48" rx="11" fill="#07131b"/>
-  <g transform="translate(5 5) scale(0.79)">
-    <path d="M11 35 V13 L19 25 L27 13 V35" stroke="#b6f4d7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-    <path d="M27 13 C 38 14.5, 38 33.5, 27 35" stroke="#b6f4d7" stroke-width="3" stroke-linecap="round"/>
+  <defs>
+    <clipPath id="cc"><rect x="16" y="8" width="16" height="32" rx="5"/><rect x="8" y="16" width="32" height="16" rx="5"/></clipPath>
+    <mask id="lf"><rect width="48" height="48" fill="#fff"/><ellipse cx="24" cy="24" rx="2.6" ry="7" fill="#000" transform="rotate(-25 24 24)"/></mask>
+  </defs>
+  <g clip-path="url(#cc)" mask="url(#lf)">
+    <rect width="48" height="48" fill="#83e6a9"/>
+    <path d="M4 4 L44 4 C 30 17, 17 30, 4 44 Z" fill="#f1f2e9"/>
   </g>
 </svg>
