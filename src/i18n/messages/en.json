@@ -156,7 +156,7 @@
         "description": "that want experienced resources without opening a permanent role."
       },
       "biotech": {
-        "title": "Biotechnology companies",
+        "title": "Biotech",
         "description": "that need field expertise for their first trials."
       },
       "sponsors": {
@@ -293,6 +293,8 @@
       "namePlaceholder": "First and last name",
       "email": "Professional email",
       "emailPlaceholder": "you@organisation.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
       "company": "Company",
       "companyPlaceholder": "Your organisation (optional)",
       "requestType": "Type of need",
@@ -303,10 +305,10 @@
       "submit": "Send my request",
       "submitting": "Sending…",
       "requestTypes": {
-        "cro": "CRO",
-        "pharma": "Pharmaceutical company",
-        "biotech": "Biotechnology company",
-        "other": "Other"
+        "setup": "Set-up",
+        "monitoring": "Monitoring",
+        "closeout": "Close-out",
+        "audit": "Audit / inspection prep"
       },
       "validation": {
         "name_min": "Please enter your name.",
@@ -314,6 +316,9 @@
         "email_required": "Please enter your email.",
         "email_invalid": "Please enter a valid email address.",
         "email_max": "This email address is too long.",
+        "phone_required": "Please enter your phone number.",
+        "phone_invalid": "Please enter a valid phone number.",
+        "phone_max": "This phone number is too long.",
         "company_max": "This company name is too long.",
         "request_type_required": "Please select a type of request.",
         "message_min": "Your message must be at least 10 characters.",

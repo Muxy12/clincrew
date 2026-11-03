@@ -42,8 +42,10 @@ export function ContactForm() {
     defaultValues: {
       name: "",
       email: "",
+      phone: "",
       company: "",
       message: "",
+      consent: false,
       website: "",
     },
   });
@@ -171,14 +173,25 @@ export function ContactForm() {
           />
         </div>
 
-        <Field
-          id="company"
-          label={t("company")}
-          placeholder={t("companyPlaceholder")}
-          error={err("company")}
-          autoComplete="organization"
-          register={register("company")}
-        />
+        <div className="grid gap-5 sm:grid-cols-2">
+          <Field
+            id="phone"
+            type="tel"
+            label={t("phone")}
+            placeholder={t("phonePlaceholder")}
+            error={err("phone")}
+            autoComplete="tel"
+            register={register("phone")}
+          />
+          <Field
+            id="company"
+            label={t("company")}
+            placeholder={t("companyPlaceholder")}
+            error={err("company")}
+            autoComplete="organization"
+            register={register("company")}
+          />
+        </div>
 
         <div>
           <label

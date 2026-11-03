@@ -78,14 +78,6 @@ const QUESTIONS: ReadonlyArray<{ id: string; options: OptionDef[] }> = [
   },
 ];
 
-const REQUEST_TYPE_BY_Q1: Record<string, string> = {
-  cro: "cro",
-  pharma: "pharma",
-  biotech: "biotech",
-  academic: "other",
-  other: "other",
-};
-
 type Tier = "good" | "discuss" | "nomatch";
 
 export function Quiz() {
@@ -147,10 +139,9 @@ export function Quiz() {
       return `• ${t(`questions.${q.id}.q`)} ${opt ? optionLabel(i, opt) : ""}`;
     });
     const message = `[Quiz · ${t(`results.${tier}.title`)} (${total}/12)]\n${summaryLines.join("\n")}\n\n`;
-    const requestType = REQUEST_TYPE_BY_Q1[answers[0]] ?? "other";
 
     window.dispatchEvent(
-      new CustomEvent("quiz:prefill", { detail: { message, requestType } }),
+      new CustomEvent("quiz:prefill", { detail: { message } }),
     );
     document
       .getElementById("contact")

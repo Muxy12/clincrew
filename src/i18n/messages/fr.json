@@ -156,7 +156,7 @@
         "description": "qui souhaitent des ressources expérimentées sans ouvrir de poste permanent."
       },
       "biotech": {
-        "title": "Sociétés de biotechnologie",
+        "title": "Biotech",
         "description": "qui ont besoin d'une expertise terrain pour leurs premiers essais."
       },
       "sponsors": {
@@ -293,6 +293,8 @@
       "namePlaceholder": "Prénom et nom",
       "email": "E-mail professionnel",
       "emailPlaceholder": "vous@organisation.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 6 12 34 56 78",
       "company": "Société",
       "companyPlaceholder": "Nom de votre structure (optionnel)",
       "requestType": "Type de besoin",
@@ -303,10 +305,10 @@
       "submit": "Envoyer ma demande",
       "submitting": "Envoi en cours…",
       "requestTypes": {
-        "cro": "CRO",
-        "pharma": "Laboratoire pharmaceutique",
-        "biotech": "Société de biotechnologie",
-        "other": "Autre"
+        "setup": "Mise en place",
+        "monitoring": "Monitoring",
+        "closeout": "Clôture",
+        "audit": "Préparation audit/inspection"
       },
       "validation": {
         "name_min": "Veuillez indiquer votre nom.",
@@ -314,6 +316,9 @@
         "email_required": "Veuillez indiquer votre e-mail.",
         "email_invalid": "Veuillez saisir une adresse e-mail valide.",
         "email_max": "Cette adresse e-mail est trop longue.",
+        "phone_required": "Veuillez indiquer votre numéro de téléphone.",
+        "phone_invalid": "Veuillez saisir un numéro de téléphone valide.",
+        "phone_max": "Ce numéro de téléphone est trop long.",
         "company_max": "Ce nom de société est trop long.",
         "request_type_required": "Veuillez sélectionner un type de demande.",
         "message_min": "Votre message doit comporter au moins 10 caractères.",

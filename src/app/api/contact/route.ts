@@ -6,10 +6,10 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const requestTypeLabels: Record<string, string> = {
-  cro: "CRO",
-  pharma: "Pharmaceutical company / Laboratoire pharmaceutique",
-  biotech: "Biotechnology company / Société de biotechnologie",
-  other: "Other / Autre",
+  setup: "Set-up / Mise en place",
+  monitoring: "Monitoring",
+  closeout: "Close-out / Clôture",
+  audit: "Audit & inspection prep / Préparation audit-inspection",
 };
 
 function clientIp(request: Request): string {
@@ -137,6 +137,7 @@ export async function POST(request: Request) {
       text: [
         `Name: ${data.name}`,
         `Email: ${data.email}`,
+        `Phone: ${data.phone}`,
         `Company: ${company}`,
         `Request type: ${typeLabel}`,
         "",
@@ -147,6 +148,7 @@ export async function POST(request: Request) {
           <h2 style="margin:0 0 16px">New contact request</h2>
           <p><strong>Name:</strong> ${escapeHtml(data.name)}</p>
           <p><strong>Email:</strong> ${escapeHtml(data.email)}</p>
+          <p><strong>Phone:</strong> ${escapeHtml(data.phone)}</p>
           <p><strong>Company:</strong> ${escapeHtml(company)}</p>
           <p><strong>Request type:</strong> ${escapeHtml(typeLabel)}</p>
           <hr style="border:none;border-top:1px solid #ddd;margin:16px 0" />

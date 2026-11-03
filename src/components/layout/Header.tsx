@@ -14,7 +14,6 @@ const NAV_ITEMS = [
   { key: "quiz", href: "/#quiz" },
   { key: "about", href: "/#about" },
   { key: "faq", href: "/#faq" },
-  { key: "blog", href: "/blog" },
 ] as const;
 
 export function Header() {
