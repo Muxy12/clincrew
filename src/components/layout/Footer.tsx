@@ -50,7 +50,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="wrap grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
+      <div className="wrap grid gap-12 py-16 md:grid-cols-[1.2fr_1.4fr_1fr] md:py-20">
         <div>
           <div className="flex items-center">
             <Image
@@ -82,23 +82,27 @@ export function Footer() {
           <h2 className="font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
             {t("navTitle")}
           </h2>
-          <ul className="mt-5 space-y-3 text-[14px] text-muted">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.key}>
-                <Link
-                  href={item.href}
-                  className="group inline-flex items-center gap-1.5 transition-colors hover:text-cream"
-                >
-                  <ArrowUpRight
-                    size={13}
-                    aria-hidden="true"
-                    className="-ml-[18px] text-mint opacity-0 transition-all duration-200 group-hover:ml-0 group-hover:opacity-100"
-                  />
-                  {nav(item.key)}
-                </Link>
-              </li>
+          <div className="mt-5 grid grid-cols-2 gap-x-8">
+            {[NAV_ITEMS.slice(0, 5), NAV_ITEMS.slice(5)].map((col, ci) => (
+              <ul key={ci} className="space-y-3 text-[14px] text-muted">
+                {col.map((item) => (
+                  <li key={item.key}>
+                    <Link
+                      href={item.href}
+                      className="group inline-flex items-center gap-1.5 transition-colors hover:text-cream"
+                    >
+                      <ArrowUpRight
+                        size={13}
+                        aria-hidden="true"
+                        className="-ml-[18px] text-mint opacity-0 transition-all duration-200 group-hover:ml-0 group-hover:opacity-100"
+                      />
+                      {nav(item.key)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             ))}
-          </ul>
+          </div>
         </nav>
 
         <div>
