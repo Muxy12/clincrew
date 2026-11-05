@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { ArrowUp, Mail, Phone, Linkedin } from "lucide-react";
+import { ArrowUp, ArrowUpRight, Mail, Phone, Linkedin } from "lucide-react";
 import Image from "next/image";
 import { profile } from "@/config/profile";
 import { siteConfig } from "@/config/site";
@@ -25,6 +25,31 @@ export function Footer() {
 
   return (
     <footer className="border-t border-line bg-bg">
+      {/* Closing call to action — the last conversion point on the page. */}
+      <div className="border-b border-line">
+        <div className="wrap flex flex-col gap-7 py-14 md:flex-row md:items-end md:justify-between md:py-16">
+          <div className="max-w-xl">
+            <h2 className="font-heading text-[clamp(26px,3.6vw,42px)] leading-[1.1] tracking-tightest text-cream">
+              {t("ctaTitle")}
+            </h2>
+            <p className="mt-4 text-[15px] leading-relaxed text-muted">
+              {t("ctaSubtitle")}
+            </p>
+          </div>
+          <Link
+            href="/#contact"
+            className="group inline-flex shrink-0 items-center gap-2.5 self-start rounded-full bg-mint px-7 py-4 text-[14px] font-extrabold text-bg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(182,244,215,0.22)] md:self-auto"
+          >
+            {nav("cta")}
+            <ArrowUpRight
+              size={16}
+              aria-hidden="true"
+              className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            />
+          </Link>
+        </div>
+      </div>
+
       <div className="wrap grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
         <div>
           <div className="flex items-center">
@@ -62,8 +87,13 @@ export function Footer() {
               <li key={item.key}>
                 <Link
                   href={item.href}
-                  className="transition-colors hover:text-cream"
+                  className="group inline-flex items-center gap-1.5 transition-colors hover:text-cream"
                 >
+                  <ArrowUpRight
+                    size={13}
+                    aria-hidden="true"
+                    className="-ml-[18px] text-mint opacity-0 transition-all duration-200 group-hover:ml-0 group-hover:opacity-100"
+                  />
                   {nav(item.key)}
                 </Link>
               </li>

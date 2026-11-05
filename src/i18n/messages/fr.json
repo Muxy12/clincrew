@@ -15,9 +15,9 @@
     "skipToContent": "Aller au contenu principal"
   },
   "hero": {
-    "eyebrow": "Senior CRA · Recherche clinique",
-    "headlineLine1": "Senior Clinical",
-    "headlineLine2": "Research Associate",
+    "eyebrow": "CRA · Recherche clinique",
+    "headlineLine1": "Attaché de Recherche",
+    "headlineLine2": "Clinique senior",
     "headlineEmphasis": "Freelance",
     "lead": "Monitoring et accompagnement opérationnel de vos essais cliniques, avec la rigueur BPC/GCP et la réactivité d'un consultant indépendant.",
     "intro": "Je suis Mohamed Debbah, Senior CRA indépendant basé en France. J'interviens auprès des CRO, laboratoires pharmaceutiques et sociétés de biotechnologie pour sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
@@ -413,6 +413,8 @@
   "footer": {
     "role": "Attaché de Recherche Clinique senior · Freelance",
     "tagline": "Conçu avec précision.",
+    "ctaTitle": "Un projet d'essai clinique ?",
+    "ctaSubtitle": "Décrivez-moi votre besoin, je vous réponds sous 24 à 48 h.",
     "navTitle": "Navigation",
     "legalTitle": "Informations",
     "contactTitle": "Contact",
