@@ -194,7 +194,7 @@
   "prestations": {
     "eyebrow": "Prestations",
     "title": "Mes services de Senior CRA Freelance.",
-    "intro": "Des interventions concrètes, mobilisables selon le cycle de vie de votre étude.",
+    "intro": "De la faisabilité à la clôture des centres, des interventions concrètes et mobilisables à chaque étape du cycle de vie de votre étude.",
     "cta": "Toutes mes prestations",
     "contactCta": "Discutons de votre projet",
     "groupVisits": "Visites de centre",
@@ -233,7 +233,7 @@
   "approach": {
     "eyebrow": "Méthode de travail",
     "title": "Quatre étapes, aucun angle mort.",
-    "intro": "Une collaboration claire, du cadrage initial au suivi des actions.",
+    "intro": "Une collaboration claire et sans angle mort, du premier échange sans engagement jusqu'au reporting régulier et à l'amélioration continue.",
     "steps": {
       "s1": {
         "num": "01",
@@ -453,6 +453,25 @@
       "when": {
         "q": "Quand faire appel à un ARC freelance ?",
         "a": "Pour un renfort lors d'un pic d'activité, le remplacement d'un ARC absent ou sortant, la reprise d'une étude en retard, la mise en place de nouveaux centres, la préparation d'un audit, ou lorsque vous n'avez pas la ressource en interne."
+      }
+    }
+  },
+  "metier": {
+    "eyebrow": "Le métier d'ARC",
+    "title": "Comprendre le rôle de l'Attaché de Recherche Clinique.",
+    "intro": "Pour bien choisir votre ressource, voici ce que recouvre le métier d'ARC et comment il se distingue des profils voisins.",
+    "blocks": {
+      "definition": {
+        "title": "Définition et rôle de l'ARC",
+        "body": "L'Attaché de Recherche Clinique (ARC, ou CRA pour Clinical Research Associate) suit le bon déroulement d'un essai clinique pour le compte du promoteur. Il s'assure que les droits et la sécurité des patients sont protégés, que les données recueillies sont fiables et que l'étude respecte le protocole, les BPC et la réglementation en vigueur."
+      },
+      "sponsorVsSite": {
+        "title": "ARC promoteur ou ARC hospitalier ?",
+        "body": "L'ARC promoteur (ou ARC de CRO) contrôle les centres pour le compte du promoteur. L'ARC hospitalier (ARC de site ou TEC) travaille dans l'établissement de santé auprès de l'investigateur, pour recueillir les données et organiser les inclusions. J'interviens côté promoteur / CRO."
+      },
+      "arcVsCpc": {
+        "title": "ARC ou Chef de Projet Clinique ?",
+        "body": "L'ARC sécurise le suivi des centres et la qualité des données : monitoring, conformité et documentation. Le Chef de Projet pilote l'étude dans sa globalité : planning, budget, risques et coordination des prestataires. Si votre priorité est le terrain, un ARC suffit ; pour piloter toute l'étude, un chef de projet est plus adapté. J'interviens surtout sur le volet ARC et peux vous conseiller sur la configuration la plus pertinente."
       }
     }
   },

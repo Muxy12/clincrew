@@ -13,6 +13,7 @@ import { Approach } from "@/components/sections/Approach";
 import { ValueProp } from "@/components/sections/ValueProp";
 import { About } from "@/components/sections/About";
 import { Comparison } from "@/components/sections/Comparison";
+import { Metier } from "@/components/sections/Metier";
 import { Faq } from "@/components/sections/Faq";
 import { Contact } from "@/components/sections/Contact";
 
@@ -39,6 +40,7 @@ export default async function HomePage({
       <ValueProp />
       <About />
       <Comparison />
+      {locale === "fr" && <Metier />}
       <Faq />
       <Contact />
     </>
