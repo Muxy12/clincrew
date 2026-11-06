@@ -131,8 +131,8 @@ export const profile: ProfileConfig = {
     en: "phase I to IV, notably in oncology, haematology and vaccines",
   },
   clientTypes: {
-    fr: "CRO, laboratoires pharmaceutiques, biotechs et promoteurs académiques",
-    en: "CROs, pharmaceutical companies, biotechs and academic sponsors",
+    fr: "CRO, laboratoires pharmaceutiques et promoteurs académiques",
+    en: "CROs, pharmaceutical companies and academic sponsors",
   },
   phases: { fr: "Phases I à IV", en: "Phase I to IV" },
 

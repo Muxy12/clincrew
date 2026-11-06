@@ -7,6 +7,7 @@ import { Quiz } from "@/components/sections/Quiz";
 import { Services } from "@/components/sections/Services";
 import { Sectors } from "@/components/sections/Sectors";
 import { TherapeuticAreas } from "@/components/sections/TherapeuticAreas";
+import { ExpertiseTech } from "@/components/sections/ExpertiseTech";
 import { Prestations } from "@/components/sections/Prestations";
 import { Approach } from "@/components/sections/Approach";
 import { ValueProp } from "@/components/sections/ValueProp";
@@ -34,6 +35,7 @@ export default async function HomePage({
       <Approach />
       <Sectors />
       <TherapeuticAreas />
+      {locale === "fr" && <ExpertiseTech />}
       <ValueProp />
       <About />
       <Comparison />

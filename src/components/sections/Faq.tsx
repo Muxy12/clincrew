@@ -1,11 +1,25 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Plus } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 
-const ITEMS = ["what", "why", "cost"] as const;
+// The FR homepage runs a longer, SEO-oriented FAQ; EN keeps the core three.
+const FR_ITEMS = [
+  "what",
+  "why",
+  "cost",
+  "arcVsCra",
+  "multiStudies",
+  "regions",
+  "remote",
+  "obligations",
+  "when",
+] as const;
+const EN_ITEMS = ["what", "why", "cost"] as const;
 
 export function Faq() {
   const t = useTranslations("faq");
+  const locale = useLocale();
+  const ITEMS = locale === "fr" ? FR_ITEMS : EN_ITEMS;
 
   const jsonLd = {
     "@context": "https://schema.org",

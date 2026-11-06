@@ -20,7 +20,7 @@
     "headlineLine2": "Clinique",
     "headlineEmphasis": "Freelance",
     "lead": "Monitoring et accompagnement opérationnel de vos essais cliniques, avec la rigueur BPC/GCP et la réactivité d'un consultant indépendant.",
-    "intro": "Je suis Mohamed Debbah, Senior CRA indépendant basé en France. J'interviens auprès des CRO, laboratoires pharmaceutiques et sociétés de biotechnologie pour sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
+    "intro": "Je suis Mohamed Debbah, Attaché de Recherche Clinique (ARC / CRA) indépendant basé en France. J'accompagne les promoteurs, les CRO et les laboratoires pharmaceutiques dans la conduite de leurs essais cliniques, en France et en Europe, pour sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
     "ctaPrimary": "Discutons de votre projet",
     "ctaSecondary": "Découvrir mes prestations",
     "ctaQuiz": "Faire le quiz",
@@ -141,6 +141,28 @@
     "eyebrow": "Aires thérapeutiques",
     "title": "Les aires thérapeutiques sur lesquelles j'ai travaillé.",
     "intro": "De l'oncologie aux maladies rares, les domaines cliniques sur lesquels j'ai monitoré des essais."
+  },
+  "expertiseTech": {
+    "eyebrow": "Expertise & cadre",
+    "title": "Une maîtrise technique et réglementaire complète.",
+    "intro": "Au-delà du terrain, je maîtrise les phases d'essai, les outils du secteur et le cadre réglementaire français et européen qui sécurisent vos études.",
+    "blocks": {
+      "phases": {
+        "title": "Essais de phases I à IV",
+        "body": "J'interviens sur tout le cycle de développement : études de sécurité et de pharmacocinétique (phase I), détermination de dose et efficacité (phase II), essais pivots multicentriques (phase III) et études post-AMM ou observationnelles (phase IV). J'adapte l'intensité du suivi au niveau de risque de l'étude.",
+        "tags": "Phase I, Phase II, Phase III, Phase IV"
+      },
+      "tools": {
+        "title": "Outils & systèmes de recherche clinique",
+        "body": "Je travaille quotidiennement avec les principaux outils du secteur (EDC / eCRF, CTMS, eTMF, IWRS / IRT) et m'adapte rapidement à vos systèmes et à vos procédures.",
+        "tags": "Medidata Rave, Oracle Inform, Ennov Clinical, Veeva Vault, CTMS, eTMF, IWRS / IRT"
+      },
+      "regulatory": {
+        "title": "Cadre réglementaire FR & UE",
+        "body": "Je connais le cadre applicable à la recherche clinique en France et en Europe et veille à sa stricte application, de la soumission à la clôture, dans le respect des droits des personnes et de l'intégrité des données.",
+        "tags": "ICH-GCP E6, Règlement UE 536/2014, Loi Jardé, RGPD / CNIL, ANSM · CPP · CTIS"
+      }
+    }
   },
   "sectors": {
     "eyebrow": "Secteurs d'intervention",
@@ -406,7 +428,31 @@
       },
       "cost": {
         "q": "Combien coûte un CRA freelance ?",
-        "a": "Un CRA freelance facture généralement au tarif journalier (TJM). Celui-ci dépend de plusieurs éléments : séniorité et spécialisation, nature et durée de la mission, aires thérapeutiques, zones géographiques et volume de visites. Le modèle freelance évite les coûts fixes d'un recrutement et se calibre sur le besoin réel. N'hésitez pas à me contacter pour un échange adapté à votre projet."
+        "a": "Un CRA freelance facture au tarif journalier (TJM). Celui-ci dépend de plusieurs éléments : expérience et spécialisation, nature et durée de la mission, aires thérapeutiques, zones géographiques et volume de visites. Le modèle freelance évite les coûts fixes d'un recrutement et se calibre sur le besoin réel. Mon tarif fait l'objet d'un devis personnalisé : contactez-moi pour un échange adapté à votre projet."
+      },
+      "arcVsCra": {
+        "q": "Quelle différence entre ARC freelance et CRA freelance ?",
+        "a": "Aucune : ARC (Attaché de Recherche Clinique) est le terme français et CRA (Clinical Research Associate) son équivalent anglais. Les deux désignent le même métier ; le terme CRA est plus courant sur les études internationales."
+      },
+      "multiStudies": {
+        "q": "Un ARC indépendant peut-il intervenir sur plusieurs études en parallèle ?",
+        "a": "Oui, dans le respect de la charge de travail, des clauses de confidentialité et de l'absence de conflit d'intérêt entre les études. Je peux intervenir sur plusieurs études en parallèle ou me consacrer à une seule, selon votre besoin."
+      },
+      "regions": {
+        "q": "Dans quelles régions intervenez-vous ?",
+        "a": "J'interviens sur toute la France, ainsi qu'en Belgique, au Luxembourg et en Suisse selon les missions. Les déplacements sont prévus et chiffrés dans la proposition."
+      },
+      "remote": {
+        "q": "Un ARC freelance peut-il travailler à distance ?",
+        "a": "Oui, pour une partie des activités : monitoring à distance (remote monitoring), revue des données, traitement des queries, suivi du TMF et échanges avec les centres. Les visites sur site restent nécessaires pour certaines vérifications, notamment la vérification des données source et du médicament expérimental."
+      },
+      "obligations": {
+        "q": "Quelles sont les obligations réglementaires d'un ARC freelance ?",
+        "a": "Être formé aux BPC / ICH-GCP, disposer d'un statut juridique en règle (ici une SASU), souscrire une assurance responsabilité civile professionnelle, respecter la confidentialité et le RGPD, et se conformer aux procédures du promoteur pour chaque étude."
+      },
+      "when": {
+        "q": "Quand faire appel à un ARC freelance ?",
+        "a": "Pour un renfort lors d'un pic d'activité, le remplacement d'un ARC absent ou sortant, la reprise d'une étude en retard, la mise en place de nouveaux centres, la préparation d'un audit, ou lorsque vous n'avez pas la ressource en interne."
       }
     }
   },
