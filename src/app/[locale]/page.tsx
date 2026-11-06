@@ -36,11 +36,11 @@ export default async function HomePage({
       <Approach />
       <Sectors />
       <TherapeuticAreas />
-      {locale === "fr" && <ExpertiseTech />}
+      <ExpertiseTech />
       <ValueProp />
       <About />
       <Comparison />
-      {locale === "fr" && <Metier />}
+      <Metier />
       <Faq />
       <Contact />
     </>

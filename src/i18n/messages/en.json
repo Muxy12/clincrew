@@ -20,7 +20,7 @@
     "headlineLine2": "Research Associate",
     "headlineEmphasis": "Freelance",
     "lead": "Monitoring and operational support for your clinical trials, with GCP rigor and the responsiveness of an independent consultant.",
-    "intro": "I am Mohamed Debbah, an independent Senior CRA based in France. I work with CROs, pharmaceutical companies and biotech firms to secure the quality of your data and the smooth running of your studies, from site selection to close-out.",
+    "intro": "I am Mohamed Debbah, an independent Clinical Research Associate (CRA) based in France. I support sponsors, CROs and pharmaceutical companies in running their clinical trials across France and Europe, securing the quality of your data and the smooth running of your studies, from site selection to close-out.",
     "ctaPrimary": "Let's discuss your project",
     "ctaSecondary": "Explore my services",
     "ctaQuiz": "Take the quiz",
@@ -142,6 +142,28 @@
     "title": "The therapeutic areas I've worked in.",
     "intro": "From oncology to rare diseases, the clinical areas where I've monitored trials."
   },
+  "expertiseTech": {
+    "eyebrow": "Expertise & framework",
+    "title": "Full technical and regulatory command.",
+    "intro": "Beyond fieldwork, I master the trial phases, the industry tools and the French and EU regulatory framework that secure your studies.",
+    "blocks": {
+      "phases": {
+        "title": "Phase I to IV trials",
+        "body": "I work across the full development cycle: safety and pharmacokinetics studies (phase I), dose-finding and efficacy (phase II), pivotal multicenter trials (phase III) and post-marketing or observational studies (phase IV). I adapt monitoring intensity to the study's risk profile.",
+        "tags": "Phase I, Phase II, Phase III, Phase IV"
+      },
+      "tools": {
+        "title": "Clinical research tools & systems",
+        "body": "I work daily with the main industry systems (EDC / eCRF, CTMS, eTMF, IWRS / IRT) and adapt quickly to your tools and procedures.",
+        "tags": "Medidata Rave, Oracle Inform, Ennov Clinical, Veeva Vault, CTMS, eTMF, IWRS / IRT"
+      },
+      "regulatory": {
+        "title": "FR & EU regulatory framework",
+        "body": "I know the framework applicable to clinical research in France and Europe and ensure its strict application, from submission to close-out, protecting participants' rights and data integrity.",
+        "tags": "ICH-GCP E6, EU Regulation 536/2014, French law (Jardé), GDPR / CNIL, ANSM · CPP · CTIS"
+      }
+    }
+  },
   "sectors": {
     "eyebrow": "Sectors",
     "title": "The organisations I work with.",
@@ -172,7 +194,7 @@
   "prestations": {
     "eyebrow": "Deliverables",
     "title": "My Senior Freelance CRA services.",
-    "intro": "Concrete interventions, mobilised across your study's life cycle.",
+    "intro": "From feasibility to site close-out, concrete services you can mobilise at every stage of your study's life cycle.",
     "cta": "All my services",
     "contactCta": "Let's discuss your project",
     "groupVisits": "Site visits",
@@ -211,7 +233,7 @@
   "approach": {
     "eyebrow": "How I work",
     "title": "Four steps, no blind spots.",
-    "intro": "A clear collaboration, from initial scoping to follow-up of actions.",
+    "intro": "A clear, no-blind-spot collaboration, from the first no-commitment conversation to regular reporting and continuous improvement.",
     "steps": {
       "s1": {
         "num": "01",
@@ -406,7 +428,50 @@
       },
       "cost": {
         "q": "How much does a freelance CRA cost?",
-        "a": "A freelance CRA usually charges a daily rate. It depends on several factors: seniority and specialisation, the nature and duration of the assignment, therapeutic areas, geographic zones and the volume of visits. The freelance model avoids the fixed costs of hiring and scales to the real need. Feel free to contact me for a discussion tailored to your project."
+        "a": "A freelance CRA usually charges a daily rate. It depends on several factors: experience and specialisation, the nature and duration of the assignment, therapeutic areas, geographic zones and the volume of visits. The freelance model avoids the fixed costs of hiring and scales to the real need. My rate is confirmed in a tailored proposal, so feel free to contact me for a discussion tailored to your project."
+      },
+      "hire": {
+        "q": "How do I hire a freelance CRA in France?",
+        "a": "Share your study details (indication, phase, number of sites, timeline and location) with the CRA directly or through a specialist platform. After a short discussion and agreement on scope and rate, a service agreement is signed and the assignment can begin within days or weeks."
+      },
+      "intlCro": {
+        "q": "Can a freelance CRA work with international CROs?",
+        "a": "Yes. Freelance CRAs frequently work with European and global CROs as subcontractors, following the CRO's SOPs, systems and templates, and collaborating with global teams in English."
+      },
+      "remote": {
+        "q": "Can a freelance CRA conduct remote monitoring?",
+        "a": "Yes. Remote monitoring covers data review, query management, essential-document checks and communication with sites. Some activities, such as source data verification where remote access is not permitted and investigational product checks, still require on-site visits. A hybrid approach is often the most effective."
+      },
+      "trialTypes": {
+        "q": "What types of clinical trials can a freelance CRA support?",
+        "a": "A freelance CRA can support interventional drug trials from Phase I to IV, observational and post-marketing studies, and academic or industry-sponsored research, depending on their experience and training."
+      },
+      "craVsConsultant": {
+        "q": "What is the difference between a freelance CRA and a clinical trials consultant?",
+        "a": "A freelance CRA mainly performs monitoring activities at sites. A clinical trials consultant has a broader advisory role, covering strategy, process improvement, quality, risk management and operational coordination. I can provide both, depending on your needs."
+      },
+      "startTime": {
+        "q": "How quickly can a freelance CRA start a new project?",
+        "a": "Start time depends on availability, contracting and system access, but a freelance CRA can often begin within one to four weeks of agreement. For urgent needs, I can discuss priority start dates."
+      }
+    }
+  },
+  "metier": {
+    "eyebrow": "The CRA role",
+    "title": "Understanding the Clinical Research Associate's role.",
+    "intro": "To choose the right resource, here is what the CRA role covers and how it differs from neighbouring profiles.",
+    "blocks": {
+      "definition": {
+        "title": "Definition and role of the CRA",
+        "body": "A Clinical Research Associate (CRA), also called a clinical monitor, oversees the conduct of a clinical trial on behalf of the sponsor. They make sure participants' rights and safety are protected, that the data collected are reliable, and that the study complies with the protocol, GCP and applicable regulations."
+      },
+      "sponsorVsSite": {
+        "title": "Sponsor CRA or site CRA?",
+        "body": "The sponsor CRA (or CRO CRA) monitors sites on behalf of the sponsor. The site-based associate (study coordinator / CTA) works within the healthcare facility alongside the investigator, collecting data and organising enrolment. I work on the sponsor / CRO side."
+      },
+      "arcVsCpc": {
+        "title": "CRA or Clinical Project Manager?",
+        "body": "The CRA secures site monitoring and data quality: monitoring, compliance and documentation. The Clinical Project Manager leads the study as a whole: timelines, budget, risk and vendor coordination. If your priority is the field, a CRA is enough; to lead the entire study, a project manager is more suitable. I focus on the CRA side and can advise on the most relevant setup."
       }
     }
   },

@@ -14,7 +14,17 @@ const FR_ITEMS = [
   "obligations",
   "when",
 ] as const;
-const EN_ITEMS = ["what", "why", "cost"] as const;
+const EN_ITEMS = [
+  "what",
+  "why",
+  "cost",
+  "hire",
+  "intlCro",
+  "remote",
+  "trialTypes",
+  "craVsConsultant",
+  "startTime",
+] as const;
 
 export function Faq() {
   const t = useTranslations("faq");
