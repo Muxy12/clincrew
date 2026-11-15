@@ -582,6 +582,11 @@
     },
     "ogAlt": "Mohamed Debbah · Clinical Research Associate (CRA) freelance"
   },
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog"
+  },
   "languageSwitcher": {
     "label": "Language",
     "fr": "Français",

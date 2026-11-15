@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { getAllPosts, formatDate } from "@/lib/blog";
 
 export async function generateMetadata({
@@ -42,10 +43,20 @@ export default async function BlogIndexPage({
 
 function BlogIndex({ locale }: { locale: Locale }) {
   const t = useTranslations("blog");
+  const tb = useTranslations("breadcrumb");
   const posts = getAllPosts(locale);
 
   return (
     <section className="wrap scroll-mt-24 pb-24 pt-36 md:pb-32 md:pt-44">
+      <div className="mb-7">
+        <Breadcrumb
+          locale={locale}
+          items={[
+            { label: tb("home"), href: "/" },
+            { label: tb("blog"), href: "/blog" },
+          ]}
+        />
+      </div>
       <Reveal className="max-w-[760px]">
         <p className="eyebrow">{t("eyebrow")}</p>
         <h1 className="mt-5 font-heading text-[clamp(34px,5vw,64px)] leading-[1.12] tracking-tightest">

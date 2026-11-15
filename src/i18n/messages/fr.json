@@ -582,6 +582,11 @@
     },
     "ogAlt": "Mohamed Debbah · Attaché de Recherche Clinique (ARC / CRA) freelance"
   },
+  "breadcrumb": {
+    "home": "Accueil",
+    "services": "Prestations",
+    "blog": "Blog"
+  },
   "languageSwitcher": {
     "label": "Langue",
     "fr": "Français",

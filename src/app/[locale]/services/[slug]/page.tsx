@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import type { Locale } from "@/i18n/routing";
 import { getServicePage } from "@/lib/service-content";
 import { getAllServiceSlugs, servicePages } from "@/config/service-pages";
@@ -54,6 +55,7 @@ export default async function ServiceDetailPage({
 
   const t = await getTranslations({ locale, namespace: "servicePage" });
   const tp = await getTranslations({ locale, namespace: "prestations" });
+  const tb = await getTranslations({ locale, namespace: "breadcrumb" });
 
   const jsonLd = servicePageNode({
     locale: locale as Locale,
@@ -74,13 +76,14 @@ export default async function ServiceDetailPage({
 
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
-      <Link
-        href="/services"
-        className="inline-flex items-center gap-2 font-mono text-[12px] uppercase tracking-[0.14em] text-muted transition-colors hover:text-mint"
-      >
-        <ArrowLeft size={14} aria-hidden="true" />
-        {t("backToServices")}
-      </Link>
+      <Breadcrumb
+        locale={locale as Locale}
+        items={[
+          { label: tb("home"), href: "/" },
+          { label: tb("services"), href: "/services" },
+          { label: page.title, href: `/services/${slug}` },
+        ]}
+      />
 
       <header className="mt-8">
         <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-mint">

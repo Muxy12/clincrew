@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, ArrowUpRight, Clock } from "lucide-react";
+import { ArrowUpRight, Clock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import type { Locale } from "@/i18n/routing";
 import { getPost, getAllSlugs, formatDate } from "@/lib/blog";
 import { blogPostingNode } from "@/lib/schema";
@@ -61,6 +62,7 @@ export default async function BlogArticlePage({
   if (!post) notFound();
 
   const t = await getTranslations({ locale, namespace: "blog" });
+  const tb = await getTranslations({ locale, namespace: "breadcrumb" });
 
   const jsonLd = blogPostingNode({
     locale: locale as Locale,
@@ -73,13 +75,14 @@ export default async function BlogArticlePage({
 
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
-      <Link
-        href="/blog"
-        className="inline-flex items-center gap-2 font-mono text-[12px] uppercase tracking-[0.14em] text-muted transition-colors hover:text-mint"
-      >
-        <ArrowLeft size={14} aria-hidden="true" />
-        {t("backToList")}
-      </Link>
+      <Breadcrumb
+        locale={locale as Locale}
+        items={[
+          { label: tb("home"), href: "/" },
+          { label: tb("blog"), href: "/blog" },
+          { label: post.title, href: `/blog/${slug}` },
+        ]}
+      />
 
       <header className="mt-8">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] uppercase tracking-[0.12em] text-mint">

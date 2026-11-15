@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { servicePages } from "@/config/service-pages";
 
 const GROUPS = [
@@ -52,9 +53,19 @@ export default async function ServicesPage({
 function ServicesHub({ locale }: { locale: Locale }) {
   const t = useTranslations("prestations");
   const th = useTranslations("servicePage");
+  const tb = useTranslations("breadcrumb");
 
   return (
     <section className="wrap max-w-[960px] scroll-mt-24 pb-24 pt-36 md:pb-32 md:pt-44">
+      <div className="mb-7">
+        <Breadcrumb
+          locale={locale}
+          items={[
+            { label: tb("home"), href: "/" },
+            { label: tb("services"), href: "/services" },
+          ]}
+        />
+      </div>
       <Reveal>
         <p className="eyebrow">{t("eyebrow")}</p>
         <h1 className="mt-5 max-w-[820px] font-heading text-[clamp(32px,5vw,60px)] leading-[1.12] tracking-tightest">
