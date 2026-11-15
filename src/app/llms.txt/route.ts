@@ -16,12 +16,14 @@ export function GET() {
   const b = siteConfig.business;
 
   const lines = [
-    `# ${profile.name} · Senior Clinical Research Associate (CRA), freelance`,
+    `# ${profile.name} · Clinical Research Associate (CRA), freelance`,
     "",
-    `> Independent Senior/Lead Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for CROs, pharmaceutical companies, biotechs and academic sponsors: monitoring, GCP quality and operational coordination, from site selection to close-out. Website available in French and English.`,
+    `> Independent freelance Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for ${profile.clientTypes?.en ?? "sponsors and CROs"}: monitoring, GCP quality and operational coordination, from site selection to close-out. Website available in French and English.`,
     "",
     "## About",
-    `- Senior and Lead CRA, ${profile.yearsExperience ?? "several"} years of experience.`,
+    `- Freelance CRA with ${profile.yearsExperience ?? "several"} years of experience in clinical trial monitoring.`,
+    "- Certifications: ICH-GCP (up to date), clinical research training.",
+    "- Rate: on request (custom quote per assignment).",
     profile.award ? `- Distinction: ${profile.award.label.en} (${profile.award.url}).` : null,
     areas ? `- Therapeutic areas: ${areas}. Study phases: ${profile.phases?.en ?? "multiple"}.` : null,
     coverage ? `- Coverage: ${coverage}.` : null,

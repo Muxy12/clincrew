@@ -77,6 +77,13 @@ export function personNode(locale: Locale) {
     ...profile.therapeuticAreas.map((a) => a.en),
   ];
   if (topics.length) node.knowsAbout = topics;
+  if (profile.certifications.length) {
+    node.hasCredential = profile.certifications.map((c) => ({
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "certification",
+      name: c[locale],
+    }));
+  }
   if (profile.award) node.award = profile.award.label.en;
 
   return node;

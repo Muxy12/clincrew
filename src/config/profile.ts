@@ -179,7 +179,13 @@ export const profile: ProfileConfig = {
   ],
   languageCodes: ["fr", "en", "ar"],
   experience: [],
-  certifications: [],
+  certifications: [
+    {
+      fr: "ICH-GCP / Bonnes Pratiques Cliniques (à jour)",
+      en: "ICH-GCP / Good Clinical Practice (up to date)",
+    },
+    { fr: "Formation en recherche clinique", en: "Clinical research training" },
+  ],
 };
 
 /** True when at least one real contact channel is configured. */
