@@ -22,7 +22,7 @@ export function GET() {
     "",
     "## About",
     `- Freelance CRA with ${profile.yearsExperience ?? "several"} years of experience in clinical trial monitoring.`,
-    "- Certifications: ICH-GCP (up to date), clinical research training.",
+    "- Certifications: ICH-GCP (up to date); CRA training (RNCP level 7, De Vinci Executive Education, 2018).",
     "- Rate: on request (custom quote per assignment).",
     profile.award ? `- Distinction: ${profile.award.label.en} (${profile.award.url}).` : null,
     areas ? `- Therapeutic areas: ${areas}. Study phases: ${profile.phases?.en ?? "multiple"}.` : null,

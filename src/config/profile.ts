@@ -184,7 +184,10 @@ export const profile: ProfileConfig = {
       fr: "ICH-GCP / Bonnes Pratiques Cliniques (à jour)",
       en: "ICH-GCP / Good Clinical Practice (up to date)",
     },
-    { fr: "Formation en recherche clinique", en: "Clinical research training" },
+    {
+      fr: "Formation d'Attaché de Recherche Clinique (RNCP niveau 7), De Vinci Executive Education, 2018",
+      en: "Clinical Research Associate training (RNCP level 7), De Vinci Executive Education, 2018",
+    },
   ],
 };
 
