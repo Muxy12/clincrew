@@ -82,9 +82,17 @@ export function Hero() {
             {t("intro")}
           </motion.p>
 
+          <motion.p
+            variants={item}
+            className="mt-8 max-w-[560px] font-heading text-[clamp(20px,2.4vw,27px)] leading-[1.2] tracking-tighter2 text-cream"
+          >
+            {t("searchIntent")}
+            <span className="text-mint">.</span>
+          </motion.p>
+
           <motion.div
             variants={item}
-            className="mt-9 flex flex-wrap items-center gap-4"
+            className="mt-7 flex flex-wrap items-center gap-4"
           >
             <Link
               href="/#contact"
