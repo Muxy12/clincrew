@@ -10,9 +10,9 @@
  *   1. Add an entry here (slug, date, tags, FR/EN title + excerpt).
  *   2. Create the two Markdown files above with the article body.
  *
- * The starter posts below are GENERIC editorial drafts (no fabricated
- * credentials, employers, studies or client references). Review, edit or
- * replace them before publication — see PRELAUNCH.md.
+ * Posts are evergreen, informational guides grounded in standard ICH-GCP
+ * (ICH E6) practice — no fabricated credentials, employers, studies or client
+ * references. They form the informational cluster around the homepage pillar.
  */
 
 export interface BlogPostMeta {
@@ -117,89 +117,86 @@ export const blogPosts: ReadonlyArray<BlogPostMeta> = [
     },
   },
   {
-    slug: "role-cra-independant",
-    date: "2026-09-18",
-    updated: "2026-11-01",
-    tags: {
-      fr: ["Recherche clinique", "Collaboration"],
-      en: ["Clinical research", "Collaboration"],
-    },
-    translations: {
-      fr: {
-        title:
-          "Le rôle d'un CRA indépendant dans le bon déroulement d'un essai",
-        excerpt:
-          "Pourquoi un Attaché de Recherche Clinique freelance peut apporter souplesse et proximité aux équipes opérationnelles, sans rien céder à la rigueur.",
-      },
-      en: {
-        title:
-          "The role of an independent CRA in a well-run clinical trial",
-        excerpt:
-          "Why a freelance Clinical Research Associate can bring flexibility and proximity to operational teams, without compromising on rigor.",
-      },
-    },
-  },
-  {
-    slug: "qualite-donnees-monitoring",
-    date: "2026-10-06",
-    updated: "2026-11-01",
-    tags: {
-      fr: ["Monitoring", "Qualité"],
-      en: ["Monitoring", "Quality"],
-    },
-    translations: {
-      fr: {
-        title: "Qualité des données : ce que le monitoring sur site change",
-        excerpt:
-          "Le suivi des centres ne se résume pas à vérifier des cases. Retour sur ce qu'un monitoring attentif apporte à la fiabilité d'une étude.",
-      },
-      en: {
-        title: "Data quality: what on-site monitoring really changes",
-        excerpt:
-          "Site monitoring is more than ticking boxes. A look at what attentive monitoring brings to the reliability of a study.",
-      },
-    },
-  },
-  {
-    slug: "visites-monitoring-essai-clinique",
-    date: "2026-10-20",
-    updated: "2026-11-01",
+    slug: "monitoring-base-sur-les-risques",
+    date: "2026-11-15",
+    updated: "2026-11-15",
     tags: {
       fr: ["Monitoring", "BPC"],
       en: ["Monitoring", "GCP"],
     },
     translations: {
       fr: {
-        title:
-          "Les visites de monitoring d'un essai clinique : à quoi servent-elles ?",
+        title: "Le monitoring basé sur les risques (RBM) : ce qu'il change",
         excerpt:
-          "Sélection, initiation, suivi, clôture : le rôle de chaque visite de monitoring et ce que le monitoring basé sur les risques (ICH E6) a changé.",
+          "Comment le monitoring basé sur les risques (ICH E6 R2/R3) recentre le suivi sur les données et les processus critiques d'un essai clinique.",
       },
       en: {
-        title: "Clinical trial monitoring visits: what are they for?",
+        title: "Risk-based monitoring (RBM): what it changes",
         excerpt:
-          "Selection, initiation, routine, close-out: the role of each monitoring visit and what risk-based monitoring (ICH E6) changed.",
+          "How risk-based monitoring (ICH E6 R2/R3) refocuses oversight on the critical data and processes of a clinical trial.",
       },
     },
   },
   {
-    slug: "cadrer-mission-cra-freelance",
-    date: "2026-10-28",
-    updated: "2026-11-01",
+    slug: "monitoring-a-distance",
+    date: "2026-11-15",
+    updated: "2026-11-15",
     tags: {
-      fr: ["CRA freelance", "Collaboration"],
-      en: ["Freelance CRA", "Collaboration"],
+      fr: ["Monitoring", "Remote"],
+      en: ["Monitoring", "Remote"],
     },
     translations: {
       fr: {
-        title: "CRA freelance : comment bien cadrer une mission",
+        title: "Le monitoring à distance : possibilités et limites",
         excerpt:
-          "Périmètre, livrables, accès et responsabilités BPC : les points à clarifier pour qu'une mission de CRA freelance démarre sans friction.",
+          "Ce que le remote monitoring permet (revue des données, queries, suivi du TMF) et pourquoi certaines vérifications restent sur site.",
       },
       en: {
-        title: "Freelance CRA: how to scope an assignment well",
+        title: "Remote monitoring: what it can and can't do",
         excerpt:
-          "Scope, deliverables, access and GCP responsibilities: what to clarify so a freelance CRA assignment starts without friction.",
+          "What remote monitoring covers (data review, queries, TMF follow-up) and why some checks still require on-site visits.",
+      },
+    },
+  },
+  {
+    slug: "preparer-audit-inspection",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["Audit", "Conformité"],
+      en: ["Audit", "Compliance"],
+    },
+    translations: {
+      fr: {
+        title: "Préparer un audit ou une inspection clinique (ANSM, EMA, FDA)",
+        excerpt:
+          "Les réflexes pour garder un centre prêt à tout moment : documentation, données source, déviations et plans d'action.",
+      },
+      en: {
+        title: "Preparing for a clinical audit or inspection (ANSM, EMA, FDA)",
+        excerpt:
+          "The habits that keep a site inspection-ready: documentation, source data, deviations and action plans.",
+      },
+    },
+  },
+  {
+    slug: "qualite-donnees-sdv",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["Qualité", "Données"],
+      en: ["Quality", "Data"],
+    },
+    translations: {
+      fr: {
+        title: "Qualité des données : SDV, SDR et gestion des queries",
+        excerpt:
+          "Comment la vérification des données source (SDV/SDR) et le traitement des queries protègent l'intégrité des données d'un essai clinique.",
+      },
+      en: {
+        title: "Data quality: SDV, SDR and query management",
+        excerpt:
+          "How source data verification (SDV/SDR) and query handling protect the integrity of a clinical trial's data.",
       },
     },
   },
