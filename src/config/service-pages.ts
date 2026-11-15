@@ -54,7 +54,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Évaluer, avant toute ouverture, la capacité réelle d'un centre investigateur à mener votre étude.",
         metaTitle: "Visite de sélection d'un centre investigateur | CRA freelance",
         metaDescription:
-          "La visite de sélection (SV) évalue l'équipe, la patientèle, les moyens et la conformité d'un centre avant son ouverture. Déroulé et livrables, par un CRA freelance senior.",
+          "La visite de sélection (SV) évalue l'équipe, la patientèle, les moyens et la conformité d'un centre avant son ouverture. Déroulé et livrables, par un ARC / CRA freelance.",
       },
       en: {
         title: "Site selection visit",
@@ -62,7 +62,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Assessing, before any activation, a site's real ability to run your study.",
         metaTitle: "Site selection visit (SSV) | Freelance CRA",
         metaDescription:
-          "A site selection visit (SSV) assesses the team, patient pool, resources and compliance of a site before activation. Process and deliverables, by a senior freelance CRA.",
+          "A site selection visit (SSV) assesses the team, patient pool, resources and compliance of a site before activation. Process and deliverables, by a freelance CRA.",
       },
     },
   },
@@ -77,7 +77,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Former l'équipe au protocole et vérifier que le centre est prêt à inclure, dans les règles.",
         metaTitle: "Visite d'initiation (SIV) d'un essai clinique | CRA freelance",
         metaDescription:
-          "La visite d'initiation (SIV) forme l'équipe investigatrice au protocole et aux procédures, et confirme que le centre peut démarrer les inclusions. Déroulé, par un CRA freelance senior.",
+          "La visite d'initiation (SIV) forme l'équipe investigatrice au protocole et aux procédures, et confirme que le centre peut démarrer les inclusions. Déroulé, par un ARC / CRA freelance.",
       },
       en: {
         title: "Site initiation visit",
@@ -85,7 +85,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Training the team on the protocol and confirming the site is ready to enrol, by the book.",
         metaTitle: "Site initiation visit (SIV) | Freelance CRA",
         metaDescription:
-          "A site initiation visit (SIV) trains the investigator team on the protocol and procedures, and confirms the site can start enrolment. Process, by a senior freelance CRA.",
+          "A site initiation visit (SIV) trains the investigator team on the protocol and procedures, and confirms the site can start enrolment. Process, by a freelance CRA.",
       },
     },
   },
@@ -100,7 +100,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Protéger la sécurité des patients et la fiabilité des données tout au long de l'étude.",
         metaTitle: "Visites de monitoring (IMV) d'un essai clinique | CRA freelance",
         metaDescription:
-          "Les visites de monitoring (IMV) contrôlent la sécurité des patients, la conformité au protocole et la qualité des données. Monitoring basé sur les risques (ICH E6), par un CRA freelance senior.",
+          "Les visites de monitoring (IMV) contrôlent la sécurité des patients, la conformité au protocole et la qualité des données. Monitoring basé sur les risques (ICH E6), par un ARC / CRA freelance.",
       },
       en: {
         title: "Monitoring visits",
@@ -108,7 +108,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Protecting patient safety and data reliability throughout the study.",
         metaTitle: "Interim monitoring visits (IMV) | Freelance CRA",
         metaDescription:
-          "Interim monitoring visits (IMV) verify patient safety, protocol compliance and data quality. Risk-based monitoring (ICH E6), by a senior freelance CRA.",
+          "Interim monitoring visits (IMV) verify patient safety, protocol compliance and data quality. Risk-based monitoring (ICH E6), by a freelance CRA.",
       },
     },
   },
@@ -123,7 +123,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Clôturer un centre proprement : données résolues, documentation complète, archivage prêt.",
         metaTitle: "Visite de clôture (COV) d'un centre investigateur | CRA freelance",
         metaDescription:
-          "La visite de clôture (COV) confirme que les données sont résolues, le TMF complet et l'archivage organisé avant la fermeture d'un centre. Déroulé, par un CRA freelance senior.",
+          "La visite de clôture (COV) confirme que les données sont résolues, le TMF complet et l'archivage organisé avant la fermeture d'un centre. Déroulé, par un ARC / CRA freelance.",
       },
       en: {
         title: "Close-out visit",
@@ -131,7 +131,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Closing a site cleanly: data resolved, documentation complete, archiving ready.",
         metaTitle: "Site close-out visit (COV) | Freelance CRA",
         metaDescription:
-          "A close-out visit (COV) confirms data are resolved, the TMF is complete and archiving is organised before a site is closed. Process, by a senior freelance CRA.",
+          "A close-out visit (COV) confirms data are resolved, the TMF is complete and archiving is organised before a site is closed. Process, by a freelance CRA.",
       },
     },
   },
@@ -146,7 +146,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Entre deux visites, garder chaque centre actif, à jour et sans point bloquant.",
         metaTitle: "Suivi des centres investigateurs | CRA freelance",
         metaDescription:
-          "Le suivi des centres investigateurs maintient le contact entre les visites : relances, résolution des écarts, suivi des actions et des recrutements. Par un CRA freelance senior.",
+          "Le suivi des centres investigateurs maintient le contact entre les visites : relances, résolution des écarts, suivi des actions et des recrutements. Par un ARC / CRA freelance.",
       },
       en: {
         title: "Investigator site management",
@@ -154,7 +154,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Between visits, keeping every site active, up to date and unblocked.",
         metaTitle: "Investigator site management | Freelance CRA",
         metaDescription:
-          "Investigator site management keeps sites moving between visits: follow-ups, deviation resolution, action tracking and recruitment support. By a senior freelance CRA.",
+          "Investigator site management keeps sites moving between visits: follow-ups, deviation resolution, action tracking and recruitment support. By a freelance CRA.",
       },
     },
   },
@@ -169,7 +169,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Un TMF et des classeurs centre toujours prêts pour un audit ou une inspection.",
         metaTitle: "Contrôle de la documentation clinique (TMF / ISF) | CRA freelance",
         metaDescription:
-          "Le contrôle de la documentation clinique garde le TMF et le classeur investigateur (ISF) complets, à jour et traçables, prêts pour une inspection. Par un CRA freelance senior.",
+          "Le contrôle de la documentation clinique garde le TMF et le classeur investigateur (ISF) complets, à jour et traçables, prêts pour une inspection. Par un ARC / CRA freelance.",
       },
       en: {
         title: "Clinical documentation control",
@@ -177,7 +177,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "A TMF and site files that stay audit- and inspection-ready at all times.",
         metaTitle: "Clinical documentation & TMF control | Freelance CRA",
         metaDescription:
-          "Clinical documentation control keeps the TMF and investigator site file (ISF) complete, current and traceable, ready for inspection. By a senior freelance CRA.",
+          "Clinical documentation control keeps the TMF and investigator site file (ISF) complete, current and traceable, ready for inspection. By a freelance CRA.",
       },
     },
   },
@@ -192,7 +192,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Un renfort opérationnel flexible pour absorber un pic de charge ou combler un manque.",
         metaTitle: "Support aux opérations cliniques | CRA freelance",
         metaDescription:
-          "Un support aux opérations cliniques flexible : renfort de monitoring, coordination, reprise de centres ou appui ponctuel sur une étude. Par un CRA freelance senior.",
+          "Un support aux opérations cliniques flexible : renfort de monitoring, coordination, reprise de centres ou appui ponctuel sur une étude. Par un ARC / CRA freelance.",
       },
       en: {
         title: "Clinical operations support",
@@ -200,7 +200,7 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
           "Flexible operational backup to absorb a workload peak or fill a gap.",
         metaTitle: "Clinical operations support | Freelance CRA",
         metaDescription:
-          "Flexible clinical operations support: monitoring overflow, coordination, site hand-overs or ad-hoc study backup. By a senior freelance CRA.",
+          "Flexible clinical operations support: monitoring overflow, coordination, site hand-overs or ad-hoc study backup. By a freelance CRA.",
       },
     },
   },

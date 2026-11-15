@@ -20,7 +20,7 @@
     "headlineLine2": "Clinique",
     "headlineEmphasis": "Freelance",
     "lead": "Monitoring et accompagnement opérationnel de vos essais cliniques, avec la rigueur BPC/GCP et la réactivité d'un consultant indépendant.",
-    "intro": "Je suis Mohamed Debbah, Attaché de Recherche Clinique (ARC / CRA) indépendant basé en France. J'accompagne les promoteurs, les CRO et les laboratoires pharmaceutiques dans la conduite de leurs essais cliniques, en France et en Europe, pour sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
+    "intro": "Je suis Mohamed Debbah, Attaché de Recherche Clinique (ARC / CRA) indépendant basé en France. J'accompagne les promoteurs, les CRO et les laboratoires pharmaceutiques dans la conduite de leurs essais cliniques, en France et en Europe. Mon rôle : sécuriser la qualité de vos données et le bon déroulement de vos études, de la sélection des centres à la clôture.",
     "ctaPrimary": "Discutons de votre projet",
     "ctaSecondary": "Découvrir mes prestations",
     "ctaQuiz": "Faire le quiz",
@@ -193,7 +193,7 @@
   },
   "prestations": {
     "eyebrow": "Prestations",
-    "title": "Mes services de Senior CRA Freelance.",
+    "title": "Mes prestations d'ARC / CRA freelance.",
     "intro": "De la faisabilité à la clôture des centres, des interventions concrètes et mobilisables à chaque étape du cycle de vie de votre étude.",
     "cta": "Toutes mes prestations",
     "contactCta": "Discutons de votre projet",
@@ -233,7 +233,7 @@
   "approach": {
     "eyebrow": "Méthode de travail",
     "title": "Quatre étapes, aucun angle mort.",
-    "intro": "Une collaboration claire et sans angle mort, du premier échange sans engagement jusqu'au reporting régulier et à l'amélioration continue.",
+    "intro": "Une collaboration claire et sans angle mort. Du premier échange, sans engagement, jusqu'au reporting régulier et à l'amélioration continue.",
     "steps": {
       "s1": {
         "num": "01",
@@ -293,7 +293,7 @@
     "journeyCta": "Découvrir mon parcours",
     "contactCta": "Discutons de votre projet",
     "linkedinCta": "Profil LinkedIn",
-    "portraitAlt": "Portrait professionnel de Mohamed Debbah",
+    "portraitAlt": "Mohamed Debbah, Attaché de Recherche Clinique (ARC / CRA) freelance",
     "portraitPlaceholder": "Portrait à venir",
     "details": {
       "therapeuticAreas": "Domaines thérapeutiques",
@@ -381,7 +381,7 @@
   "comparison": {
     "eyebrow": "Freelance vs salarié",
     "title": "CRA freelance ou CRA salarié ?",
-    "intro": "Deux modèles complémentaires. Le freelance s'impose quand le besoin est ponctuel, en renfort, ou doit s'ajuster rapidement.",
+    "intro": "Deux modèles complémentaires. En pratique, le freelance s'impose quand le besoin est ponctuel : un renfort, ou une capacité qui doit s'ajuster rapidement.",
     "colCriterion": "Critère",
     "colFreelance": "CRA freelance",
     "colEmployed": "CRA salarié",
@@ -555,7 +555,7 @@
   "metadata": {
     "home": {
       "title": "Attaché de Recherche Clinique Freelance (ARC / CRA) · France",
-      "description": "ARC / CRA freelance en France et en Europe : monitoring d'essais cliniques (phases I à IV), qualité des données et conformité BPC / ICH-GCP. Devis sous 24 à 48 h.",
+      "description": "ARC / CRA freelance, France et Europe : monitoring d'essais cliniques (phases I à IV), qualité des données, conformité BPC / ICH-GCP. Réponse sous 48 h.",
       "keywords": "attaché de recherche clinique freelance, ARC freelance, CRA freelance, ARC indépendant, monitoring clinique freelance, consultant recherche clinique"
     },
     "legal": {
