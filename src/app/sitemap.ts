@@ -3,11 +3,13 @@ import { siteConfig } from "@/config/site";
 import { routing } from "@/i18n/routing";
 import { blogPosts } from "@/config/blog";
 import { servicePages } from "@/config/service-pages";
+import { solutionPages } from "@/config/solution-pages";
 
 const STATIC_PATHS = [
   "",
   "/about",
   "/services",
+  "/solutions",
   "/blog",
   "/legal",
   "/privacy",
@@ -17,7 +19,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const blogPaths = blogPosts.map((p) => `/blog/${p.slug}`);
   const servicePaths = servicePages.map((s) => `/services/${s.slug}`);
-  const allPaths = [...STATIC_PATHS, ...servicePaths, ...blogPaths];
+  const solutionPaths = solutionPages.map((s) => `/solutions/${s.slug}`);
+  const allPaths = [
+    ...STATIC_PATHS,
+    ...servicePaths,
+    ...solutionPaths,
+    ...blogPaths,
+  ];
 
   return allPaths.flatMap((path) =>
     routing.locales.map((locale) => ({

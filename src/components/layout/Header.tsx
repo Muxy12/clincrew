@@ -11,6 +11,7 @@ import { profile } from "@/config/profile";
 const NAV_ITEMS = [
   { key: "expertise", href: "/#expertise" },
   { key: "prestations", href: "/services" },
+  { key: "solutions", href: "/solutions" },
   { key: "quiz", href: "/#quiz" },
   { key: "about", href: "/#about" },
   { key: "faq", href: "/#faq" },

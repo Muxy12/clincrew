@@ -12,7 +12,8 @@
     "cta": "Let's discuss your project",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "solutions": "Solutions"
   },
   "hero": {
     "eyebrow": "CRA · Clinical research",
@@ -581,13 +582,18 @@
       "title": "Clinical monitoring & freelance CRA",
       "description": "Clinical monitoring by a freelance CRA for CROs, biotechs and sponsors: SSV, SIV, IMV, COV visits, outsourced and remote monitoring. Request a quote."
     },
-    "ogAlt": "Mohamed Debbah · Clinical Research Associate (CRA) freelance"
+    "ogAlt": "Mohamed Debbah · Clinical Research Associate (CRA) freelance",
+    "solutions": {
+      "title": "Monitoring solutions for CROs & biotech",
+      "description": "ClinCrew solutions for CROs, biotechs and sponsors: freelance CRA backup, outsourced monitoring and operational support for your clinical studies."
+    }
   },
   "breadcrumb": {
     "home": "Home",
     "services": "Services",
     "blog": "Blog",
-    "about": "About"
+    "about": "About",
+    "solutions": "Solutions"
   },
   "languageSwitcher": {
     "label": "Language",
@@ -611,8 +617,14 @@
     "heroTitle": "Clinical monitoring and freelance CRA services",
     "heroIntro": "Independent clinical monitoring services, delivered by a freelance Clinical Research Associate (CRA), for CROs, pharmaceutical companies and biotechs. From site selection to close-out, I handle the operational follow-up of your trials: selection, initiation, monitoring and close-out visits, on-site or remote, as occasional backup or for the full duration of the study, in line with the applicable procedures and Good Clinical Practice. Coverage: France and French-speaking Europe.",
     "photos": [
-      { "alt": "On-site monitoring of a clinical trial", "hint": "Photo 1 · to add" },
-      { "alt": "Review of clinical study documentation", "hint": "Photo 2 · to add" }
+      {
+        "alt": "On-site monitoring of a clinical trial",
+        "hint": "Photo 1 · to add"
+      },
+      {
+        "alt": "Review of clinical study documentation",
+        "hint": "Photo 2 · to add"
+      }
     ],
     "offerTitle": "Services adapted to every stage of your clinical study",
     "offerP1": "Clinical monitoring ensures a trial is conducted in line with the protocol, the procedures and the regulations. The Clinical Research Associate (CRA) is the operational link with investigator sites: safeguarding participants, ensuring the quality and completeness of data, protocol compliance and the regular follow-up of each site.",
@@ -693,5 +705,97 @@
     "finalTitle": "Looking for a freelance CRA for your clinical study?",
     "finalBody": "Tell me about your project so we can assess together the services that fit your needs and the terms of a collaboration.",
     "finalButton": "Let's discuss your project"
+  },
+  "solutionPage": {
+    "eyebrow": "Solution",
+    "relatedTitle": "Other solutions",
+    "detailCta": "Learn more",
+    "ctaTitle": "A need to scope?",
+    "ctaText": "Tell me about your project: I reply within 24–48 h to define the scope.",
+    "ctaButton": "Let's discuss your need"
+  },
+  "solutionsHub": {
+    "eyebrow": "Solutions · Clinical monitoring",
+    "heroTitle": "Clinical monitoring solutions for CROs, biotechs and sponsors",
+    "heroIntro": "Clinical monitoring solutions adapted to your operational challenges: occasional backup for your CRA teams, outsourced monitoring or support for your studies. I provide CROs, biotechs, pharmaceutical companies and sponsors with freelance Clinical Research Associate expertise, mobilised according to the scope and duration your study needs.",
+    "situationsTitle": "Facing a resourcing or monitoring need?",
+    "situationsIntro": "Monitoring needs vary with the state of your study and your teams. Here are the situations my solutions answer.",
+    "situations": [
+      {
+        "title": "Monitoring overload",
+        "body": "Sites to follow and insufficient CRA capacity: visits pile up, data-review timelines stretch. Targeted backup rebalances the workload without disrupting your organisation."
+      },
+      {
+        "title": "Fast backup needed",
+        "body": "An extra resource for a defined period, from a few visits to several months. Scope and duration are set from the start."
+      },
+      {
+        "title": "Study start-up",
+        "body": "Sites to select, initiate and support up to the first enrolments. An external CRA takes on these set-up activities, alone or alongside your project team."
+      },
+      {
+        "title": "Operational continuity",
+        "body": "A change of resources, an absence or a departure should not interrupt site follow-up. A freelance CRA takes over the sites concerned and maintains monitoring according to the study plan."
+      }
+    ],
+    "cardsTitle": "My solutions for your clinical operations",
+    "cardsIntro": "Each solution answers a specific situation. Choose the one that matches your organisation.",
+    "methodTitle": "A collaboration adapted to your organisation",
+    "methodSteps": [
+      {
+        "title": "Needs assessment",
+        "body": "We scope together the perimeter, the number and location of sites, the clinical phase, the anticipated workload and the timeline."
+      },
+      {
+        "title": "Scoping the assignment",
+        "body": "We formalise each party's responsibilities, the expected deliverables, the applicable procedures and the terms of involvement."
+      },
+      {
+        "title": "Operational integration",
+        "body": "I coordinate with your project team and the investigator sites, within your tools and communication channels."
+      },
+      {
+        "title": "Assignment follow-up",
+        "body": "Reports, open items and regular exchanges keep the assignment on track and adjust the scope if needed."
+      }
+    ],
+    "whyTitle": "Why choose me for your monitoring needs",
+    "whyIntro": "Backup is only useful if it is operational quickly and reliable over time. Here is what I can demonstrate.",
+    "whyExperienceLabel": "Monitoring experience",
+    "whyExperienceValue": "{years} years of experience in clinical research, including the monitoring of trials in France.",
+    "whyScopeLabel": "Phases & therapeutic areas",
+    "whyCoverageLabel": "Coverage",
+    "whyTrainingLabel": "Regulatory framework",
+    "faqTitle": "Frequently asked questions about my solutions",
+    "faq": [
+      {
+        "q": "How can I reinforce a CRA team without hiring an employee?",
+        "a": "By calling on a freelance CRA for a defined assignment: scope, sites, duration and deliverables are set from the start. You get extra monitoring capacity for as long as needed, without a hiring commitment or scaling a permanent team."
+      },
+      {
+        "q": "Can a CRO call on a freelance CRA for a one-off assignment?",
+        "a": "Yes. A CRO can entrust a freelance CRA with a few visits, a batch of sites or a defined project, for example to absorb a workload peak. The CRA works to the CRO's procedures and reports in the format it specifies."
+      },
+      {
+        "q": "Can a biotech outsource part of its clinical monitoring?",
+        "a": "Yes. A biotech can outsource all or part of the monitoring: site selection and initiation, follow-up visits, close-out or remote monitoring. The scope is defined with you before the start, and the biotech keeps responsibility for its study strategy."
+      },
+      {
+        "q": "How is the hand-over of an ongoing study's monitoring organised?",
+        "a": "The hand-over starts with a review of what exists: sites concerned, latest visit reports, open items, documentation and timeline. I then arrange contact with each site and continue the follow-up according to the study's monitoring plan."
+      },
+      {
+        "q": "How are an external CRA's responsibilities defined?",
+        "a": "They are formalised before the assignment starts: activities entrusted, system access, applicable procedures, deliverables, communication channels and reporting frequency. The sponsor keeps oversight of the study and the delegated activities."
+      },
+      {
+        "q": "How do I get a quote for a monitoring assignment?",
+        "a": "Share your project via the form: study, phase, number of sites concerned, preferred period and type of need. I then assess the scope with you and prepare a quote suited to the assignment."
+      }
+    ],
+    "resourcesTitle": "Resources to go further",
+    "finalTitle": "A need for CRA backup or outsourced monitoring?",
+    "finalBody": "Tell me about your project to explore the terms of a collaboration adapted to your clinical operations.",
+    "finalButton": "Let's discuss your need"
   }
 }

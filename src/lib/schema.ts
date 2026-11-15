@@ -97,14 +97,15 @@ export function siteGraph(locale: Locale) {
   };
 }
 
-/** Service node for a service detail page, linked to the Organization by @id. */
+/** Service node for a service/solution detail page, linked to the Org by @id. */
 export function servicePageNode(params: {
   locale: Locale;
   slug: string;
   name: string;
   description: string;
+  section?: "services" | "solutions";
 }) {
-  const { locale, slug, name, description } = params;
+  const { locale, slug, name, description, section = "services" } = params;
   const b = siteConfig.business;
   return {
     "@context": "https://schema.org",
@@ -112,7 +113,7 @@ export function servicePageNode(params: {
     name,
     description,
     serviceType: name,
-    url: `${siteConfig.url}/${locale}/services/${slug}`,
+    url: `${siteConfig.url}/${locale}/${section}/${slug}`,
     provider: {
       "@type": "ProfessionalService",
       "@id": ORG_ID,

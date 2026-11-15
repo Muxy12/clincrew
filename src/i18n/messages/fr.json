@@ -12,7 +12,8 @@
     "cta": "Discutons de votre projet",
     "menuOpen": "Ouvrir le menu",
     "menuClose": "Fermer le menu",
-    "skipToContent": "Aller au contenu principal"
+    "skipToContent": "Aller au contenu principal",
+    "solutions": "Solutions"
   },
   "hero": {
     "eyebrow": "CRA · Recherche clinique",
@@ -581,13 +582,18 @@
       "title": "Monitoring clinique & CRA freelance",
       "description": "Monitoring clinique par un ARC / CRA freelance pour CRO, biotechs et promoteurs : visites PSV, SIV, IMV, COV et monitoring à distance. Devis sur demande."
     },
-    "ogAlt": "Mohamed Debbah · Attaché de Recherche Clinique (ARC / CRA) freelance"
+    "ogAlt": "Mohamed Debbah · Attaché de Recherche Clinique (ARC / CRA) freelance",
+    "solutions": {
+      "title": "Solutions de monitoring pour CRO & biotech",
+      "description": "Solutions ClinCrew pour CRO, biotechs et promoteurs : renfort CRA freelance, monitoring externalisé et accompagnement opérationnel de vos études cliniques."
+    }
   },
   "breadcrumb": {
     "home": "Accueil",
     "services": "Prestations",
     "blog": "Blog",
-    "about": "À propos"
+    "about": "À propos",
+    "solutions": "Solutions"
   },
   "languageSwitcher": {
     "label": "Langue",
@@ -611,8 +617,14 @@
     "heroTitle": "Services de monitoring clinique et CRA freelance",
     "heroIntro": "Des prestations indépendantes de monitoring clinique, réalisées par un Attaché de Recherche Clinique (CRA) freelance, pour les CRO, les laboratoires pharmaceutiques et les biotechs. De la sélection des centres à leur clôture, j'assure le suivi opérationnel de vos essais : visites de sélection, d'initiation, de monitoring et de clôture, sur site ou à distance, en renfort ponctuel ou sur toute la durée de l'étude, dans le respect des procédures applicables et des Bonnes Pratiques Cliniques. Zone d'intervention : France et Europe francophone.",
     "photos": [
-      { "alt": "Monitoring sur site d'un essai clinique", "hint": "Photo 1 · à ajouter" },
-      { "alt": "Revue de la documentation d'une étude clinique", "hint": "Photo 2 · à ajouter" }
+      {
+        "alt": "Monitoring sur site d'un essai clinique",
+        "hint": "Photo 1 · à ajouter"
+      },
+      {
+        "alt": "Revue de la documentation d'une étude clinique",
+        "hint": "Photo 2 · à ajouter"
+      }
     ],
     "offerTitle": "Des prestations adaptées à chaque étape de votre étude clinique",
     "offerP1": "Le monitoring clinique garantit qu'un essai est conduit conformément au protocole, aux procédures et à la réglementation. Le Clinical Research Associate (CRA), ou Attaché de Recherche Clinique, en est le relais opérationnel auprès des centres investigateurs : il veille à la protection des participants, à la qualité et à l'exhaustivité des données, au respect du protocole et au suivi régulier de chaque centre.",
@@ -693,5 +705,97 @@
     "finalTitle": "Vous recherchez un CRA freelance pour votre étude clinique ?",
     "finalBody": "Présentez-moi votre projet pour évaluer ensemble les prestations adaptées à vos besoins et les modalités d'une collaboration.",
     "finalButton": "Discutons de votre projet"
+  },
+  "solutionPage": {
+    "eyebrow": "Solution",
+    "relatedTitle": "Autres solutions",
+    "detailCta": "En savoir plus",
+    "ctaTitle": "Un besoin à cadrer ?",
+    "ctaText": "Présentez-moi votre projet : je reviens vers vous sous 24–48 h pour en définir le périmètre.",
+    "ctaButton": "Discuter de votre besoin"
+  },
+  "solutionsHub": {
+    "eyebrow": "Solutions · Monitoring clinique",
+    "heroTitle": "Solutions de monitoring clinique pour CRO, biotechs et promoteurs",
+    "heroIntro": "Des solutions de monitoring clinique adaptées à vos enjeux opérationnels : renfort ponctuel de vos équipes CRA, externalisation du monitoring ou accompagnement de vos études. Je mets à disposition des CRO, biotechs, laboratoires pharmaceutiques et promoteurs une expertise d'Attaché de Recherche Clinique freelance, mobilisable selon le périmètre et la durée dont votre étude a besoin.",
+    "situationsTitle": "Vous faites face à un besoin de ressources ou de monitoring ?",
+    "situationsIntro": "Les besoins de monitoring varient selon l'état de votre étude et de vos équipes. Voici les situations auxquelles répondent mes solutions.",
+    "situations": [
+      {
+        "title": "Surcharge de monitoring",
+        "body": "Des centres à suivre et une capacité CRA insuffisante : les visites s'accumulent, les délais de revue de données s'allongent. Un renfort ciblé rééquilibre la charge sans remettre en cause votre organisation."
+      },
+      {
+        "title": "Besoin de renfort rapide",
+        "body": "Une ressource supplémentaire pour une période définie, de quelques visites à plusieurs mois de mission. Le périmètre et la durée sont fixés dès le départ."
+      },
+      {
+        "title": "Démarrage d'une étude",
+        "body": "Des centres à sélectionner, initier et accompagner jusqu'aux premières inclusions. Un CRA externe prend en charge ces activités de mise en place, seul ou en appui de votre équipe projet."
+      },
+      {
+        "title": "Continuité opérationnelle",
+        "body": "Un changement de ressources, une absence ou un départ ne doit pas interrompre le suivi des centres. Un CRA freelance reprend les centres concernés et maintient le monitoring selon le plan de l'étude."
+      }
+    ],
+    "cardsTitle": "Mes solutions pour vos opérations cliniques",
+    "cardsIntro": "Chaque solution répond à une situation précise. Choisissez celle qui correspond à votre organisation.",
+    "methodTitle": "Une collaboration adaptée à votre organisation",
+    "methodSteps": [
+      {
+        "title": "Évaluation du besoin",
+        "body": "Nous cadrons ensemble le périmètre, le nombre et la localisation des centres, la phase clinique, la charge prévisionnelle et le calendrier."
+      },
+      {
+        "title": "Définition de la mission",
+        "body": "Nous formalisons les responsabilités de chacun, les livrables attendus, les procédures applicables et les modalités d'intervention."
+      },
+      {
+        "title": "Intégration opérationnelle",
+        "body": "Je me coordonne avec votre équipe projet et avec les centres investigateurs, dans vos outils et selon vos circuits de communication."
+      },
+      {
+        "title": "Suivi de la prestation",
+        "body": "Rapports, points ouverts et échanges réguliers permettent de piloter la mission et d'ajuster le périmètre si nécessaire."
+      }
+    ],
+    "whyTitle": "Pourquoi me choisir pour vos besoins de monitoring",
+    "whyIntro": "Un renfort n'est utile que s'il est opérationnel rapidement et fiable dans la durée. Voici ce que je peux démontrer.",
+    "whyExperienceLabel": "Expérience de monitoring",
+    "whyExperienceValue": "{years} ans d'expérience en recherche clinique, dont le monitoring d'essais en France.",
+    "whyScopeLabel": "Phases & aires thérapeutiques",
+    "whyCoverageLabel": "Zones couvertes",
+    "whyTrainingLabel": "Cadre réglementaire",
+    "faqTitle": "Questions fréquentes sur mes solutions",
+    "faq": [
+      {
+        "q": "Comment renforcer une équipe CRA sans recruter un salarié ?",
+        "a": "En faisant appel à un CRA freelance sur une mission définie : périmètre, centres, durée et livrables sont fixés au départ. Vous obtenez une capacité de monitoring supplémentaire le temps nécessaire, sans engagement d'embauche ni montée en charge d'une équipe permanente."
+      },
+      {
+        "q": "Une CRO peut-elle faire appel à un CRA freelance pour une mission ponctuelle ?",
+        "a": "Oui. Une CRO peut confier à un CRA freelance quelques visites, un lot de centres ou un projet défini, par exemple pour absorber un pic de charge. Le CRA travaille selon les procédures de la CRO et rend compte dans le format qu'elle indique."
+      },
+      {
+        "q": "Une biotech peut-elle externaliser une partie de son monitoring clinique ?",
+        "a": "Oui. Une biotech peut externaliser tout ou partie du monitoring : sélection et initiation des centres, visites de suivi, clôture ou monitoring à distance. Le périmètre est défini avec vous avant le démarrage, et la biotech conserve la responsabilité de sa stratégie d'étude."
+      },
+      {
+        "q": "Comment organiser la reprise du monitoring d'une étude en cours ?",
+        "a": "La reprise commence par l'analyse de l'existant : centres concernés, derniers rapports de visite, points ouverts, documentation et calendrier. J'organise ensuite une prise de contact avec chaque centre et je poursuis le suivi selon le plan de monitoring de l'étude."
+      },
+      {
+        "q": "Comment définir les responsabilités d'un CRA externe ?",
+        "a": "Elles sont formalisées avant le début de la mission : activités confiées, accès aux systèmes, procédures applicables, livrables, circuits de communication et fréquence de reporting. Le promoteur conserve la supervision de l'étude et des activités déléguées."
+      },
+      {
+        "q": "Comment obtenir un devis pour une mission de monitoring ?",
+        "a": "Présentez votre projet via le formulaire : étude, phase, nombre de centres concernés, période souhaitée et type de besoin. J'évalue ensuite le périmètre avec vous et j'établis un devis adapté à la mission."
+      }
+    ],
+    "resourcesTitle": "Ressources pour aller plus loin",
+    "finalTitle": "Un besoin de renfort CRA ou de monitoring externalisé ?",
+    "finalBody": "Présentez-moi votre projet pour étudier les modalités d'une collaboration adaptée à vos opérations cliniques.",
+    "finalButton": "Discuter de votre besoin"
   }
 }

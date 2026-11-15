@@ -8,6 +8,7 @@ import { siteConfig } from "@/config/site";
 const NAV_ITEMS = [
   { key: "expertise", href: "/#expertise" },
   { key: "prestations", href: "/services" },
+  { key: "solutions", href: "/solutions" },
   { key: "sectors", href: "/#sectors" },
   { key: "quiz", href: "/#quiz" },
   { key: "approach", href: "/#approach" },
