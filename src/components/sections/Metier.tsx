@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import { ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/Reveal";
 
 /**
@@ -31,6 +33,15 @@ export function Metier() {
               <p className="mt-3 text-[14px] leading-[1.75] text-muted">
                 {t(`blocks.${b}.body`)}
               </p>
+              {b === "arcVsCpc" && (
+                <Link
+                  href="/blog/arc-freelance-vs-chef-de-projet-clinique"
+                  className="mt-4 inline-flex items-center gap-1.5 text-[14px] font-semibold text-mint transition-colors hover:text-cream"
+                >
+                  {t("readMore")}
+                  <ArrowRight size={14} aria-hidden="true" />
+                </Link>
+              )}
             </div>
           </Reveal>
         ))}

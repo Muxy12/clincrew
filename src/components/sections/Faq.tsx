@@ -1,6 +1,15 @@
 import { useLocale, useTranslations } from "next-intl";
-import { Plus } from "lucide-react";
+import { Plus, ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/Reveal";
+
+// Pillar -> cluster links: some answers point to the matching long-form guide.
+const GUIDE_BY_ITEM: Record<string, string> = {
+  what: "qu-est-ce-qu-un-arc-cra",
+  cost: "tjm-arc-freelance",
+  when: "recruter-arc-freelance",
+  hire: "recruter-arc-freelance",
+};
 
 // The FR homepage runs a longer, SEO-oriented FAQ; EN keeps the core three.
 const FR_ITEMS = [
@@ -65,9 +74,20 @@ export function Faq() {
                   <Plus size={16} aria-hidden="true" />
                 </span>
               </summary>
-              <p className="max-w-[680px] pb-7 text-[15px] leading-[1.85] text-muted">
-                {t(`items.${item}.a`)}
-              </p>
+              <div className="max-w-[680px] pb-7">
+                <p className="text-[15px] leading-[1.85] text-muted">
+                  {t(`items.${item}.a`)}
+                </p>
+                {GUIDE_BY_ITEM[item] && (
+                  <Link
+                    href={`/blog/${GUIDE_BY_ITEM[item]}`}
+                    className="mt-3 inline-flex items-center gap-1.5 text-[14px] font-semibold text-mint transition-colors hover:text-cream"
+                  >
+                    {t("readMore")}
+                    <ArrowRight size={14} aria-hidden="true" />
+                  </Link>
+                )}
+              </div>
             </details>
           </Reveal>
         ))}

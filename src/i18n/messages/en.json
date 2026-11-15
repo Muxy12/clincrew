@@ -417,6 +417,7 @@
     "eyebrow": "FAQ",
     "title": "Frequently asked questions.",
     "intro": "The essentials on working with a freelance CRA.",
+    "readMore": "Read the guide",
     "items": {
       "what": {
         "q": "What is a freelance CRA?",
@@ -460,6 +461,7 @@
     "eyebrow": "The CRA role",
     "title": "Understanding the Clinical Research Associate's role.",
     "intro": "To choose the right resource, here is what the CRA role covers and how it differs from neighbouring profiles.",
+    "readMore": "Read the guide",
     "blocks": {
       "definition": {
         "title": "Definition and role of the CRA",

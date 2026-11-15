@@ -31,6 +31,92 @@ export interface BlogPostMeta {
 
 export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
+    slug: "qu-est-ce-qu-un-arc-cra",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["Recherche clinique", "Métier"],
+      en: ["Clinical research", "Profession"],
+    },
+    translations: {
+      fr: {
+        title: "Qu'est-ce qu'un Attaché de Recherche Clinique (ARC / CRA) ?",
+        excerpt:
+          "Définition, rôle, missions et compétences de l'Attaché de Recherche Clinique (ARC / CRA), et la différence entre ARC promoteur et ARC hospitalier.",
+      },
+      en: {
+        title: "What is a Clinical Research Associate (CRA)?",
+        excerpt:
+          "Definition, role, duties and skills of a Clinical Research Associate (CRA), and the difference between a sponsor CRA and a site-based CRA.",
+      },
+    },
+  },
+  {
+    slug: "arc-freelance-vs-chef-de-projet-clinique",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["CRA freelance", "Gestion de projet"],
+      en: ["Freelance CRA", "Project management"],
+    },
+    translations: {
+      fr: {
+        title:
+          "ARC freelance ou chef de projet clinique : quelles différences ?",
+        excerpt:
+          "Périmètre, responsabilités et quand choisir un ARC freelance plutôt qu'un chef de projet clinique pour votre étude.",
+      },
+      en: {
+        title:
+          "Freelance CRA vs clinical project manager: what's the difference?",
+        excerpt:
+          "Scope, responsibilities and when to choose a freelance CRA rather than a clinical project manager for your study.",
+      },
+    },
+  },
+  {
+    slug: "tjm-arc-freelance",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["CRA freelance", "Tarif"],
+      en: ["Freelance CRA", "Rates"],
+    },
+    translations: {
+      fr: {
+        title: "Tarif et TJM d'un ARC freelance : comment ça marche ?",
+        excerpt:
+          "Ce que recouvre le taux journalier d'un ARC freelance, les facteurs qui l'influencent et pourquoi le tarif se fait sur devis.",
+      },
+      en: {
+        title: "Freelance CRA rates and daily rate: how it works",
+        excerpt:
+          "What a freelance CRA's daily rate covers, the factors that drive it, and why pricing is quoted per assignment.",
+      },
+    },
+  },
+  {
+    slug: "recruter-arc-freelance",
+    date: "2026-11-15",
+    updated: "2026-11-15",
+    tags: {
+      fr: ["CRA freelance", "Collaboration"],
+      en: ["Freelance CRA", "Collaboration"],
+    },
+    translations: {
+      fr: {
+        title: "Comment recruter un ARC freelance pour votre étude ?",
+        excerpt:
+          "Définir le besoin, où trouver un ARC freelance, le processus de contractualisation et les points BPC à vérifier avant de démarrer.",
+      },
+      en: {
+        title: "How to hire a freelance CRA for your study",
+        excerpt:
+          "Define the need, where to find a freelance CRA, the contracting process and the GCP points to check before starting.",
+      },
+    },
+  },
+  {
     slug: "role-cra-independant",
     date: "2026-09-18",
     updated: "2026-11-01",

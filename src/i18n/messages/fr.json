@@ -417,6 +417,7 @@
     "eyebrow": "FAQ",
     "title": "Questions fréquentes.",
     "intro": "L'essentiel sur le recours à un CRA freelance.",
+    "readMore": "Lire le guide",
     "items": {
       "what": {
         "q": "Qu'est-ce qu'un CRA freelance ?",
@@ -460,6 +461,7 @@
     "eyebrow": "Le métier d'ARC",
     "title": "Comprendre le rôle de l'Attaché de Recherche Clinique.",
     "intro": "Pour bien choisir votre ressource, voici ce que recouvre le métier d'ARC et comment il se distingue des profils voisins.",
+    "readMore": "Lire le guide",
     "blocks": {
       "definition": {
         "title": "Définition et rôle de l'ARC",
