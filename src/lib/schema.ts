@@ -55,6 +55,15 @@ export function personNode(locale: Locale) {
 
   const sameAs: string[] = [];
   if (profile.linkedin.configured) sameAs.push(profile.linkedin.value);
+  sameAs.push(...profile.sameAs);
+  if (profile.orcid) {
+    sameAs.push(profile.orcid);
+    node.identifier = {
+      "@type": "PropertyValue",
+      propertyID: "https://orcid.org",
+      value: profile.orcid,
+    };
+  }
   if (sameAs.length) node.sameAs = sameAs;
   if (profile.email.configured) node.email = profile.email.value;
   if (profile.phone.configured) node.telephone = profile.phone.value;

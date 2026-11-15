@@ -31,6 +31,11 @@ export interface ProfileConfig {
   readonly email: ProfileLink;
   readonly linkedin: ProfileLink;
   readonly phone: ProfileLink;
+  /** External entity profiles linked via schema.org sameAs (Wikidata,
+   *  Crunchbase, Malt…) to consolidate entity recognition. */
+  readonly sameAs: ReadonlyArray<string>;
+  /** ORCID iD URL (research identifier); null until set. */
+  readonly orcid: string | null;
   /** City / coverage shown in the contact details. */
   readonly city: { fr: string; en: string } | null;
   /** Typical reply time shown in the contact copy (e.g. "24–48 h"). */
@@ -96,6 +101,8 @@ export const profile: ProfileConfig = {
     configured: true,
     value: "https://www.linkedin.com/in/md213/",
   },
+  sameAs: ["https://www.wikidata.org/wiki/Q141693322"],
+  orcid: "https://orcid.org/0009-0005-4903-2761",
   phone: {
     configured: true,
     value: "+33 7 68 01 52 91",
