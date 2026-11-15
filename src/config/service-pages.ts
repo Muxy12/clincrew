@@ -21,6 +21,8 @@ import {
   Users,
   FileText,
   Workflow,
+  Network,
+  Wifi,
 } from "lucide-react";
 import type { Locale } from "@/i18n/routing";
 
@@ -132,6 +134,52 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
         metaTitle: "Site close-out visit (COV) | Freelance CRA",
         metaDescription:
           "A close-out visit (COV) confirms data are resolved, the TMF is complete and archiving is organised before a site is closed. Process, by a freelance CRA.",
+      },
+    },
+  },
+  {
+    slug: "monitoring-clinique-externalise",
+    group: "support",
+    icon: Network,
+    translations: {
+      fr: {
+        title: "Monitoring clinique externalisé",
+        excerpt:
+          "Confier tout ou partie du monitoring d'une étude à un CRA freelance, sur un périmètre défini avec vous.",
+        metaTitle: "Monitoring clinique externalisé | CRA freelance",
+        metaDescription:
+          "Externalisez le monitoring de vos essais cliniques auprès d'un ARC / CRA freelance : couverture de vos centres sans recrutement, périmètre, responsabilités et reporting définis avec vous.",
+      },
+      en: {
+        title: "Outsourced clinical monitoring",
+        excerpt:
+          "Entrusting all or part of a study's monitoring to a freelance CRA, on a scope defined with you.",
+        metaTitle: "Outsourced clinical monitoring | Freelance CRA",
+        metaDescription:
+          "Outsource the monitoring of your clinical trials to a freelance CRA: cover your sites without hiring, with scope, responsibilities and reporting defined with you.",
+      },
+    },
+  },
+  {
+    slug: "monitoring-a-distance",
+    group: "support",
+    icon: Wifi,
+    translations: {
+      fr: {
+        title: "Monitoring à distance",
+        excerpt:
+          "Maintenir un suivi continu des centres entre deux visites sur site, quand le protocole et les accès le permettent.",
+        metaTitle: "Monitoring à distance (remote monitoring) | CRA freelance",
+        metaDescription:
+          "Le monitoring à distance assure un suivi continu entre les visites sur site : revue des données, suivi des points ouverts et échanges avec les centres. Par un ARC / CRA freelance.",
+      },
+      en: {
+        title: "Remote monitoring",
+        excerpt:
+          "Keeping sites under continuous follow-up between on-site visits, where the protocol and access allow.",
+        metaTitle: "Remote monitoring | Freelance CRA",
+        metaDescription:
+          "Remote monitoring keeps sites under continuous follow-up between on-site visits: data review, open-item tracking and exchanges with sites. By a freelance CRA.",
       },
     },
   },

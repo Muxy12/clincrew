@@ -199,7 +199,7 @@
     "cta": "All my services",
     "contactCta": "Let's discuss your project",
     "groupVisits": "Site visits",
-    "groupSupport": "Follow-up & support",
+    "groupSupport": "Monitoring & support",
     "items": {
       "selection": {
         "title": "Selection visit",
@@ -578,8 +578,8 @@
       "description": "The journey of Mohamed Debbah, freelance Clinical Research Associate (CRA): monitoring, data quality and operational support for clinical trials."
     },
     "services": {
-      "title": "Freelance CRA Services",
-      "description": "Freelance Clinical Research Associate (CRA) services: selection, initiation, interim monitoring and close-out visits, investigator site management, data quality and audit readiness."
+      "title": "Clinical monitoring & freelance CRA",
+      "description": "Clinical monitoring by a freelance CRA for CROs, biotechs and sponsors: SSV, SIV, IMV, COV visits, outsourced and remote monitoring. Request a quote."
     },
     "ogAlt": "Mohamed Debbah · Clinical Research Associate (CRA) freelance"
   },
@@ -605,5 +605,89 @@
     "ctaTitle": "A study to move forward?",
     "ctaText": "Let's talk through your need. I reply within 24–48 h to scope the assignment.",
     "ctaButton": "Let's talk about your project"
+  },
+  "servicesHub": {
+    "eyebrow": "Clinical monitoring · Freelance CRA",
+    "heroTitle": "Clinical monitoring and freelance CRA services",
+    "heroIntro": "Independent clinical monitoring services, delivered by a freelance Clinical Research Associate (CRA), for CROs, pharmaceutical companies and biotechs. From site selection to close-out, I handle the operational follow-up of your trials: selection, initiation, monitoring and close-out visits, on-site or remote, as occasional backup or for the full duration of the study, in line with the applicable procedures and Good Clinical Practice. Coverage: France and French-speaking Europe.",
+    "offerTitle": "Services adapted to every stage of your clinical study",
+    "offerP1": "Clinical monitoring ensures a trial is conducted in line with the protocol, the procedures and the regulations. The Clinical Research Associate (CRA) is the operational link with investigator sites: safeguarding participants, ensuring the quality and completeness of data, protocol compliance and the regular follow-up of each site.",
+    "offerP2": "For sponsors that do not want to, or cannot, bring these activities in-house, outsourcing monitoring to a freelance CRA provides an identified resource, available on a precise scope. I work in support of your teams, according to the responsibilities, access and procedures you define.",
+    "cardsTitle": "My clinical monitoring services",
+    "cardsIntro": "Each service can be commissioned on its own or combined with the others, depending on the stage of your study.",
+    "audiencesTitle": "Solutions adapted to CROs, biotechs and sponsors",
+    "audiencesIntro": "Every organisation has its constraints. I adapt my involvement to your operational situation.",
+    "audiences": [
+      {
+        "title": "For CROs",
+        "body": "Your monitoring workload is rising, a study starts before the team is complete, a CRA is away? A freelance CRA reinforces your teams on an occasional basis and ensures continuity of activities on the sites assigned."
+      },
+      {
+        "title": "For biotechs",
+        "body": "Running a trial without a permanent monitoring team? Access an experienced operational resource, mobilised for the duration of the study, without building an internal CRA team."
+      },
+      {
+        "title": "For sponsors",
+        "body": "You oversee sites and are looking for reliable support to run the visits? I take care of the monitoring activities entrusted to me and report the information relevant to your oversight."
+      }
+    ],
+    "methodTitle": "How an assignment unfolds",
+    "methodSteps": [
+      {
+        "title": "Needs analysis",
+        "body": "We gather the key information about the study: indication, clinical phase, number and location of sites, timeline and anticipated monitoring workload."
+      },
+      {
+        "title": "Scoping the assignment",
+        "body": "We formalise the scope, each party's responsibilities, system access, the procedures to apply and the expected deliverables."
+      },
+      {
+        "title": "Carrying out the monitoring",
+        "body": "I perform the planned visits and activities, and liaise with the sites, your project team and the other stakeholders."
+      },
+      {
+        "title": "Reporting and follow-up",
+        "body": "Visit reports, open items, corrective actions and deliverables are tracked in the format and at the frequency agreed with you."
+      }
+    ],
+    "methodNote": "The start date and availability are confirmed case by case, after analysis of your need.",
+    "whyTitle": "Why entrust your monitoring to me",
+    "whyIntro": "Choosing a monitoring provider starts with checking concrete facts. Here are the ones I put at your disposal.",
+    "whyExperienceLabel": "Experience",
+    "whyExperienceValue": "{years} years of experience in clinical research, including the monitoring of trials in France.",
+    "whyScopeLabel": "Phases & therapeutic areas",
+    "whyCoverageLabel": "Coverage",
+    "whyTrainingLabel": "Training",
+    "faqTitle": "Frequently asked questions about my monitoring services",
+    "faq": [
+      {
+        "q": "Which clinical monitoring services can be outsourced?",
+        "a": "All monitoring activities can be entrusted: selection, initiation, monitoring visits, close-out and remote follow-up. You outsource a whole study or only certain visits, depending on the agreed scope."
+      },
+      {
+        "q": "Do you take on a one-off visit?",
+        "a": "Yes, an assignment can be limited to a single visit, for example an initiation or a close-out, subject to availability. Share the site, the preferred date and the protocol to confirm feasibility."
+      },
+      {
+        "q": "Can several sites be assigned to a freelance CRA?",
+        "a": "Yes, within a realistic workload. The number of sites depends on the study phase, the recruitment pace, the location and the planned monitoring time, which we assess together."
+      },
+      {
+        "q": "How is the price of a monitoring service calculated?",
+        "a": "The price depends on the scope: number of sites and visits, type of activities, travel, protocol complexity and duration of the assignment. It is set out in a quote prepared after analysis of your need."
+      },
+      {
+        "q": "Which regions do you cover?",
+        "a": "I work in France and French-speaking Europe. For a site outside this area, get in touch: feasibility is assessed case by case."
+      },
+      {
+        "q": "How do I request a quote for a CRA assignment?",
+        "a": "Fill in the contact form with the study, the phase, the number of sites, the type of service and the preferred start date. Fields you do not yet know can be left blank."
+      }
+    ],
+    "resourcesTitle": "Resources to prepare your monitoring project",
+    "finalTitle": "Looking for a freelance CRA for your clinical study?",
+    "finalBody": "Tell me about your project so we can assess together the services that fit your needs and the terms of a collaboration.",
+    "finalButton": "Let's discuss your project"
   }
 }

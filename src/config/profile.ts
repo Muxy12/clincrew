@@ -89,8 +89,8 @@ export const profile: ProfileConfig = {
   brand: "ClinCrew",
   monogram: "MD",
   title: {
-    fr: "Attaché de Recherche Clinique senior · Freelance",
-    en: "Senior Clinical Research Associate · Freelance",
+    fr: "Attaché de Recherche Clinique · Freelance",
+    en: "Clinical Research Associate · Freelance",
   },
 
   email: {

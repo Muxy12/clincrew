@@ -199,7 +199,7 @@
     "cta": "Toutes mes prestations",
     "contactCta": "Discutons de votre projet",
     "groupVisits": "Visites de centre",
-    "groupSupport": "Suivi & support",
+    "groupSupport": "Monitoring & suivi",
     "items": {
       "selection": {
         "title": "Visite de sélection",
@@ -578,8 +578,8 @@
       "description": "Le parcours de Mohamed Debbah, Attaché de Recherche Clinique (ARC / CRA) freelance : monitoring, qualité des données et accompagnement opérationnel des essais cliniques."
     },
     "services": {
-      "title": "Prestations ARC / CRA Freelance",
-      "description": "Prestations d'Attaché de Recherche Clinique freelance (ARC / CRA) : visites de sélection, d'initiation, de monitoring et de clôture, suivi des centres, qualité des données et préparation des audits."
+      "title": "Monitoring clinique & CRA freelance",
+      "description": "Monitoring clinique par un ARC / CRA freelance pour CRO, biotechs et promoteurs : visites PSV, SIV, IMV, COV et monitoring à distance. Devis sur demande."
     },
     "ogAlt": "Mohamed Debbah · Attaché de Recherche Clinique (ARC / CRA) freelance"
   },
@@ -605,5 +605,89 @@
     "ctaTitle": "Une étude à faire avancer ?",
     "ctaText": "Parlons de votre besoin : je vous réponds sous 24–48 h pour cadrer la mission.",
     "ctaButton": "Discutons de votre projet"
+  },
+  "servicesHub": {
+    "eyebrow": "Monitoring clinique · CRA freelance",
+    "heroTitle": "Services de monitoring clinique et CRA freelance",
+    "heroIntro": "Des prestations indépendantes de monitoring clinique, réalisées par un Attaché de Recherche Clinique (CRA) freelance, pour les CRO, les laboratoires pharmaceutiques et les biotechs. De la sélection des centres à leur clôture, j'assure le suivi opérationnel de vos essais : visites de sélection, d'initiation, de monitoring et de clôture, sur site ou à distance, en renfort ponctuel ou sur toute la durée de l'étude, dans le respect des procédures applicables et des Bonnes Pratiques Cliniques. Zone d'intervention : France et Europe francophone.",
+    "offerTitle": "Des prestations adaptées à chaque étape de votre étude clinique",
+    "offerP1": "Le monitoring clinique garantit qu'un essai est conduit conformément au protocole, aux procédures et à la réglementation. Le Clinical Research Associate (CRA), ou Attaché de Recherche Clinique, en est le relais opérationnel auprès des centres investigateurs : il veille à la protection des participants, à la qualité et à l'exhaustivité des données, au respect du protocole et au suivi régulier de chaque centre.",
+    "offerP2": "Pour les promoteurs qui ne souhaitent pas, ou ne peuvent pas, internaliser ces activités, l'externalisation du monitoring auprès d'un CRA freelance offre une ressource identifiée, mobilisable sur un périmètre précis. J'interviens en soutien de vos équipes, selon les responsabilités, les accès et les procédures que vous définissez.",
+    "cardsTitle": "Mes prestations de monitoring clinique",
+    "cardsIntro": "Chaque prestation peut être commandée seule ou combinée aux autres, selon l'étape de votre étude.",
+    "audiencesTitle": "Des solutions adaptées aux CRO, biotechs et promoteurs",
+    "audiencesIntro": "Chaque structure a ses contraintes. J'adapte mon intervention à votre situation opérationnelle.",
+    "audiences": [
+      {
+        "title": "Pour les CRO",
+        "body": "Votre charge de monitoring augmente, une étude démarre avant que l'équipe soit complète, un CRA s'absente ? Un CRA freelance renforce vos équipes de façon ponctuelle et assure la continuité des activités sur les centres qui lui sont confiés."
+      },
+      {
+        "title": "Pour les biotechs",
+        "body": "Vous conduisez un essai sans équipe de monitoring permanente ? Accédez à une ressource opérationnelle expérimentée, mobilisée le temps de l'étude, sans constituer une équipe CRA interne."
+      },
+      {
+        "title": "Pour les promoteurs",
+        "body": "Vous supervisez des centres et cherchez un appui fiable pour réaliser les visites ? Je prends en charge les activités de monitoring confiées et vous remonte l'information utile à votre supervision."
+      }
+    ],
+    "methodTitle": "Comment se déroule une prestation",
+    "methodSteps": [
+      {
+        "title": "Analyse du besoin",
+        "body": "Nous recueillons les informations clés de l'étude : indication, phase clinique, nombre et localisation des centres, calendrier et charge prévisionnelle de monitoring."
+      },
+      {
+        "title": "Définition de la mission",
+        "body": "Nous formalisons le périmètre, les responsabilités de chacun, les accès aux systèmes, les procédures à appliquer et les livrables attendus."
+      },
+      {
+        "title": "Réalisation du monitoring",
+        "body": "Je réalise les visites et activités prévues, et j'échange avec les centres, votre équipe projet et les autres parties prenantes."
+      },
+      {
+        "title": "Reporting et suivi",
+        "body": "Rapports de visite, points ouverts, actions correctives et livrables sont suivis selon le format et la fréquence convenus avec vous."
+      }
+    ],
+    "methodNote": "Le calendrier de démarrage et la disponibilité sont confirmés au cas par cas, après analyse de votre besoin.",
+    "whyTitle": "Pourquoi me confier vos prestations de monitoring",
+    "whyIntro": "Choisir un prestataire de monitoring, c'est d'abord vérifier des éléments concrets. Voici ceux que je mets à votre disposition.",
+    "whyExperienceLabel": "Expérience",
+    "whyExperienceValue": "{years} ans d'expérience en recherche clinique, dont le monitoring d'essais en France.",
+    "whyScopeLabel": "Phases & aires thérapeutiques",
+    "whyCoverageLabel": "Zone d'intervention",
+    "whyTrainingLabel": "Formation",
+    "faqTitle": "Questions fréquentes sur mes services de monitoring",
+    "faq": [
+      {
+        "q": "Quelles prestations de monitoring clinique peut-on externaliser ?",
+        "a": "Toutes les activités de monitoring peuvent être confiées : sélection, initiation, visites de monitoring, clôture et suivi à distance. Vous externalisez l'ensemble d'une étude ou seulement certaines visites, selon le périmètre convenu."
+      },
+      {
+        "q": "Intervenez-vous pour une visite ponctuelle ?",
+        "a": "Oui, une mission peut se limiter à une seule visite, par exemple une initiation ou une clôture, sous réserve de disponibilité. Indiquez le centre, la date souhaitée et le protocole concerné pour confirmer la faisabilité."
+      },
+      {
+        "q": "Peut-on confier plusieurs centres à un CRA freelance ?",
+        "a": "Oui, dans la limite d'une charge réaliste. Le nombre de centres dépend de la phase de l'étude, du rythme de recrutement, de la localisation et du temps de monitoring prévu, que nous évaluons ensemble."
+      },
+      {
+        "q": "Comment est calculé le tarif d'une prestation de monitoring ?",
+        "a": "Le tarif dépend du périmètre : nombre de centres et de visites, type d'activités, déplacements, complexité du protocole et durée de la mission. Il est précisé dans un devis établi après analyse de votre besoin."
+      },
+      {
+        "q": "Dans quelles régions intervenez-vous ?",
+        "a": "J'interviens en France et en Europe francophone. Pour un centre situé hors de cette zone, contactez-moi : la faisabilité est étudiée au cas par cas."
+      },
+      {
+        "q": "Comment demander un devis pour une mission CRA ?",
+        "a": "Remplissez le formulaire de contact en indiquant l'étude, la phase, le nombre de centres, le type de prestation et la date de démarrage souhaitée. Les champs que vous ne connaissez pas encore peuvent rester vides."
+      }
+    ],
+    "resourcesTitle": "Ressources pour préparer votre projet de monitoring",
+    "finalTitle": "Vous recherchez un CRA freelance pour votre étude clinique ?",
+    "finalBody": "Présentez-moi votre projet pour évaluer ensemble les prestations adaptées à vos besoins et les modalités d'une collaboration.",
+    "finalButton": "Discutons de votre projet"
   }
 }
