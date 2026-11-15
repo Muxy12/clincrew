@@ -13,6 +13,18 @@ export const PRESTATION_ITEMS = [
   "opsSupport",
 ] as const;
 
+// Each home prestation links to its detail page (keyword-anchored internal
+// linking: the service name is the anchor text).
+const SLUG_BY_ITEM: Record<(typeof PRESTATION_ITEMS)[number], string> = {
+  selection: "visite-de-selection",
+  initiation: "visite-d-initiation",
+  monitoring: "visites-de-monitoring",
+  closeout: "visite-de-cloture",
+  siteFollowup: "suivi-des-centres",
+  docControl: "controle-documentation",
+  opsSupport: "support-operationnel",
+};
+
 export function Prestations() {
   const t = useTranslations("prestations");
 
@@ -40,19 +52,29 @@ export function Prestations() {
               as="li"
               key={item}
               delay={(i % 2) * 0.06}
-              className="group grid grid-cols-[auto_1fr] gap-5 border-t border-line pt-6"
+              className="border-t border-line pt-6"
             >
-              <span className="font-mono text-[12px] text-mint">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <div>
-                <h3 className="font-heading text-[18px] tracking-tighter2 transition-colors group-hover:text-mint">
-                  {t(`items.${item}.title`)}
-                </h3>
-                <p className="mt-2 text-[14px] leading-[1.7] text-muted">
-                  {t(`items.${item}.description`)}
-                </p>
-              </div>
+              <Link
+                href={`/services/${SLUG_BY_ITEM[item]}`}
+                className="group grid grid-cols-[auto_1fr] gap-5"
+              >
+                <span className="font-mono text-[12px] text-mint">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <div>
+                  <h3 className="flex items-center gap-1.5 font-heading text-[18px] tracking-tighter2 transition-colors group-hover:text-mint">
+                    {t(`items.${item}.title`)}
+                    <ArrowRight
+                      size={14}
+                      aria-hidden="true"
+                      className="-translate-x-1 text-mint opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                    />
+                  </h3>
+                  <p className="mt-2 text-[14px] leading-[1.7] text-muted">
+                    {t(`items.${item}.description`)}
+                  </p>
+                </div>
+              </Link>
             </Reveal>
           ))}
         </ul>

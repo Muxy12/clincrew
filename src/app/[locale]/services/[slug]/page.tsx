@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getServicePage } from "@/lib/service-content";
-import { getAllServiceSlugs } from "@/config/service-pages";
+import { getAllServiceSlugs, servicePages } from "@/config/service-pages";
 import { servicePageNode } from "@/lib/schema";
 
 export function generateStaticParams() {
@@ -64,6 +64,14 @@ export default async function ServiceDetailPage({
 
   const groupLabel = page.group === "visits" ? tp("groupVisits") : tp("groupSupport");
 
+  // Spoke-to-spoke internal links: other services, same group first.
+  const related = servicePages
+    .filter((s) => s.slug !== slug)
+    .sort((a, b) =>
+      a.group === page.group && b.group !== page.group ? -1 : 1,
+    )
+    .slice(0, 4);
+
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
       <Link
@@ -90,6 +98,30 @@ export default async function ServiceDetailPage({
         className="article-body mt-12"
         dangerouslySetInnerHTML={{ __html: page.html }}
       />
+
+      {/* Related services — spoke-to-spoke internal linking */}
+      <section className="mt-16 border-t border-line pt-10">
+        <h2 className="font-mono text-[11px] uppercase tracking-[0.14em] text-mint">
+          {t("relatedTitle")}
+        </h2>
+        <ul className="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+          {related.map((s) => (
+            <li key={s.slug}>
+              <Link
+                href={`/services/${s.slug}`}
+                className="group inline-flex items-center gap-1.5 font-heading text-[16px] tracking-tighter2 transition-colors hover:text-mint"
+              >
+                {s.translations[locale as Locale].title}
+                <ArrowUpRight
+                  size={14}
+                  aria-hidden="true"
+                  className="-translate-x-1 text-mint opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                />
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       {/* End-of-page CTA */}
       <aside className="mt-16 rounded-lg border border-line bg-gradient-to-br from-panel to-[#0a1d26] p-8 text-center">
