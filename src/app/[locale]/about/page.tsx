@@ -6,6 +6,7 @@ import { ArrowUpRight, Linkedin, Award } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import { profile } from "@/config/profile";
 import { getJourneyValues } from "@/lib/journey";
 
@@ -44,6 +45,7 @@ export default async function AboutPage({
 
 function AboutContent({ locale }: { locale: Locale }) {
   const t = useTranslations("about");
+  const tb = useTranslations("breadcrumb");
   const journey = getJourneyValues(locale);
 
   const details: Array<{ label: string; values: string[] }> = [];
@@ -69,6 +71,15 @@ function AboutContent({ locale }: { locale: Locale }) {
 
   return (
     <section className="wrap max-w-[860px] scroll-mt-24 pb-24 pt-36 md:pb-32 md:pt-44">
+      <div className="mb-7">
+        <Breadcrumb
+          locale={locale}
+          items={[
+            { label: tb("home"), href: "/" },
+            { label: tb("about"), href: "/about" },
+          ]}
+        />
+      </div>
       <Reveal>
         <p className="eyebrow">{t("eyebrow")}</p>
         <h1 className="mt-5 max-w-[760px] font-heading text-[clamp(32px,5vw,60px)] leading-[1.12] tracking-tightest">

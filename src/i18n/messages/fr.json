@@ -585,7 +585,8 @@
   "breadcrumb": {
     "home": "Accueil",
     "services": "Prestations",
-    "blog": "Blog"
+    "blog": "Blog",
+    "about": "À propos"
   },
   "languageSwitcher": {
     "label": "Langue",
