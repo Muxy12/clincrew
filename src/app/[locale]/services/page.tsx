@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ImageIcon } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Reveal } from "@/components/motion/Reveal";
@@ -14,6 +15,16 @@ const GROUPS = [
   { key: "visits", label: "groupVisits" },
   { key: "support", label: "groupSupport" },
 ] as const;
+
+/**
+ * Two-photo band. Drop files in /public/images and set the paths below to
+ * replace the placeholders; alt text + labels come from the servicesHub
+ * "photos" messages. Leave as null to keep the placeholder.
+ */
+const SERVICE_PHOTOS: ReadonlyArray<string | null> = [
+  null, // e.g. "/images/services-onsite.jpg"
+  null, // e.g. "/images/services-documentation.jpg"
+];
 
 /** Existing cluster guides surfaced as "resources" (no duplicate pages). */
 const RESOURCE_SLUGS = [
@@ -66,6 +77,7 @@ function ServicesHub({ locale }: { locale: Locale }) {
   const th = useTranslations("servicePage");
   const tb = useTranslations("breadcrumb");
 
+  const photos = t.raw("photos") as { alt: string; hint: string }[];
   const audiences = t.raw("audiences") as { title: string; body: string }[];
   const methodSteps = t.raw("methodSteps") as { title: string; body: string }[];
   const faqItems = t.raw("faq") as { q: string; a: string }[];
@@ -146,6 +158,46 @@ function ServicesHub({ locale }: { locale: Locale }) {
           <p className="mt-5 max-w-[680px] text-[16px] leading-[1.85] text-muted">
             {t("offerP2")}
           </p>
+        </div>
+      </Reveal>
+
+      {/* Photo band — placeholders until real images are set in SERVICE_PHOTOS */}
+      <Reveal>
+        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+          {photos.map((p, i) => {
+            const src = SERVICE_PHOTOS[i] ?? null;
+            return (
+              <div
+                key={i}
+                className={`relative aspect-[4/3] overflow-hidden rounded-lg ${
+                  src
+                    ? "border border-line"
+                    : "border border-dashed border-line/60 bg-gradient-to-br from-panel to-[#0a1d26]"
+                }`}
+              >
+                {src ? (
+                  <Image
+                    src={src}
+                    alt={p.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 460px"
+                    className="object-cover"
+                  />
+                ) : (
+                  <div className="flex h-full w-full flex-col items-center justify-center gap-3 px-6 text-center">
+                    <ImageIcon
+                      size={26}
+                      aria-hidden="true"
+                      className="text-mint/70"
+                    />
+                    <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-muted">
+                      {p.hint}
+                    </span>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       </Reveal>
 

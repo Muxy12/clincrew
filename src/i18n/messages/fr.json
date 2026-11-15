@@ -610,6 +610,10 @@
     "eyebrow": "Monitoring clinique · CRA freelance",
     "heroTitle": "Services de monitoring clinique et CRA freelance",
     "heroIntro": "Des prestations indépendantes de monitoring clinique, réalisées par un Attaché de Recherche Clinique (CRA) freelance, pour les CRO, les laboratoires pharmaceutiques et les biotechs. De la sélection des centres à leur clôture, j'assure le suivi opérationnel de vos essais : visites de sélection, d'initiation, de monitoring et de clôture, sur site ou à distance, en renfort ponctuel ou sur toute la durée de l'étude, dans le respect des procédures applicables et des Bonnes Pratiques Cliniques. Zone d'intervention : France et Europe francophone.",
+    "photos": [
+      { "alt": "Monitoring sur site d'un essai clinique", "hint": "Photo 1 · à ajouter" },
+      { "alt": "Revue de la documentation d'une étude clinique", "hint": "Photo 2 · à ajouter" }
+    ],
     "offerTitle": "Des prestations adaptées à chaque étape de votre étude clinique",
     "offerP1": "Le monitoring clinique garantit qu'un essai est conduit conformément au protocole, aux procédures et à la réglementation. Le Clinical Research Associate (CRA), ou Attaché de Recherche Clinique, en est le relais opérationnel auprès des centres investigateurs : il veille à la protection des participants, à la qualité et à l'exhaustivité des données, au respect du protocole et au suivi régulier de chaque centre.",
     "offerP2": "Pour les promoteurs qui ne souhaitent pas, ou ne peuvent pas, internaliser ces activités, l'externalisation du monitoring auprès d'un CRA freelance offre une ressource identifiée, mobilisable sur un périmètre précis. J'interviens en soutien de vos équipes, selon les responsabilités, les accès et les procédures que vous définissez.",

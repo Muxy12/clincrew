@@ -610,6 +610,10 @@
     "eyebrow": "Clinical monitoring · Freelance CRA",
     "heroTitle": "Clinical monitoring and freelance CRA services",
     "heroIntro": "Independent clinical monitoring services, delivered by a freelance Clinical Research Associate (CRA), for CROs, pharmaceutical companies and biotechs. From site selection to close-out, I handle the operational follow-up of your trials: selection, initiation, monitoring and close-out visits, on-site or remote, as occasional backup or for the full duration of the study, in line with the applicable procedures and Good Clinical Practice. Coverage: France and French-speaking Europe.",
+    "photos": [
+      { "alt": "On-site monitoring of a clinical trial", "hint": "Photo 1 · to add" },
+      { "alt": "Review of clinical study documentation", "hint": "Photo 2 · to add" }
+    ],
     "offerTitle": "Services adapted to every stage of your clinical study",
     "offerP1": "Clinical monitoring ensures a trial is conducted in line with the protocol, the procedures and the regulations. The Clinical Research Associate (CRA) is the operational link with investigator sites: safeguarding participants, ensuring the quality and completeness of data, protocol compliance and the regular follow-up of each site.",
     "offerP2": "For sponsors that do not want to, or cannot, bring these activities in-house, outsourcing monitoring to a freelance CRA provides an identified resource, available on a precise scope. I work in support of your teams, according to the responsibilities, access and procedures you define.",
