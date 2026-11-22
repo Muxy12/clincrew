@@ -27,20 +27,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogPaths,
   ];
 
+  // Note: hreflang alternates are intentionally NOT emitted here. They are
+  // declared once per page via <link rel="alternate"> in the document <head>
+  // (page metadata). Repeating them in the sitemap is a redundant second
+  // implementation with no SEO benefit and extra risk of drift, so we keep a
+  // single source of truth in the head.
   return allPaths.flatMap((path) =>
     routing.locales.map((locale) => ({
       url: `${siteConfig.url}/${locale}${path}`,
       lastModified: now,
-      changeFrequency: path === "" ? ("monthly" as const) : ("monthly" as const),
+      changeFrequency: "monthly" as const,
       priority: path === "" ? 1 : path.startsWith("/blog/") ? 0.7 : 0.5,
-      alternates: {
-        languages: {
-          ...Object.fromEntries(
-            routing.locales.map((l) => [l, `${siteConfig.url}/${l}${path}`]),
-          ),
-          "x-default": `${siteConfig.url}/${routing.defaultLocale}${path}`,
-        },
-      },
     })),
   );
 }
