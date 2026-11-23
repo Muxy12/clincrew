@@ -57,8 +57,8 @@ export function Footer() {
             <Image
               src="/images/clincrew-logo.png"
               alt={profile.brand}
-              width={720}
-              height={176}
+              width={1479}
+              height={400}
               className="h-9 w-auto"
             />
           </div>

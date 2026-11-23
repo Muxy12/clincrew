@@ -59,8 +59,8 @@ export function Header() {
           <Image
             src="/images/clincrew-logo.png"
             alt={profile.brand}
-            width={720}
-            height={176}
+            width={1479}
+            height={400}
             priority
             className="h-8 w-auto md:h-9"
           />
@@ -124,8 +124,8 @@ export function Header() {
             <Image
               src="/images/clincrew-logo.png"
               alt={profile.brand}
-              width={720}
-              height={176}
+              width={1479}
+              height={400}
               className="h-7 w-auto"
             />
             <button
