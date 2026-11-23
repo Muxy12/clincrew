@@ -145,7 +145,7 @@ export default async function BlogArticlePage({
           <a
             href={profile.linkedin.value}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="text-mint hover:underline"
           >
             LinkedIn

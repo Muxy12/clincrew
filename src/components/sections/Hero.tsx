@@ -126,7 +126,7 @@ export function Hero() {
               variants={item}
               href={profile.award.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="mt-9 inline-flex max-w-full items-center gap-3 rounded-full border border-line bg-panel/60 px-4 py-2.5 text-[12px] leading-snug text-muted transition-colors hover:border-mint hover:text-cream"
             >
               <Award size={16} className="shrink-0 text-mint" aria-hidden="true" />

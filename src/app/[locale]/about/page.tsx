@@ -92,7 +92,7 @@ function AboutContent({ locale }: { locale: Locale }) {
           <a
             href={profile.award.url}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="mt-8 flex items-start gap-4 rounded-lg border border-mint/30 bg-mint/[0.05] p-5 transition-colors hover:border-mint/60"
           >
             <Award size={22} className="mt-0.5 shrink-0 text-mint" aria-hidden="true" />
@@ -126,7 +126,7 @@ function AboutContent({ locale }: { locale: Locale }) {
             <a
               href={profile.linkedin.value}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="mt-8 inline-flex items-center gap-2 border-b border-mint pb-1 text-[14px] font-semibold text-mint transition-colors hover:text-cream"
             >
               <Linkedin size={16} aria-hidden="true" />

@@ -54,7 +54,7 @@ export function Contact() {
                 <a
                   href={profile.linkedin.value}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="inline-flex items-center gap-2 transition-colors hover:text-mint"
                 >
                   <Linkedin size={15} aria-hidden="true" />
