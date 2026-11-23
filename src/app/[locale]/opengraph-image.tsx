@@ -1,19 +1,25 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
-import { siteConfig } from "@/config/site";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "Mohamed Debbah · Clinical Research Associate";
+export const alt = "ClinCrew · Attaché de Recherche Clinique freelance";
+
+// Embed the brand lockup (transparent PNG) as a data URI, read at build time.
+const logoDataUri = `data:image/png;base64,${readFileSync(
+  join(process.cwd(), "public", "images", "clincrew-logo.png"),
+).toString("base64")}`;
 
 const COPY = {
   fr: {
-    eyebrow: "SENIOR CRA FREELANCE · RECHERCHE CLINIQUE",
-    role: "Senior Clinical Research Associate",
+    eyebrow: "CRA FREELANCE · RECHERCHE CLINIQUE",
+    role: "Attaché de Recherche Clinique",
     tagline: "Rigueur · Engagement · Flexibilité",
   },
   en: {
-    eyebrow: "SENIOR FREELANCE CRA · CLINICAL RESEARCH",
-    role: "Senior Clinical Research Associate",
+    eyebrow: "FREELANCE CRA · CLINICAL RESEARCH",
+    role: "Clinical Research Associate",
     tagline: "Precision · Commitment · Flexibility",
   },
 } as const;
@@ -42,33 +48,10 @@ export default async function OpengraphImage({
           fontFamily: "sans-serif",
         }}
       >
-        {/* Top row: monogram + wordmark */}
-        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-          <div
-            style={{
-              width: "64px",
-              height: "64px",
-              borderRadius: "50%",
-              border: "2px solid #8fcfb8",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              color: "#b6f4d7",
-              fontSize: "22px",
-              fontWeight: 700,
-            }}
-          >
-            MD
-          </div>
-          <div
-            style={{
-              fontSize: "20px",
-              fontWeight: 700,
-              letterSpacing: "4px",
-            }}
-          >
-            {siteConfig.name.toUpperCase()}
-          </div>
+        {/* Top: brand lockup */}
+        <div style={{ display: "flex", alignItems: "center" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={logoDataUri} width={281} height={76} alt="" />
         </div>
 
         {/* Headline */}
