@@ -30,9 +30,9 @@ export function Footer() {
       <div className="border-b border-line">
         <div className="wrap flex flex-col gap-7 py-14 md:flex-row md:items-end md:justify-between md:py-16">
           <div className="max-w-xl">
-            <h2 className="font-heading text-[clamp(26px,3.6vw,42px)] leading-[1.1] tracking-tightest text-cream">
+            <h3 className="font-heading text-[clamp(26px,3.6vw,42px)] leading-[1.1] tracking-tightest text-cream">
               {t("ctaTitle")}
-            </h2>
+            </h3>
             <p className="mt-4 text-[15px] leading-relaxed text-muted">
               {t("ctaSubtitle")}
             </p>
@@ -80,9 +80,9 @@ export function Footer() {
         </div>
 
         <nav aria-label="Footer">
-          <h2 className="font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
+          <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
             {t("navTitle")}
-          </h2>
+          </h3>
           <div className="mt-5 grid grid-cols-2 gap-x-8">
             {[NAV_ITEMS.slice(0, 5), NAV_ITEMS.slice(5)].map((col, ci) => (
               <ul key={ci} className="space-y-3 text-[14px] text-muted">
@@ -107,9 +107,9 @@ export function Footer() {
         </nav>
 
         <div>
-          <h2 className="font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
+          <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
             {t("legalTitle")}
-          </h2>
+          </h3>
           <ul className="mt-5 space-y-3 text-[14px] text-muted">
             <li>
               <Link
@@ -133,9 +133,9 @@ export function Footer() {
             profile.email.configured ||
             profile.linkedin.configured) && (
             <>
-              <h2 className="mt-8 font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
+              <h3 className="mt-8 font-mono text-[11px] uppercase tracking-[0.18em] text-mint">
                 {t("contactTitle")}
-              </h2>
+              </h3>
               <ul className="mt-5 space-y-3 text-[14px] text-muted">
                 {profile.phone.configured && (
                   <li>
