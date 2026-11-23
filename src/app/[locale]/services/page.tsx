@@ -23,7 +23,7 @@ const GROUPS = [
  */
 const SERVICE_PHOTOS: ReadonlyArray<string | null> = [
   "/images/services-monitoring.webp",
-  null, // e.g. "/images/services-documentation.jpg"
+  "/images/services-documentation.webp",
 ];
 
 /** Existing cluster guides surfaced as "resources" (no duplicate pages). */
