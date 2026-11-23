@@ -151,7 +151,7 @@
     "blocks": {
       "phases": {
         "title": "Essais de phases I à IV",
-        "body": "J'interviens sur tout le cycle de développement : études de sécurité et de pharmacocinétique (phase I), détermination de dose et efficacité (phase II), essais pivots multicentriques (phase III) et études post-AMM ou observationnelles (phase IV). J'adapte l'intensité du suivi au niveau de risque de l'étude.",
+        "body": "J'interviens sur tout le cycle de développement clinique. Phase I : études de sécurité et de pharmacocinétique. Phase II : détermination de dose et efficacité. Phase III : essais pivots multicentriques. Phase IV : études post-AMM ou observationnelles. J'adapte l'intensité du suivi au niveau de risque de l'étude.",
         "tags": "Phase I, Phase II, Phase III, Phase IV"
       },
       "tools": {
@@ -161,7 +161,7 @@
       },
       "regulatory": {
         "title": "Cadre réglementaire FR & UE",
-        "body": "Je connais le cadre applicable à la recherche clinique en France et en Europe et veille à sa stricte application, de la soumission à la clôture, dans le respect des droits des personnes et de l'intégrité des données.",
+        "body": "Je connais le cadre applicable à la recherche clinique en France et en Europe. Je veille à sa stricte application, de la soumission à la clôture. Les droits des personnes et l'intégrité des données restent prioritaires.",
         "tags": "ICH-GCP E6, Règlement UE 536/2014, Loi Jardé, RGPD / CNIL, ANSM · CPP · CTIS"
       }
     }
@@ -290,7 +290,7 @@
   "about": {
     "eyebrow": "À propos",
     "journeyTitle": "Mon parcours en recherche clinique",
-    "journeyP1": "Je travaille en recherche clinique depuis {years} ans. J'ai débuté comme {startRole}, puis j'ai évolué vers les rôles de Senior puis Lead Clinical Research Associate, en suivant des études de {focus} auprès de {clients}.",
+    "journeyP1": "Je travaille en recherche clinique depuis {years} ans. J'ai débuté comme {startRole}, puis j'ai évolué vers des missions de Lead Clinical Research Associate. J'ai suivi des études de {focus}. J'ai travaillé auprès de {clients}.",
     "journeyP2": "Cette expérience m'a appris ce qui compte sur le terrain : une relation de confiance avec les investigateurs, des données fiables et des risques anticipés avant qu'ils ne deviennent des écarts. Aujourd'hui, je mets ce savoir-faire au service de vos projets, en toute indépendance.",
     "journeyCta": "Découvrir mon parcours",
     "contactCta": "Discutons de votre projet",
@@ -423,11 +423,11 @@
     "items": {
       "what": {
         "q": "Qu'est-ce qu'un CRA freelance ?",
-        "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant qui assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié (visites de centres, vérification des données, suivi de la conformité) mais intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
+        "a": "Un CRA (Clinical Research Associate, ou Attaché de Recherche Clinique) freelance est un professionnel indépendant. Il assure le monitoring et le suivi opérationnel des essais cliniques. Il exerce les mêmes missions qu'un CRA salarié : visites de centres, vérification des données, suivi de la conformité. Mais il intervient en prestation, pour une mission ou une durée définie, sans lien de subordination."
       },
       "why": {
         "q": "Pourquoi faire appel à un CRA freelance ?",
-        "a": "Faire appel à un CRA freelance permet d'ajuster rapidement ses ressources à l'activité réelle : renfort sur un pic de charge, remplacement temporaire, besoin ponctuel de monitoring ou expertise terrain pour un premier essai. L'indépendance apporte flexibilité, réactivité et un interlocuteur unique, sans alourdir durablement la structure."
+        "a": "Faire appel à un CRA freelance permet d'ajuster vos ressources à l'activité réelle. Exemples : pic de charge, remplacement temporaire, besoin ponctuel de monitoring, ou expertise terrain pour un premier essai. L'indépendance apporte flexibilité, réactivité et un interlocuteur unique, sans alourdir durablement la structure."
       },
       "cost": {
         "q": "Combien coûte un CRA freelance ?",
@@ -451,11 +451,11 @@
       },
       "obligations": {
         "q": "Quelles sont les obligations réglementaires d'un ARC freelance ?",
-        "a": "Être formé aux BPC / ICH-GCP, disposer d'un statut juridique en règle (ici une SASU), souscrire une assurance responsabilité civile professionnelle, respecter la confidentialité et le RGPD, et se conformer aux procédures du promoteur pour chaque étude."
+        "a": "Plusieurs conditions sont nécessaires. Être formé aux BPC / ICH-GCP et disposer d'un statut juridique en règle (ici une SASU). Souscrire une assurance responsabilité civile professionnelle. Respecter la confidentialité et le RGPD. Enfin, se conformer aux procédures du promoteur pour chaque étude."
       },
       "when": {
         "q": "Quand faire appel à un ARC freelance ?",
-        "a": "Pour un renfort lors d'un pic d'activité, le remplacement d'un ARC absent ou sortant, la reprise d'une étude en retard, la mise en place de nouveaux centres, la préparation d'un audit, ou lorsque vous n'avez pas la ressource en interne."
+        "a": "Plusieurs situations s'y prêtent. Un renfort lors d'un pic d'activité, ou le remplacement d'un ARC absent ou sortant. La reprise d'une étude en retard, ou la mise en place de nouveaux centres. La préparation d'un audit. Ou simplement lorsque vous n'avez pas la ressource en interne."
       }
     }
   },
