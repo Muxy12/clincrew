@@ -22,7 +22,7 @@ const GROUPS = [
  * "photos" messages. Leave as null to keep the placeholder.
  */
 const SERVICE_PHOTOS: ReadonlyArray<string | null> = [
-  null, // e.g. "/images/services-onsite.jpg"
+  "/images/services-monitoring.webp",
   null, // e.g. "/images/services-documentation.jpg"
 ];
 
