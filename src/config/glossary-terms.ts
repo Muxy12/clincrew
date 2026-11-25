@@ -13,7 +13,7 @@
 
 import type { Locale } from "@/i18n/routing";
 
-export type GlossaryGroup = "monitoring";
+export type GlossaryGroup = "monitoring" | "roles";
 
 export interface GlossaryTerm {
   readonly slug: string;
@@ -30,7 +30,10 @@ export interface GlossaryTerm {
   >;
 }
 
-export const glossaryGroups: ReadonlyArray<GlossaryGroup> = ["monitoring"];
+export const glossaryGroups: ReadonlyArray<GlossaryGroup> = [
+  "monitoring",
+  "roles",
+];
 
 export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
   {
@@ -179,6 +182,153 @@ export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
         term: "Monitoring visit report",
         short:
           "The report written by the CRA after each visit: findings, deviations, corrective actions and open items to track.",
+      },
+    },
+  },
+
+  // --- Rôles & écosystème ---
+  {
+    slug: "attache-de-recherche-clinique",
+    group: "roles",
+    href: "/blog/qu-est-ce-qu-un-arc-cra",
+    translations: {
+      fr: {
+        term: "Attaché de Recherche Clinique (ARC / CRA)",
+        short:
+          "Le professionnel qui assure le monitoring et le suivi opérationnel des essais cliniques auprès des centres.",
+      },
+      en: {
+        term: "Clinical Research Associate (CRA)",
+        short:
+          "The professional who handles the monitoring and operational follow-up of clinical trials at sites.",
+      },
+    },
+  },
+  {
+    slug: "arc-promoteur",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "ARC promoteur",
+        short:
+          "L'ARC qui monitore les centres pour le compte du promoteur ou de la CRO, de la sélection à la clôture.",
+      },
+      en: {
+        term: "Sponsor CRA",
+        short:
+          "The CRA who monitors sites on behalf of the sponsor or CRO, from selection to close-out.",
+      },
+    },
+  },
+  {
+    slug: "arc-investigateur",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "ARC investigateur (ARC de site)",
+        short:
+          "L'ARC qui travaille au sein du centre investigateur, aux côtés de l'investigateur, pour organiser l'étude.",
+      },
+      en: {
+        term: "Site CRA",
+        short:
+          "The CRA who works within the investigator site, alongside the investigator, to run the study locally.",
+      },
+    },
+  },
+  {
+    slug: "tec",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "TEC (Technicien d'Études Cliniques)",
+        short:
+          "Le technicien qui assiste l'investigateur au centre : logistique, recueil et saisie des données.",
+      },
+      en: {
+        term: "Clinical trial technician (TEC)",
+        short:
+          "The technician who assists the investigator at the site: logistics, data collection and entry.",
+      },
+    },
+  },
+  {
+    slug: "chef-de-projet-clinique",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "Chef de projet clinique",
+        short:
+          "Le pilote d'un essai dans sa globalité : budget, délais, équipes, centres et prestataires.",
+      },
+      en: {
+        term: "Clinical project manager",
+        short:
+          "The person who steers a trial as a whole: budget, timelines, teams, sites and vendors.",
+      },
+    },
+  },
+  {
+    slug: "data-manager",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "Data manager",
+        short:
+          "Le gestionnaire qui conçoit et pilote la base de données d'un essai et garantit la qualité des données.",
+      },
+      en: {
+        term: "Clinical data manager",
+        short:
+          "The manager who designs and runs a trial's database and safeguards data quality.",
+      },
+    },
+  },
+  {
+    slug: "investigateur",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "Investigateur (principal)",
+        short:
+          "Le médecin responsable de la conduite de l'essai sur un centre et de la sécurité des participants.",
+      },
+      en: {
+        term: "Investigator (principal)",
+        short:
+          "The physician responsible for running the trial at a site and for participant safety.",
+      },
+    },
+  },
+  {
+    slug: "promoteur",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "Promoteur (sponsor)",
+        short:
+          "La personne ou l'entité qui prend l'initiative d'un essai clinique et en assume la responsabilité.",
+      },
+      en: {
+        term: "Sponsor",
+        short:
+          "The person or entity that initiates a clinical trial and takes responsibility for it.",
+      },
+    },
+  },
+  {
+    slug: "cro",
+    group: "roles",
+    translations: {
+      fr: {
+        term: "CRO (Contract Research Organization)",
+        short:
+          "Le prestataire à qui un promoteur confie tout ou partie de la conduite d'un essai clinique.",
+      },
+      en: {
+        term: "CRO (Contract Research Organization)",
+        short:
+          "The provider a sponsor entrusts with all or part of running a clinical trial.",
       },
     },
   },

@@ -10,7 +10,10 @@ import { glossaryTerms, glossaryGroups } from "@/config/glossary-terms";
 import { siteConfig } from "@/config/site";
 import { definedTermSetNode } from "@/lib/schema";
 
-const GROUP_LABEL: Record<string, string> = { monitoring: "groupMonitoring" };
+const GROUP_LABEL: Record<string, string> = {
+  monitoring: "groupMonitoring",
+  roles: "groupRoles",
+};
 
 export async function generateMetadata({
   params,
