@@ -13,7 +13,11 @@
 
 import type { Locale } from "@/i18n/routing";
 
-export type GlossaryGroup = "monitoring" | "roles" | "regulatory";
+export type GlossaryGroup =
+  | "monitoring"
+  | "roles"
+  | "regulatory"
+  | "methodology";
 
 export interface GlossaryTerm {
   readonly slug: string;
@@ -34,6 +38,7 @@ export const glossaryGroups: ReadonlyArray<GlossaryGroup> = [
   "monitoring",
   "roles",
   "regulatory",
+  "methodology",
 ];
 
 export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
@@ -476,6 +481,168 @@ export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
         term: "EU Clinical Trials Regulation (CTR 536/2014)",
         short:
           "The European framework that harmonises the authorisation and conduct of medicine trials through the CTIS portal.",
+      },
+    },
+  },
+
+  // --- Méthodo & design ---
+  {
+    slug: "essai-clinique",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Essai clinique",
+        short:
+          "Une étude menée chez l'humain pour évaluer l'efficacité et la sécurité d'un traitement, selon un protocole et les Bonnes Pratiques Cliniques.",
+      },
+      en: {
+        term: "Clinical trial",
+        short:
+          "A study carried out in humans to evaluate a treatment's efficacy and safety, following a protocol and Good Clinical Practice.",
+      },
+    },
+  },
+  {
+    slug: "phases-essai-clinique",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Phases d'un essai clinique (I à IV)",
+        short:
+          "Les étapes du développement d'un médicament, de la première administration chez l'humain (phase I) au suivi après commercialisation (phase IV).",
+      },
+      en: {
+        term: "Clinical trial phases (I to IV)",
+        short:
+          "The stages of a medicine's development, from first administration in humans (phase I) to post-marketing follow-up (phase IV).",
+      },
+    },
+  },
+  {
+    slug: "randomisation",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Randomisation (tirage au sort)",
+        short:
+          "L'attribution par tirage au sort du traitement à chaque participant, pour comparer les groupes sans biais de sélection.",
+      },
+      en: {
+        term: "Randomisation",
+        short:
+          "Assigning each participant's treatment by random draw, to compare groups without selection bias.",
+      },
+    },
+  },
+  {
+    slug: "insu-aveugle",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Insu / aveugle (simple, double)",
+        short:
+          "Le fait de masquer le traitement reçu au participant (simple insu), et parfois aussi à l'équipe (double insu), pour limiter les biais.",
+      },
+      en: {
+        term: "Blinding (single, double)",
+        short:
+          "Masking the treatment received from the participant (single blind), and sometimes also from the team (double blind), to limit bias.",
+      },
+    },
+  },
+  {
+    slug: "placebo",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Placebo",
+        short:
+          "Un traitement sans principe actif, utilisé comme comparateur pour mesurer l'effet réel du médicament étudié.",
+      },
+      en: {
+        term: "Placebo",
+        short:
+          "A treatment with no active ingredient, used as a comparator to measure the real effect of the medicine under study.",
+      },
+    },
+  },
+  {
+    slug: "consentement-eclaire",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Consentement éclairé",
+        short:
+          "L'accord libre et informé qu'un participant donne avant d'entrer dans un essai, après une information complète.",
+      },
+      en: {
+        term: "Informed consent",
+        short:
+          "The free and informed agreement a participant gives before entering a trial, after receiving complete information.",
+      },
+    },
+  },
+  {
+    slug: "criteres-inclusion-exclusion",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Critères d'inclusion et d'exclusion (éligibilité)",
+        short:
+          "Les conditions qui déterminent l'éligibilité d'un participant : critères d'inclusion à remplir et critères d'exclusion à écarter.",
+      },
+      en: {
+        term: "Inclusion and exclusion criteria (eligibility)",
+        short:
+          "The conditions that determine a participant's eligibility: inclusion criteria to meet and exclusion criteria to rule out.",
+      },
+    },
+  },
+  {
+    slug: "protocole",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Protocole (et amendement)",
+        short:
+          "Le document de référence qui décrit les objectifs, la méthodologie et le déroulement d'un essai clinique.",
+      },
+      en: {
+        term: "Protocol (and amendment)",
+        short:
+          "The reference document that describes the objectives, methodology and conduct of a clinical trial.",
+      },
+    },
+  },
+  {
+    slug: "biostatistique",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Biostatistique",
+        short:
+          "L'application des méthodes statistiques à la recherche clinique : taille d'échantillon, analyse et interprétation des résultats.",
+      },
+      en: {
+        term: "Biostatistics",
+        short:
+          "The application of statistical methods to clinical research: sample size, analysis and interpretation of results.",
+      },
+    },
+  },
+  {
+    slug: "pharmacocinetique",
+    group: "methodology",
+    translations: {
+      fr: {
+        term: "Pharmacocinétique",
+        short:
+          "L'étude du devenir d'un médicament dans l'organisme : absorption, distribution, métabolisme et élimination.",
+      },
+      en: {
+        term: "Pharmacokinetics",
+        short:
+          "The study of what the body does to a medicine: absorption, distribution, metabolism and elimination.",
       },
     },
   },

@@ -14,6 +14,7 @@ const GROUP_LABEL: Record<string, string> = {
   monitoring: "groupMonitoring",
   roles: "groupRoles",
   regulatory: "groupRegulatory",
+  methodology: "groupMethodology",
 };
 
 export async function generateMetadata({
