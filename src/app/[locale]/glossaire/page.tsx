@@ -13,6 +13,7 @@ import { definedTermSetNode } from "@/lib/schema";
 const GROUP_LABEL: Record<string, string> = {
   monitoring: "groupMonitoring",
   roles: "groupRoles",
+  regulatory: "groupRegulatory",
 };
 
 export async function generateMetadata({

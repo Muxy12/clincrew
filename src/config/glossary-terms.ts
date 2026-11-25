@@ -13,7 +13,7 @@
 
 import type { Locale } from "@/i18n/routing";
 
-export type GlossaryGroup = "monitoring" | "roles";
+export type GlossaryGroup = "monitoring" | "roles" | "regulatory";
 
 export interface GlossaryTerm {
   readonly slug: string;
@@ -33,6 +33,7 @@ export interface GlossaryTerm {
 export const glossaryGroups: ReadonlyArray<GlossaryGroup> = [
   "monitoring",
   "roles",
+  "regulatory",
 ];
 
 export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
@@ -329,6 +330,152 @@ export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
         term: "CRO (Contract Research Organization)",
         short:
           "The provider a sponsor entrusts with all or part of running a clinical trial.",
+      },
+    },
+  },
+
+  // --- Réglementaire & qualité ---
+  {
+    slug: "bonnes-pratiques-cliniques",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "Bonnes Pratiques Cliniques (BPC / ICH-GCP)",
+        short:
+          "Le référentiel international (ICH E6) qui encadre la conduite éthique et scientifique des essais cliniques.",
+      },
+      en: {
+        term: "Good Clinical Practice (GCP / ICH-GCP)",
+        short:
+          "The international standard (ICH E6) that governs the ethical and scientific conduct of clinical trials.",
+      },
+    },
+  },
+  {
+    slug: "ansm",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "ANSM",
+        short:
+          "L'Agence nationale de sécurité du médicament : l'autorité qui autorise et surveille les essais cliniques en France.",
+      },
+      en: {
+        term: "ANSM",
+        short:
+          "France's medicines safety agency: the authority that authorises and oversees clinical trials in France.",
+      },
+    },
+  },
+  {
+    slug: "ema",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "EMA",
+        short:
+          "L'Agence européenne des médicaments : elle évalue et supervise les médicaments au niveau de l'Union européenne.",
+      },
+      en: {
+        term: "EMA",
+        short:
+          "The European Medicines Agency: it evaluates and supervises medicines at European Union level.",
+      },
+    },
+  },
+  {
+    slug: "cpp",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "CPP (Comité de Protection des Personnes)",
+        short:
+          "Le comité d'éthique qui rend un avis sur un projet de recherche avant son démarrage, pour protéger les participants.",
+      },
+      en: {
+        term: "Ethics committee (CPP)",
+        short:
+          "The ethics committee that gives an opinion on a research project before it starts, to protect participants.",
+      },
+    },
+  },
+  {
+    slug: "pharmacovigilance",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "Pharmacovigilance",
+        short:
+          "La surveillance des effets indésirables des médicaments, pendant et après l'essai, pour garantir la sécurité des patients.",
+      },
+      en: {
+        term: "Pharmacovigilance",
+        short:
+          "The monitoring of medicines' adverse effects, during and after the trial, to safeguard patient safety.",
+      },
+    },
+  },
+  {
+    slug: "evenement-indesirable",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "Événement indésirable (EI / EIG)",
+        short:
+          "Toute manifestation médicale fâcheuse survenant chez un participant ; qualifiée de grave (EIG) selon ses conséquences.",
+      },
+      en: {
+        term: "Adverse event (AE / SAE)",
+        short:
+          "Any untoward medical occurrence in a participant; classed as serious (SAE) depending on its consequences.",
+      },
+    },
+  },
+  {
+    slug: "audit-et-inspection",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "Audit et inspection clinique",
+        short:
+          "Le contrôle de conformité d'un essai : interne (audit, par le promoteur) ou externe (inspection, par une autorité).",
+      },
+      en: {
+        term: "Clinical audit and inspection",
+        short:
+          "The compliance check of a trial: internal (audit, by the sponsor) or external (inspection, by an authority).",
+      },
+    },
+  },
+  {
+    slug: "amm",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "AMM (Autorisation de Mise sur le Marché)",
+        short:
+          "L'autorisation qui permet de commercialiser un médicament, délivrée après évaluation de son efficacité et de sa sécurité.",
+      },
+      en: {
+        term: "Marketing authorisation",
+        short:
+          "The authorisation that allows a medicine to be marketed, granted after assessing its efficacy and safety.",
+      },
+    },
+  },
+  {
+    slug: "reglement-europeen-essais-cliniques",
+    group: "regulatory",
+    translations: {
+      fr: {
+        term: "Règlement européen essais cliniques (CTR 536/2014)",
+        short:
+          "Le cadre européen qui harmonise l'autorisation et la conduite des essais de médicaments via le portail CTIS.",
+      },
+      en: {
+        term: "EU Clinical Trials Regulation (CTR 536/2014)",
+        short:
+          "The European framework that harmonises the authorisation and conduct of medicine trials through the CTIS portal.",
       },
     },
   },
