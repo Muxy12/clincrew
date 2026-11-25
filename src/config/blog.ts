@@ -31,6 +31,29 @@ export interface BlogPostMeta {
 
 export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
+    slug: "les-4-visites-de-monitoring",
+    date: "2026-11-25",
+    updated: "2026-11-25",
+    tags: {
+      fr: ["Monitoring", "Visites de centre"],
+      en: ["Monitoring", "Site visits"],
+    },
+    translations: {
+      fr: {
+        title:
+          "Les 4 visites de monitoring : sélection, initiation, suivi, clôture",
+        excerpt:
+          "Le cycle de vie d'un centre investigateur, visite par visite : sélection, initiation, monitoring et clôture, et comment elles s'articulent.",
+      },
+      en: {
+        title:
+          "The 4 clinical trial monitoring visits: selection, initiation, interim, close-out",
+        excerpt:
+          "An investigator site's life cycle, visit by visit: selection, initiation, monitoring and close-out, and how they fit together.",
+      },
+    },
+  },
+  {
     slug: "qu-est-ce-qu-un-arc-cra",
     date: "2026-11-15",
     updated: "2026-11-15",
