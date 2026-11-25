@@ -4,12 +4,14 @@ import { routing } from "@/i18n/routing";
 import { blogPosts } from "@/config/blog";
 import { servicePages } from "@/config/service-pages";
 import { solutionPages } from "@/config/solution-pages";
+import { getGlossaryFicheSlugs } from "@/config/glossary-terms";
 
 const STATIC_PATHS = [
   "",
   "/about",
   "/services",
   "/solutions",
+  "/glossaire",
   "/blog",
   "/legal",
   "/privacy",
@@ -20,10 +22,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPaths = blogPosts.map((p) => `/blog/${p.slug}`);
   const servicePaths = servicePages.map((s) => `/services/${s.slug}`);
   const solutionPaths = solutionPages.map((s) => `/solutions/${s.slug}`);
+  const glossaryPaths = getGlossaryFicheSlugs().map((s) => `/glossaire/${s}`);
   const allPaths = [
     ...STATIC_PATHS,
     ...servicePaths,
     ...solutionPaths,
+    ...glossaryPaths,
     ...blogPaths,
   ];
 

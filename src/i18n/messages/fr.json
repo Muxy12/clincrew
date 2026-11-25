@@ -13,7 +13,8 @@
     "menuOpen": "Ouvrir le menu",
     "menuClose": "Fermer le menu",
     "skipToContent": "Aller au contenu principal",
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "glossaire": "Glossaire"
   },
   "hero": {
     "eyebrow": "CRA · Recherche clinique",
@@ -586,6 +587,10 @@
     "solutions": {
       "title": "Solutions de monitoring pour CRO & biotech",
       "description": "Solutions ClinCrew pour CRO, biotechs et promoteurs : renfort CRA freelance, monitoring externalisé et accompagnement opérationnel de vos études cliniques."
+    },
+    "glossary": {
+      "title": "Glossaire recherche clinique & monitoring",
+      "description": "Les définitions clés du monitoring et des essais cliniques (BPC / ICH-GCP) : visites, SDV, plan de monitoring… par un ARC / CRA freelance."
     }
   },
   "breadcrumb": {
@@ -593,7 +598,8 @@
     "services": "Prestations",
     "blog": "Blog",
     "about": "À propos",
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "glossaire": "Glossaire"
   },
   "languageSwitcher": {
     "label": "Langue",
@@ -797,5 +803,23 @@
     "finalTitle": "Un besoin de renfort CRA ou de monitoring externalisé ?",
     "finalBody": "Présentez-moi votre projet pour étudier les modalités d'une collaboration adaptée à vos opérations cliniques.",
     "finalButton": "Discuter de votre besoin"
+  },
+  "glossaryHub": {
+    "eyebrow": "Glossaire · Recherche clinique",
+    "title": "Glossaire de la recherche clinique et du monitoring",
+    "intro": "Les notions clés du monitoring et des essais cliniques, expliquées simplement. Chaque définition renvoie vers la prestation correspondante.",
+    "groupMonitoring": "Monitoring & visites",
+    "readDefinition": "Lire la définition",
+    "seeService": "Voir la prestation",
+    "ctaTitle": "Un projet de monitoring à cadrer ?",
+    "ctaBody": "Présentez-moi votre étude : je vous réponds sous 24–48 h.",
+    "ctaButton": "Discutons de votre projet"
+  },
+  "glossaryTerm": {
+    "eyebrow": "Définition",
+    "relatedTitle": "Termes liés",
+    "ctaTitle": "Une étude à faire avancer ?",
+    "ctaText": "Parlons de votre besoin de monitoring : je vous réponds sous 24–48 h pour cadrer la mission.",
+    "ctaButton": "Discutons de votre projet"
   }
 }

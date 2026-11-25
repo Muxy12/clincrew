@@ -160,3 +160,43 @@ export function blogPostingNode(params: {
     mainEntityOfPage: pageUrl,
   };
 }
+
+/** DefinedTerm node for a glossary fiche, linked to the glossary set by @id. */
+export function definedTermNode(params: {
+  locale: Locale;
+  slug: string;
+  term: string;
+  description: string;
+}) {
+  const { locale, slug, term, description } = params;
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name: term,
+    description,
+    url: `${siteConfig.url}/${locale}/glossaire/${slug}`,
+    inDefinedTermSet: `${siteConfig.url}/${locale}/glossaire`,
+    inLanguage: locale,
+  };
+}
+
+/** DefinedTermSet node for the glossary hub (AEO-friendly). */
+export function definedTermSetNode(
+  locale: Locale,
+  name: string,
+  terms: ReadonlyArray<{ term: string; url: string }>,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": `${siteConfig.url}/${locale}/glossaire`,
+    name,
+    url: `${siteConfig.url}/${locale}/glossaire`,
+    inLanguage: locale,
+    hasDefinedTerm: terms.map((t) => ({
+      "@type": "DefinedTerm",
+      name: t.term,
+      url: t.url,
+    })),
+  };
+}

@@ -13,7 +13,8 @@
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
     "skipToContent": "Skip to main content",
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "glossaire": "Glossary"
   },
   "hero": {
     "eyebrow": "CRA · Clinical research",
@@ -586,6 +587,10 @@
     "solutions": {
       "title": "Monitoring solutions for CROs & biotech",
       "description": "ClinCrew solutions for CROs, biotechs and sponsors: freelance CRA backup, outsourced monitoring and operational support for your clinical studies."
+    },
+    "glossary": {
+      "title": "Clinical research & monitoring glossary",
+      "description": "Key definitions of clinical trial monitoring (GCP / ICH): site visits, SDV, monitoring plan and more, by a freelance CRA."
     }
   },
   "breadcrumb": {
@@ -593,7 +598,8 @@
     "services": "Services",
     "blog": "Blog",
     "about": "About",
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "glossaire": "Glossary"
   },
   "languageSwitcher": {
     "label": "Language",
@@ -797,5 +803,23 @@
     "finalTitle": "A need for CRA backup or outsourced monitoring?",
     "finalBody": "Tell me about your project to explore the terms of a collaboration adapted to your clinical operations.",
     "finalButton": "Let's discuss your need"
+  },
+  "glossaryHub": {
+    "eyebrow": "Glossary · Clinical research",
+    "title": "Clinical research and monitoring glossary",
+    "intro": "The key notions of monitoring and clinical trials, explained simply. Each definition links to the matching service.",
+    "groupMonitoring": "Monitoring & visits",
+    "readDefinition": "Read the definition",
+    "seeService": "See the service",
+    "ctaTitle": "A monitoring project to scope?",
+    "ctaBody": "Tell me about your study: I reply within 24–48 h.",
+    "ctaButton": "Let's discuss your project"
+  },
+  "glossaryTerm": {
+    "eyebrow": "Definition",
+    "relatedTitle": "Related terms",
+    "ctaTitle": "A study to move forward?",
+    "ctaText": "Let's talk about your monitoring need: I reply within 24–48 h to scope the assignment.",
+    "ctaButton": "Let's discuss your project"
   }
 }
