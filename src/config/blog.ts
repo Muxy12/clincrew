@@ -31,6 +31,92 @@ export interface BlogPostMeta {
 
 export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
+    slug: "acteurs-de-la-recherche-clinique",
+    date: "2026-11-25",
+    updated: "2026-11-25",
+    tags: {
+      fr: ["Recherche clinique", "Métier"],
+      en: ["Clinical research", "Profession"],
+    },
+    translations: {
+      fr: {
+        title: "Les acteurs de la recherche clinique : qui fait quoi ?",
+        excerpt:
+          "Promoteur, CRO, ARC, investigateur, TEC, data manager : le rôle de chaque acteur d'un essai clinique et comment ils s'articulent.",
+      },
+      en: {
+        title: "The players in clinical research: who does what?",
+        excerpt:
+          "Sponsor, CRO, CRA, investigator, technician, data manager: the role of each player in a clinical trial and how they fit together.",
+      },
+    },
+  },
+  {
+    slug: "randomisation-insu-placebo",
+    date: "2026-11-25",
+    updated: "2026-11-25",
+    tags: {
+      fr: ["Méthodologie", "Design"],
+      en: ["Methodology", "Design"],
+    },
+    translations: {
+      fr: {
+        title:
+          "Randomisation, insu et placebo : comprendre le design d'un essai",
+        excerpt:
+          "Les trois piliers méthodologiques qui limitent les biais d'un essai clinique : randomisation, insu (aveugle) et placebo, expliqués simplement.",
+      },
+      en: {
+        title:
+          "Randomisation, blinding and placebo: understanding trial design",
+        excerpt:
+          "The three methodological pillars that limit bias in a clinical trial: randomisation, blinding and placebo, explained simply.",
+      },
+    },
+  },
+  {
+    slug: "arc-promoteur-ou-arc-investigateur",
+    date: "2026-11-25",
+    updated: "2026-11-25",
+    tags: {
+      fr: ["Métier", "ARC"],
+      en: ["Profession", "CRA"],
+    },
+    translations: {
+      fr: {
+        title: "ARC promoteur ou ARC investigateur : quelles différences ?",
+        excerpt:
+          "Deux métiers d'ARC souvent confondus : l'ARC promoteur qui monitore de l'extérieur, l'ARC investigateur qui travaille au centre. Rôles, différences et place du TEC.",
+      },
+      en: {
+        title: "Sponsor CRA or site CRA: what's the difference?",
+        excerpt:
+          "Two often-confused CRA roles: the sponsor CRA who monitors from outside, the site CRA who works within the site. Roles, differences and where the technician fits.",
+      },
+    },
+  },
+  {
+    slug: "cra-freelance-ou-cro",
+    date: "2026-11-25",
+    updated: "2026-11-25",
+    tags: {
+      fr: ["CRA freelance", "CRO"],
+      en: ["Freelance CRA", "CRO"],
+    },
+    translations: {
+      fr: {
+        title: "CRA freelance ou CRO : quelle solution pour votre étude ?",
+        excerpt:
+          "Externaliser le monitoring à une CRO ou faire appel à un CRA freelance : les différences de périmètre, de coût et de flexibilité, et quand choisir l'un ou l'autre.",
+      },
+      en: {
+        title: "Freelance CRA or CRO: which solution for your study?",
+        excerpt:
+          "Outsourcing monitoring to a CRO or calling on a freelance CRA: the differences in scope, cost and flexibility, and when to choose each.",
+      },
+    },
+  },
+  {
     slug: "les-4-visites-de-monitoring",
     date: "2026-11-25",
     updated: "2026-11-25",
