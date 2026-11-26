@@ -668,6 +668,15 @@ const TERM_ARTICLE: Record<string, string> = {
   randomisation: "randomisation-insu-placebo",
   "insu-aveugle": "randomisation-insu-placebo",
   placebo: "randomisation-insu-placebo",
+  "bonnes-pratiques-cliniques": "reglementation-des-essais-cliniques",
+  ansm: "reglementation-des-essais-cliniques",
+  ema: "reglementation-des-essais-cliniques",
+  cpp: "reglementation-des-essais-cliniques",
+  pharmacovigilance: "reglementation-des-essais-cliniques",
+  "evenement-indesirable": "reglementation-des-essais-cliniques",
+  "audit-et-inspection": "reglementation-des-essais-cliniques",
+  amm: "reglementation-des-essais-cliniques",
+  "reglement-europeen-essais-cliniques": "reglementation-des-essais-cliniques",
 };
 
 export function getTermArticle(slug: string): string | undefined {

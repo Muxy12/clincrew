@@ -31,6 +31,49 @@ export interface BlogPostMeta {
 
 export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
+    slug: "reglementation-des-essais-cliniques",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: {
+      fr: ["Réglementaire", "BPC"],
+      en: ["Regulatory", "GCP"],
+    },
+    translations: {
+      fr: {
+        title:
+          "La réglementation des essais cliniques en France et en Europe",
+        excerpt:
+          "BPC, ANSM, CPP, EMA, règlement européen (CTR) : le cadre qui encadre un essai clinique, et la place de l'ARC dans son application.",
+      },
+      en: {
+        title: "Clinical trial regulation in France and Europe",
+        excerpt:
+          "GCP, ANSM, ethics committee, EMA, EU regulation (CTR): the framework that governs a clinical trial, and the CRA's place in applying it.",
+      },
+    },
+  },
+  {
+    slug: "journee-type-d-un-arc",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: {
+      fr: ["Métier", "Monitoring"],
+      en: ["Profession", "Monitoring"],
+    },
+    translations: {
+      fr: {
+        title: "La journée type d'un ARC en monitoring",
+        excerpt:
+          "À quoi ressemble une journée de monitoring sur le terrain : préparation, visite, vérifications, reporting et suivi des actions.",
+      },
+      en: {
+        title: "A day in the life of a CRA in monitoring",
+        excerpt:
+          "What a monitoring day looks like in the field: preparation, visit, checks, reporting and action follow-up.",
+      },
+    },
+  },
+  {
     slug: "acteurs-de-la-recherche-clinique",
     date: "2026-11-25",
     updated: "2026-11-25",
