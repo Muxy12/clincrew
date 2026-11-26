@@ -648,6 +648,32 @@ export const glossaryTerms: ReadonlyArray<GlossaryTerm> = [
   },
 ];
 
+/**
+ * "Further reading": a blog article a fiche links to (bidirectional cocoon).
+ * Maps a term slug to a blog post slug.
+ */
+const TERM_ARTICLE: Record<string, string> = {
+  "monitoring-clinique": "les-4-visites-de-monitoring",
+  "plan-de-monitoring": "les-4-visites-de-monitoring",
+  "rapport-de-monitoring": "les-4-visites-de-monitoring",
+  sdv: "les-4-visites-de-monitoring",
+  "arc-promoteur": "arc-promoteur-ou-arc-investigateur",
+  "arc-investigateur": "arc-promoteur-ou-arc-investigateur",
+  tec: "acteurs-de-la-recherche-clinique",
+  "chef-de-projet-clinique": "acteurs-de-la-recherche-clinique",
+  "data-manager": "acteurs-de-la-recherche-clinique",
+  investigateur: "acteurs-de-la-recherche-clinique",
+  promoteur: "acteurs-de-la-recherche-clinique",
+  cro: "cra-freelance-ou-cro",
+  randomisation: "randomisation-insu-placebo",
+  "insu-aveugle": "randomisation-insu-placebo",
+  placebo: "randomisation-insu-placebo",
+};
+
+export function getTermArticle(slug: string): string | undefined {
+  return TERM_ARTICLE[slug];
+}
+
 export function getGlossaryTerm(slug: string): GlossaryTerm | undefined {
   return glossaryTerms.find((t) => t.slug === slug);
 }

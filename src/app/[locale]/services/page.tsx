@@ -28,10 +28,10 @@ const SERVICE_PHOTOS: ReadonlyArray<string | null> = [
 
 /** Existing cluster guides surfaced as "resources" (no duplicate pages). */
 const RESOURCE_SLUGS = [
-  "arc-freelance-vs-chef-de-projet-clinique",
-  "tjm-arc-freelance",
-  "recruter-arc-freelance",
+  "les-4-visites-de-monitoring",
   "monitoring-base-sur-les-risques",
+  "cra-freelance-ou-cro",
+  "acteurs-de-la-recherche-clinique",
 ] as const;
 
 export async function generateMetadata({

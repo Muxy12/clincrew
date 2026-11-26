@@ -6,7 +6,13 @@ import { Link } from "@/i18n/navigation";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import type { Locale } from "@/i18n/routing";
 import { getGlossaryFiche } from "@/lib/glossary-content";
-import { getGlossaryFicheSlugs, getGlossaryTerm, glossaryTerms } from "@/config/glossary-terms";
+import {
+  getGlossaryFicheSlugs,
+  getGlossaryTerm,
+  getTermArticle,
+  glossaryTerms,
+} from "@/config/glossary-terms";
+import { blogPosts } from "@/config/blog";
 import { definedTermNode } from "@/lib/schema";
 
 export function generateStaticParams() {
@@ -69,6 +75,12 @@ export default async function GlossaryTermPage({
     .filter((x) => x.group === meta.group && x.slug !== slug)
     .slice(0, 6);
 
+  // "Further reading" blog article tied to this term.
+  const articleSlug = getTermArticle(slug);
+  const article = articleSlug
+    ? blogPosts.find((p) => p.slug === articleSlug)
+    : undefined;
+
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
       <Breadcrumb
@@ -96,6 +108,19 @@ export default async function GlossaryTermPage({
         className="article-body mt-12"
         dangerouslySetInnerHTML={{ __html: fiche.html }}
       />
+
+      {/* Further reading */}
+      {article && (
+        <p className="mt-10 text-[15px] leading-relaxed text-muted">
+          {t("furtherReading")} :{" "}
+          <Link
+            href={`/blog/${article.slug}`}
+            className="border-b border-mint pb-0.5 font-semibold text-mint transition-colors hover:text-cream"
+          >
+            {article.translations[locale as Locale].title}
+          </Link>
+        </p>
+      )}
 
       {/* Related terms */}
       <section className="mt-16 border-t border-line pt-10">

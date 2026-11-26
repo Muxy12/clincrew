@@ -616,7 +616,8 @@
     "relatedTitle": "Prestations liées",
     "ctaTitle": "Une étude à faire avancer ?",
     "ctaText": "Parlons de votre besoin : je vous réponds sous 24–48 h pour cadrer la mission.",
-    "ctaButton": "Discutons de votre projet"
+    "ctaButton": "Discutons de votre projet",
+    "furtherReading": "Pour aller plus loin"
   },
   "servicesHub": {
     "eyebrow": "Monitoring clinique · CRA freelance",
@@ -823,6 +824,7 @@
     "relatedTitle": "Termes liés",
     "ctaTitle": "Une étude à faire avancer ?",
     "ctaText": "Parlons de votre besoin de monitoring : je vous réponds sous 24–48 h pour cadrer la mission.",
-    "ctaButton": "Discutons de votre projet"
+    "ctaButton": "Discutons de votre projet",
+    "furtherReading": "Pour aller plus loin"
   }
 }

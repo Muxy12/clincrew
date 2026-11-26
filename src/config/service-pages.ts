@@ -254,6 +254,20 @@ export const servicePages: ReadonlyArray<ServicePageMeta> = [
   },
 ];
 
+/** "Further reading": a blog article a service page links to. */
+const SERVICE_ARTICLE: Record<string, string> = {
+  "visite-de-selection": "les-4-visites-de-monitoring",
+  "visite-d-initiation": "les-4-visites-de-monitoring",
+  "visites-de-monitoring": "les-4-visites-de-monitoring",
+  "visite-de-cloture": "les-4-visites-de-monitoring",
+  "monitoring-a-distance": "les-4-visites-de-monitoring",
+  "monitoring-clinique-externalise": "cra-freelance-ou-cro",
+};
+
+export function getServiceArticle(slug: string): string | undefined {
+  return SERVICE_ARTICLE[slug];
+}
+
 export function getServicePageMeta(slug: string): ServicePageMeta | undefined {
   return servicePages.find((s) => s.slug === slug);
 }

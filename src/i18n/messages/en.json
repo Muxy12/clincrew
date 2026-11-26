@@ -616,7 +616,8 @@
     "relatedTitle": "Related services",
     "ctaTitle": "A study to move forward?",
     "ctaText": "Let's talk through your need. I reply within 24–48 h to scope the assignment.",
-    "ctaButton": "Let's talk about your project"
+    "ctaButton": "Let's talk about your project",
+    "furtherReading": "Further reading"
   },
   "servicesHub": {
     "eyebrow": "Clinical monitoring · Freelance CRA",
@@ -823,6 +824,7 @@
     "relatedTitle": "Related terms",
     "ctaTitle": "A study to move forward?",
     "ctaText": "Let's talk about your monitoring need: I reply within 24–48 h to scope the assignment.",
-    "ctaButton": "Let's discuss your project"
+    "ctaButton": "Let's discuss your project",
+    "furtherReading": "Further reading"
   }
 }

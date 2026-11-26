@@ -6,7 +6,12 @@ import { Link } from "@/i18n/navigation";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
 import type { Locale } from "@/i18n/routing";
 import { getServicePage } from "@/lib/service-content";
-import { getAllServiceSlugs, servicePages } from "@/config/service-pages";
+import {
+  getAllServiceSlugs,
+  getServiceArticle,
+  servicePages,
+} from "@/config/service-pages";
+import { blogPosts } from "@/config/blog";
 import { servicePageNode } from "@/lib/schema";
 
 export function generateStaticParams() {
@@ -74,6 +79,12 @@ export default async function ServiceDetailPage({
     )
     .slice(0, 4);
 
+  // "Further reading" blog article tied to this service.
+  const articleSlug = getServiceArticle(slug);
+  const article = articleSlug
+    ? blogPosts.find((p) => p.slug === articleSlug)
+    : undefined;
+
   return (
     <article className="wrap max-w-[760px] scroll-mt-24 pb-24 pt-36 md:pb-28 md:pt-44">
       <Breadcrumb
@@ -101,6 +112,19 @@ export default async function ServiceDetailPage({
         className="article-body mt-12"
         dangerouslySetInnerHTML={{ __html: page.html }}
       />
+
+      {/* Further reading */}
+      {article && (
+        <p className="mt-10 text-[15px] leading-relaxed text-muted">
+          {t("furtherReading")} :{" "}
+          <Link
+            href={`/blog/${article.slug}`}
+            className="border-b border-mint pb-0.5 font-semibold text-mint transition-colors hover:text-cream"
+          >
+            {article.translations[locale as Locale].title}
+          </Link>
+        </p>
+      )}
 
       {/* Related services — spoke-to-spoke internal linking */}
       <section className="mt-16 border-t border-line pt-10">
