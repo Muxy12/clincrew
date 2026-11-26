@@ -31,6 +31,348 @@ export interface BlogPostMeta {
 
 export const blogPosts: ReadonlyArray<BlogPostMeta> = [
   {
+    slug: "cta-clinical-trial-application",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Réglementaire", "Autorisation"], en: ["Regulatory", "Authorisation"] },
+    translations: {
+      fr: {
+        title: "Le CTA (Clinical Trial Application) : la demande d'autorisation d'essai",
+        excerpt:
+          "Le CTA est le dossier de demande d'autorisation d'un essai clinique. Son contenu, le portail CTIS et sa différence avec le Clinical Trial Agreement.",
+      },
+      en: {
+        title: "The CTA (Clinical Trial Application): the trial authorisation request",
+        excerpt:
+          "The CTA is the application dossier to authorise a clinical trial. Its content, the CTIS portal, and how it differs from a Clinical Trial Agreement.",
+      },
+    },
+  },
+  {
+    slug: "cnil-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Réglementaire", "Données personnelles"], en: ["Regulatory", "Personal data"] },
+    translations: {
+      fr: {
+        title: "La CNIL et la protection des données en recherche clinique",
+        excerpt:
+          "RGPD, méthodologies de référence (MR-001/MR-004) : le rôle de la CNIL dans la protection des données personnelles des participants à un essai clinique.",
+      },
+      en: {
+        title: "The CNIL and data protection in clinical research",
+        excerpt:
+          "GDPR and reference methodologies (MR-001/MR-004): the role of France's CNIL in protecting participants' personal data in a clinical trial.",
+      },
+    },
+  },
+  {
+    slug: "queries-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Données", "Qualité"], en: ["Data", "Quality"] },
+    translations: {
+      fr: {
+        title: "Les queries en recherche clinique : définition et gestion",
+        excerpt:
+          "Une query est une demande de clarification sur une donnée d'un essai. À quoi elles servent, qui les émet et comment elles protègent la qualité des données.",
+      },
+      en: {
+        title: "Queries in clinical research: definition and handling",
+        excerpt:
+          "A query is a request to clarify a data point in a trial. What they are for, who raises them, and how they protect data quality.",
+      },
+    },
+  },
+  {
+    slug: "susar-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Sécurité", "Pharmacovigilance"], en: ["Safety", "Pharmacovigilance"] },
+    translations: {
+      fr: {
+        title: "Le SUSAR en recherche clinique : définition et déclaration",
+        excerpt:
+          "Un SUSAR est une suspicion d'effet indésirable grave et inattendu. Définition, critères, délais de déclaration et rôle de l'ARC.",
+      },
+      en: {
+        title: "SUSAR in clinical research: definition and reporting",
+        excerpt:
+          "A SUSAR is a suspected unexpected serious adverse reaction. Definition, criteria, reporting timelines and the CRA's role.",
+      },
+    },
+  },
+  {
+    slug: "convention-unique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Réglementaire", "France"], en: ["Regulatory", "France"] },
+    translations: {
+      fr: {
+        title: "La convention unique en recherche clinique : à quoi ça sert ?",
+        excerpt:
+          "La convention unique encadre les essais à promotion industrielle dans les établissements de santé en France. Principe, objectifs et impact sur la mise en place.",
+      },
+      en: {
+        title: "The single agreement (convention unique) in clinical research",
+        excerpt:
+          "The French single agreement frames industry-sponsored trials in healthcare facilities. Principle, objectives and impact on site set-up.",
+      },
+    },
+  },
+  {
+    slug: "crf-ecrf-cahier-d-observation",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Données", "Outils"], en: ["Data", "Tools"] },
+    translations: {
+      fr: {
+        title: "Le CRF et l'eCRF (cahier d'observation) en recherche clinique",
+        excerpt:
+          "Qu'est-ce que le cahier d'observation (CRF), sa version électronique (eCRF), à quoi il sert et comment l'ARC le contrôle lors du monitoring.",
+      },
+      en: {
+        title: "The CRF and eCRF (case report form) in clinical research",
+        excerpt:
+          "What the case report form (CRF) and its electronic version (eCRF) are, what they are for, and how the CRA checks them during monitoring.",
+      },
+    },
+  },
+  {
+    slug: "ctms-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Outils", "Gestion d'étude"], en: ["Tools", "Study management"] },
+    translations: {
+      fr: {
+        title: "Le CTMS (Clinical Trial Management System) en recherche clinique",
+        excerpt:
+          "À quoi sert un CTMS, ce qu'il permet de piloter (centres, visites, recrutement) et comment il s'articule avec l'eCRF et l'eTMF.",
+      },
+      en: {
+        title: "The CTMS (Clinical Trial Management System) in clinical research",
+        excerpt:
+          "What a CTMS is for, what it helps steer (sites, visits, recruitment) and how it connects with the eCRF and eTMF.",
+      },
+    },
+  },
+  {
+    slug: "qu-est-ce-que-la-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Recherche clinique", "Définition"], en: ["Clinical research", "Definition"] },
+    translations: {
+      fr: {
+        title: "Qu'est-ce que la recherche clinique ?",
+        excerpt:
+          "Définition, objectifs et grandes catégories de la recherche clinique (interventionnelle, non interventionnelle), et comment un essai se déroule.",
+      },
+      en: {
+        title: "What is clinical research?",
+        excerpt:
+          "Definition, objectives and main categories of clinical research (interventional, non-interventional), and how a trial unfolds.",
+      },
+    },
+  },
+  {
+    slug: "etude-interventionnelle",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Méthodologie", "Réglementaire"], en: ["Methodology", "Regulatory"] },
+    translations: {
+      fr: {
+        title: "Qu'est-ce qu'une étude interventionnelle ?",
+        excerpt:
+          "Définition d'une étude interventionnelle, ce qui la distingue d'une recherche non interventionnelle, et les obligations réglementaires associées.",
+      },
+      en: {
+        title: "What is an interventional study?",
+        excerpt:
+          "Definition of an interventional study, how it differs from a non-interventional one, and the regulatory obligations that come with it.",
+      },
+    },
+  },
+  {
+    slug: "recherche-non-interventionnelle",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Méthodologie", "Observationnel"], en: ["Methodology", "Observational"] },
+    translations: {
+      fr: {
+        title: "La recherche non interventionnelle (observationnelle) : définition",
+        excerpt:
+          "Ce qu'est une recherche non interventionnelle, aussi appelée observationnelle : principe, exemples et différences avec une étude interventionnelle.",
+      },
+      en: {
+        title: "Non-interventional (observational) research: definition",
+        excerpt:
+          "What non-interventional research, also called observational, is: principle, examples and differences from an interventional study.",
+      },
+    },
+  },
+  {
+    slug: "recherche-translationnelle",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Recherche clinique", "Définition"], en: ["Clinical research", "Definition"] },
+    translations: {
+      fr: {
+        title: "La recherche translationnelle : définition et enjeux",
+        excerpt:
+          "La recherche translationnelle fait le pont entre la recherche fondamentale et la recherche clinique. Définition, exemples et place dans le développement d'un médicament.",
+      },
+      en: {
+        title: "Translational research: definition and stakes",
+        excerpt:
+          "Translational research bridges basic research and clinical research. Definition, examples and its place in a medicine's development.",
+      },
+    },
+  },
+  {
+    slug: "etude-monocentrique-ou-multicentrique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Méthodologie", "Design"], en: ["Methodology", "Design"] },
+    translations: {
+      fr: {
+        title: "Étude monocentrique ou multicentrique : quelles différences ?",
+        excerpt:
+          "Définition d'une étude monocentrique et d'une étude multicentrique, leurs avantages, leurs limites et leur impact sur le monitoring.",
+      },
+      en: {
+        title: "Single-centre or multicentre study: what's the difference?",
+        excerpt:
+          "Definition of single-centre and multicentre studies, their advantages, limits and impact on monitoring.",
+      },
+    },
+  },
+  {
+    slug: "loi-jarde",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Réglementaire", "France"], en: ["Regulatory", "France"] },
+    translations: {
+      fr: {
+        title: "La loi Jardé : ce qu'elle change pour la recherche clinique",
+        excerpt:
+          "La loi Jardé encadre les recherches impliquant la personne humaine en France. Les trois catégories de recherche, le rôle du CPP et ce que cela implique.",
+      },
+      en: {
+        title: "The Jardé law: what it changes for clinical research",
+        excerpt:
+          "The Jardé law governs research involving human participants in France. The three research categories, the ethics committee's role and what it implies.",
+      },
+    },
+  },
+  {
+    slug: "c-est-quoi-un-cpp",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Réglementaire", "Éthique"], en: ["Regulatory", "Ethics"] },
+    translations: {
+      fr: {
+        title: "C'est quoi un CPP (Comité de Protection des Personnes) ?",
+        excerpt:
+          "Rôle, composition et fonctionnement d'un Comité de Protection des Personnes, l'instance qui donne son avis éthique avant un essai clinique en France.",
+      },
+      en: {
+        title: "What is a CPP (French ethics committee)?",
+        excerpt:
+          "Role, composition and workings of a French ethics committee (CPP), the body that gives its ethical opinion before a clinical trial in France.",
+      },
+    },
+  },
+  {
+    slug: "le-role-du-promoteur",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Rôles", "Réglementaire"], en: ["Roles", "Regulatory"] },
+    translations: {
+      fr: {
+        title: "Le rôle du promoteur dans un essai clinique",
+        excerpt:
+          "Qui est le promoteur d'un essai clinique, quelles sont ses responsabilités légales et comment il délègue le monitoring à une CRO ou à un ARC.",
+      },
+      en: {
+        title: "The sponsor's role in a clinical trial",
+        excerpt:
+          "Who the sponsor of a clinical trial is, their legal responsibilities, and how they delegate monitoring to a CRO or a CRA.",
+      },
+    },
+  },
+  {
+    slug: "etude-randomisee",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Méthodologie", "Design"], en: ["Methodology", "Design"] },
+    translations: {
+      fr: {
+        title: "L'étude randomisée : principe, intérêt et variantes",
+        excerpt:
+          "Pourquoi randomise-t-on un essai clinique ? Principe du tirage au sort, apport contre les biais, et variantes (bras parallèles, cross-over).",
+      },
+      en: {
+        title: "The randomised study: principle, value and variants",
+        excerpt:
+          "Why randomise a clinical trial? The principle of random allocation, its value against bias, and variants (parallel arms, cross-over).",
+      },
+    },
+  },
+  {
+    slug: "devenir-infirmiere-de-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Métier", "Carrière"], en: ["Profession", "Career"] },
+    translations: {
+      fr: {
+        title: "Comment devenir infirmière de recherche clinique ?",
+        excerpt:
+          "Missions, compétences, formations et passerelles pour devenir infirmière (IDE) de recherche clinique, et sa place dans l'équipe d'un centre.",
+      },
+      en: {
+        title: "How to become a clinical research nurse?",
+        excerpt:
+          "Duties, skills, training and pathways to become a clinical research nurse, and their place in a site's team.",
+      },
+    },
+  },
+  {
+    slug: "qui-peut-faire-de-la-recherche-clinique",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Métier", "Recherche clinique"], en: ["Profession", "Clinical research"] },
+    translations: {
+      fr: {
+        title: "Qui peut faire de la recherche clinique ?",
+        excerpt:
+          "Médecins, ARC, TEC, infirmières, data managers, biostatisticiens : les profils et parcours qui permettent de travailler en recherche clinique.",
+      },
+      en: {
+        title: "Who can work in clinical research?",
+        excerpt:
+          "Physicians, CRAs, technicians, nurses, data managers, biostatisticians: the profiles and pathways to work in clinical research.",
+      },
+    },
+  },
+  {
+    slug: "pourquoi-devenir-arc",
+    date: "2026-11-26",
+    updated: "2026-11-26",
+    tags: { fr: ["Métier", "Carrière"], en: ["Profession", "Career"] },
+    translations: {
+      fr: {
+        title: "Pourquoi devenir Attaché de Recherche Clinique ?",
+        excerpt:
+          "Sens du métier, compétences développées, perspectives et passage en freelance : les raisons de se tourner vers le métier d'ARC.",
+      },
+      en: {
+        title: "Why become a Clinical Research Associate?",
+        excerpt:
+          "The meaning of the job, the skills developed, prospects and the move to freelance: the reasons to choose the CRA profession.",
+      },
+    },
+  },
+  {
     slug: "reglementation-des-essais-cliniques",
     date: "2026-11-26",
     updated: "2026-11-26",
