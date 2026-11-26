@@ -1,7 +1,18 @@
 import { siteConfig } from "@/config/site";
 import { profile } from "@/config/profile";
+import { servicePages } from "@/config/service-pages";
+import { solutionPages } from "@/config/solution-pages";
+import { glossaryTerms, glossaryGroups } from "@/config/glossary-terms";
+import { blogPosts } from "@/config/blog";
 
 export const dynamic = "force-static";
+
+const GROUP_EN: Record<string, string> = {
+  monitoring: "Monitoring & visits",
+  roles: "Roles & ecosystem",
+  regulatory: "Regulatory & quality",
+  methodology: "Methodology & design",
+};
 
 /**
  * /llms.txt — a concise, machine-readable overview for AI systems
@@ -10,15 +21,35 @@ export const dynamic = "force-static";
  */
 export function GET() {
   const url = siteConfig.url;
+  const en = (path: string) => `${url}/en${path}`;
   const areas = profile.therapeuticAreas.map((a) => a.en).join(", ");
   const coverage = profile.geographicCoverage.map((c) => c.en).join(", ");
   const languages = profile.languages.map((l) => l.en).join(", ");
   const b = siteConfig.business;
 
+  const servicesList = servicePages.map(
+    (s) => `- ${s.translations.en.title}: ${en(`/services/${s.slug}`)}`,
+  );
+  const solutionsList = solutionPages.map(
+    (s) => `- ${s.translations.en.title}: ${en(`/solutions/${s.slug}`)}`,
+  );
+  const blogList = blogPosts.map(
+    (p) => `- ${p.translations.en.title}: ${en(`/blog/${p.slug}`)}`,
+  );
+  const glossaryList = glossaryGroups.flatMap((group) => {
+    const terms = glossaryTerms
+      .filter((t) => t.group === group)
+      .map((t) => {
+        const href = t.href ?? `/glossaire/${t.slug}`;
+        return `- ${t.translations.en.term}: ${en(href)}`;
+      });
+    return [`### ${GROUP_EN[group] ?? group}`, ...terms, ""];
+  });
+
   const lines = [
     `# ${profile.name} · Clinical Research Associate (CRA), freelance`,
     "",
-    `> Independent freelance Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for ${profile.clientTypes?.en ?? "sponsors and CROs"}: monitoring, GCP quality and operational coordination, from site selection to close-out. Website available in French and English.`,
+    `> Independent freelance Clinical Research Associate (${b.name}, ${b.legalForm}) supporting clinical trials for ${profile.clientTypes?.en ?? "sponsors and CROs"}: monitoring, GCP quality and operational coordination, from site selection to close-out. The site includes service pages, audience solutions, a clinical research glossary and guides. Available in French and English.`,
     "",
     "## About",
     `- Freelance CRA with ${profile.yearsExperience ?? "several"} years of experience in clinical trial monitoring.`,
@@ -30,20 +61,29 @@ export function GET() {
     languages ? `- Languages: ${languages}.` : null,
     "",
     "## Services",
-    "- Clinical site monitoring (selection, initiation, routine and close-out visits)",
-    "- Investigator site management and follow-up",
-    "- Clinical documentation control (Trial Master File / Investigator Site File)",
-    "- Quality and GCP compliance support",
-    "- Operational coordination between sites, project managers and data teams",
-    "- Study start-up support",
+    `Hub: ${en("/services")}`,
+    ...servicesList,
+    "",
+    "## Solutions (by audience: CRO, biotech, sponsor)",
+    `Hub: ${en("/solutions")}`,
+    ...solutionsList,
+    "",
+    "## Glossary (clinical research definitions)",
+    `Hub: ${en("/glossaire")}`,
+    ...glossaryList,
+    "## Guides (blog)",
+    `Hub: ${en("/blog")}`,
+    ...blogList,
     "",
     "## Key pages",
-    `- Home: ${url}/en`,
-    `- About / journey: ${url}/en/about`,
-    `- Services: ${url}/en/services`,
-    `- Blog: ${url}/en/blog`,
-    `- Legal notice: ${url}/en/legal`,
-    `- Privacy policy: ${url}/en/privacy`,
+    `- Home: ${en("")}`,
+    `- About / journey: ${en("/about")}`,
+    `- Services: ${en("/services")}`,
+    `- Solutions: ${en("/solutions")}`,
+    `- Glossary: ${en("/glossaire")}`,
+    `- Blog: ${en("/blog")}`,
+    `- Legal notice: ${en("/legal")}`,
+    `- Privacy policy: ${en("/privacy")}`,
     "",
     "## Contact",
     profile.email.configured ? `- Email: ${profile.email.value}` : null,
